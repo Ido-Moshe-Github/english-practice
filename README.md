@@ -18,7 +18,9 @@ player starts from scratch. Replacing it in place with a newer version is fine.
 
 - **Everyday English** — short conversations of 2–3 turns: asking for directions,
   ordering food, shopping, hotels, small talk, appointments, work and school, asking
-  for help. You pick your reply at every turn.
+  for help. Each conversation mixes two kinds of turn: pick the reply that fits what
+  they said (every option is fluent English — only one makes sense), or fill the gap
+  in your own reply with the right word.
 - **Phrasal verbs** — *get, look, take, put, turn, come, go, give/make/break*: fill the
   gap, or pick what a phrasal verb means.
 - **Tenses** — from present simple vs. continuous up to mixed conditionals and
