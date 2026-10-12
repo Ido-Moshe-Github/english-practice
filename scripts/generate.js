@@ -35,13 +35,30 @@ const LANE_PROMPTS = {
 Topic: ${topic.label}.
 
 ${SHARED_RULES}
-- Each conversation: a one-sentence "situation" (second person: "You're at…"), then 2 or 3 turns.
-- Each turn: "line" is what the other person says, starting with who they are ("Waiter: …", "Receptionist: …", "Friend: …"). The learner picks THEIR reply from 4 options.
+
+IMPORTANT — this lane is different from a grammar quiz:
+- NEVER write broken or ungrammatical English, in any option. Every option must be fluent, natural English a native speaker could say.
+- What makes a wrong option wrong is that it does not FIT: it misunderstands what the other person said, answers a different question, misreads an idiom or slang ("Are you all set?", "grab a bite", "you're good", "my treat"), or is the wrong tone for the situation.
+- The learner should have to understand the other person's line to choose — not just spot bad grammar.
+- If the other person asks an open or preference question ("together or separately?", "for here or to go?"), the situation or an earlier line must make only ONE reply right. Never leave two sensible answers.
+- Gaps must test something worth learning (a collocation, preposition, phrasal verb, set phrase) — never just "please" or "thanks".
+
+Format:
+- "situation": one short sentence, second person ("You're at…").
+- 2 or 3 turns. Each turn: "line" is what the other person says, starting with who they are ("Waiter: …", "Receptionist: …", "Friend: …").
+- Two kinds of turn — EVERY conversation must have at least one of each:
+  - "kind":"reply": the learner picks their whole reply. 4 options, each at most 10 words.
+  - "kind":"gap": "reply" is the learner's reply with one missing piece written ___ (a collocation, preposition, phrasal verb or set phrase, e.g. "Could I ___ the bill, please?"). 4 options of 1-3 words; only one is natural there.
 - Later lines must follow naturally from the RIGHT reply to the previous turn.
-- Mix 2-turn and 3-turn conversations.
+- Use real-life expressions people actually say, including casual ones.
+
+Example of the style:
+{"topic":"food","situation":"You're at a café with a friend.","turns":[
+ {"kind":"reply","line":"Waiter: Are you all set?","options":["Yes, we're ready to order.","Yes, we've already paid, thanks.","Sure, you can set the table now.","Yes, a table for two, please."],"answer":"Yes, we're ready to order.","why":"'Are you all set?' asks if you're ready — here, ready to order."},
+ {"kind":"gap","line":"Waiter: Great. What can I get you?","reply":"Could I ___ the chicken salad, please?","options":["have","take","make","bring"],"answer":"have","why":"'Could I have…' is the natural way to order. You don't 'take' food from the waiter."}]}
 
 Return ONLY a JSON array, no prose and no code fences. Each element:
-{"topic":"${topic.id}","situation":"...","turns":[{"line":"...","options":["...","...","...","..."],"answer":"<exact copy of the right option>","why":"..."}]}`,
+{"topic":"${topic.id}","situation":"...","turns":[{"kind":"reply","line":"...","options":["...","...","...","..."],"answer":"<exact copy of the right option>","why":"..."},{"kind":"gap","line":"...","reply":"... ___ ...","options":["...","...","...","..."],"answer":"<exact copy>","why":"..."}]}`,
 
   phrasal: (topic, size) => `Write ${size} multiple-choice questions practising PHRASAL VERBS with "${topic.label}".
 

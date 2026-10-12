@@ -1,5 +1,6 @@
 import { laneById } from '../lib/topics.js'
 import { summaryMessage, t } from '../lib/strings.js'
+import RichText, { fillGap } from './RichText.jsx'
 
 const STAR_COUNT = 3
 
@@ -49,8 +50,17 @@ export default function Summary({ laneId, score, onAgain, onHome }) {
                 <p className="mistake-intro">{mistake.intro}</p>
               )}
               <p className="mistake-line">{mistake.line.replace(/\*\*/g, '')}</p>
-              <p className="mistake-wrong">✕ {t.yourAnswer}: {mistake.choice}</p>
-              <p className="mistake-right">✓ {mistake.answer}</p>
+              {mistake.reply ? (
+                <>
+                  <p className="mistake-wrong">✕ <RichText text={fillGap(mistake.reply, mistake.choice)} /></p>
+                  <p className="mistake-right">✓ <RichText text={fillGap(mistake.reply, mistake.answer)} /></p>
+                </>
+              ) : (
+                <>
+                  <p className="mistake-wrong">✕ {t.yourAnswer}: {mistake.choice}</p>
+                  <p className="mistake-right">✓ {mistake.answer}</p>
+                </>
+              )}
               <p className="mistake-why">{mistake.why}</p>
             </div>
           ))}

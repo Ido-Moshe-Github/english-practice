@@ -1,6 +1,6 @@
 import { useEffect, useMemo } from 'react'
 import Options from './Options.jsx'
-import RichText, { splitSpeaker } from './RichText.jsx'
+import RichText, { fillGap, splitSpeaker } from './RichText.jsx'
 import { currentTurn } from '../lib/round.js'
 import { laneById } from '../lib/topics.js'
 import { ENCOURAGEMENT, PRAISE, pick, t } from '../lib/strings.js'
@@ -19,20 +19,26 @@ function TheirLine({ line }) {
   )
 }
 
+function MyLine({ text, missed = false }) {
+  return (
+    <Bubble who="me" tone={missed ? 'bubble--missed' : ''}>
+      <span className="bubble-speaker">{t.you}</span>
+      <RichText text={text} />
+    </Bubble>
+  )
+}
+
+/** What you end up saying on a turn: the right reply, or your reply with the right word in the gap. */
+const spokenReply = (turn) => (turn.kind === 'gap' ? fillGap(turn.reply, turn.answer) : turn.answer)
+
 /** Earlier turns of the current conversation: their line, then the right reply. */
 function History({ item, upTo, picks }) {
-  return item.turns.slice(0, upTo).map((turn, index) => {
-    const missed = picks.some((p) => p.turn === index && !p.correct)
-    return (
-      <div key={index} className="chat-pair">
-        <TheirLine line={turn.line} />
-        <Bubble who="me" tone={missed ? 'bubble--missed' : ''}>
-          <span className="bubble-speaker">{t.you}</span>
-          {turn.answer}
-        </Bubble>
-      </div>
-    )
-  })
+  return item.turns.slice(0, upTo).map((turn, index) => (
+    <div key={index} className="chat-pair">
+      <TheirLine line={turn.line} />
+      <MyLine text={spokenReply(turn)} missed={picks.some((p) => p.turn === index && !p.correct)} />
+    </div>
+  ))
 }
 
 function Explanation({ correct, why, onNext }) {
@@ -103,6 +109,9 @@ export default function Round({ round, onAnswer, onNext, onBack }) {
           <div className="chat">
             <History item={item} upTo={turnIndex} picks={itemPicks} />
             <TheirLine line={turn.line} />
+            {turn.kind === 'gap' && (
+              <MyLine text={answered ? spokenReply(turn) : turn.reply} missed={answered && !answered.correct} />
+            )}
           </div>
         ) : (
           <p className="prompt">

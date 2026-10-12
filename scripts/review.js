@@ -37,6 +37,11 @@ Check every item for:
 6. Nothing about sex, violence, weapons, drugs, alcohol or death.
 7. For conversations: each line follows naturally from the RIGHT reply before it.
 8. The right answer must not stand out by length or style.
+9. Lane everyday only: every option must be fluent, natural English — a wrong option is wrong because it doesn't FIT
+   what was said (misunderstands it, answers something else, misreads an idiom, wrong tone), never because of bad grammar.
+   A "gap" turn's "reply" has one ___ and its 1-3 word options; only one fits naturally there.
+   If wrong options are so obviously wrong that nobody would pick them, make them more tempting.
+   If a preference question leaves two sensible replies, fix the situation so only one fits.
 
 For each item return one verdict:
 - "ok" if it is fine as is.

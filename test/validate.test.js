@@ -12,16 +12,26 @@ const single = () => ({
 })
 
 const turn = (line) => ({
+  kind: 'reply',
   line,
-  options: ['Could you tell me the way to the station?', 'You can tell me where is the station?', 'Tell me the way to the station now.', 'I am searching the station, where it is?'],
-  answer: 'Could you tell me the way to the station?',
-  why: 'A polite question starts with "Could you…".',
+  options: ['Yes, how do I get to the station?', 'Yes, I already found the station.', 'No thanks, I live right here.', 'Sure, I can help you too.'],
+  answer: 'Yes, how do I get to the station?',
+  why: 'You are lost, so you ask the way.',
+})
+
+const gapTurn = (line) => ({
+  kind: 'gap',
+  line,
+  reply: 'Great, so I ___ left at the lights?',
+  options: ['turn', 'make', 'take on', 'do'],
+  answer: 'turn',
+  why: 'You "turn left" at a corner or the lights.',
 })
 
 const conversation = () => ({
   topic: 'directions',
   situation: 'You are lost in Rome.',
-  turns: [turn('Local: Hi, can I help you?'), turn('Local: Sorry, what did you say?')],
+  turns: [turn('Local: Hi, can I help you?'), gapTurn('Local: Go straight, then left at the lights.')],
 })
 
 const reason = (lane, item, existing) => validateItem(lane, item, existing).reason
@@ -92,15 +102,41 @@ describe('validateItem: conversations', () => {
 
   it('needs 2 or 3 turns', () => {
     const one = { ...conversation(), turns: [turn('Hi')] }
-    const four = { ...conversation(), turns: [turn('a'), turn('b'), turn('c'), turn('d')] }
+    const four = { ...conversation(), turns: [turn('a'), gapTurn('b'), turn('c'), gapTurn('d')] }
     expect(reason('everyday', one)).toMatch(/turns/)
     expect(reason('everyday', four)).toMatch(/turns/)
   })
 
   it('checks every turn', () => {
     const item = conversation()
-    item.turns[1].answer = 'something else'
+    item.turns[1].answer = 'something'
     expect(reason('everyday', item)).toMatch(/turn 2.*answer/)
+  })
+
+  it('needs both a reply turn and a gap turn', () => {
+    expect(reason('everyday', { ...conversation(), turns: [turn('a'), turn('b')] })).toMatch(/reply turn and one gap/)
+  })
+
+  it('needs a known kind on every turn', () => {
+    const item = conversation()
+    item.turns[0].kind = 'guess'
+    expect(reason('everyday', item)).toMatch(/turn 1: kind/)
+  })
+
+  it('needs exactly one gap in a gap reply', () => {
+    const item = conversation()
+    item.turns[1].reply = 'Great, so I turn left?'
+    expect(reason('everyday', item)).toMatch(/turn 2: gap reply/)
+  })
+
+  it('keeps gap options to a few words and replies short', () => {
+    const gappy = conversation()
+    gappy.turns[1].options[1] = 'go and then make a'
+    expect(reason('everyday', gappy)).toMatch(/gap option longer/)
+
+    const wordy = conversation()
+    wordy.turns[0].options[1] = 'Yes, I already found the station and I am going there now ok'
+    expect(reason('everyday', wordy)).toMatch(/reply longer/)
   })
 
   it('needs a situation', () => {

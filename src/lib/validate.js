@@ -12,6 +12,10 @@ const WHY_LENGTH = { min: 10, max: 200 }
 /** The right answer may not stand out as the obviously longest option. */
 const MAX_ANSWER_LENGTH_RATIO = 1.5
 const TURNS = { min: 2, max: 3 }
+/** Conversation replies stay short so a turn reads quickly. */
+const MAX_REPLY_WORDS = 12
+const MAX_GAP_WORDS = 3
+const GAP = /_{3,}/g
 
 /** Whole words only, so "skill" is fine even though it contains "kill". */
 const BLOCKED = /\b(sex|sexy|naked|kill|killed|killing|murder|gun|guns|shoot|shot|stab|blood|bloody|rape|drunk|drugs|weapon|bomb|suicide|porn)\b/i
@@ -33,6 +37,22 @@ function turnProblem(turn, lineField) {
   if (turn.answer.length > longestWrong * MAX_ANSWER_LENGTH_RATIO) return 'answer gives itself away by length'
 
   return null
+}
+
+const wordCount = (value) => value.split(' ').filter(Boolean).length
+
+/** The extra rules for a conversation turn, on top of turnProblem. */
+function conversationTurnProblem(turn) {
+  if (turn.kind === 'reply') {
+    if (turn.options.some((option) => wordCount(option) > MAX_REPLY_WORDS)) return `reply longer than ${MAX_REPLY_WORDS} words`
+    return null
+  }
+  if (turn.kind === 'gap') {
+    if ((turn.reply.match(GAP) ?? []).length !== 1) return 'gap reply needs exactly one ___'
+    if (turn.options.some((option) => wordCount(option) > MAX_GAP_WORDS)) return `gap option longer than ${MAX_GAP_WORDS} words`
+    return null
+  }
+  return 'kind must be "reply" or "gap"'
 }
 
 function cleanTurn(raw, lineField) {
@@ -67,11 +87,16 @@ export function validateItem(laneId, raw, existingIds = new Set()) {
     const situation = text(raw.situation)
     if (!situation) return fail('missing situation')
 
-    const turns = raw.turns.map((turn) => cleanTurn(turn, 'line'))
+    const turns = raw.turns.map((turn) => {
+      const kind = text(turn?.kind)
+      return { kind, ...cleanTurn(turn, 'line'), ...(kind === 'gap' && { reply: text(turn?.reply) }) }
+    })
     for (const [index, turn] of turns.entries()) {
-      const problem = turnProblem(turn, 'line')
+      const problem = turnProblem(turn, 'line') ?? conversationTurnProblem(turn)
       if (problem) return fail(`turn ${index + 1}: ${problem}`)
     }
+    const kinds = new Set(turns.map((turn) => turn.kind))
+    if (!kinds.has('reply') || !kinds.has('gap')) return fail('needs at least one reply turn and one gap turn')
     item = { topic: raw.topic, situation, turns }
   } else {
     const { line, ...turn } = cleanTurn({ ...raw, line: raw.prompt }, 'line')

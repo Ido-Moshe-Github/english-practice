@@ -153,3 +153,27 @@ describe('isRound', async () => {
     expect(isRound({ laneId: 'nope', items: [], at: { item: 0, turn: 0 }, picks: [] })).toBe(false)
   })
 })
+
+describe('gap turns', () => {
+  const gapConversation = (topic, n) => ({
+    id: `${topic}-${n}`,
+    topic,
+    situation: `situation ${n}`,
+    turns: [
+      { kind: 'reply', line: 'line 1', options: ['right', 'w1', 'w2', 'w3'], answer: 'right', why: 'because' },
+      { kind: 'gap', line: 'line 2', reply: 'Could I ___ it?', options: ['have', 'do', 'make', 'go'], answer: 'have', why: 'because' },
+    ],
+  })
+  const pools = bank(gapConversation, ['food'], 1)
+
+  it('keeps the kind and reply of each turn', () => {
+    const [item] = buildRound('p1', 'everyday', 'food', { poolOf: (t) => pools[t] }).items
+    expect(item.turns.map((turn) => turn.kind)).toEqual(['reply', 'gap'])
+    expect(item.turns[1].reply).toBe('Could I ___ it?')
+  })
+
+  it('gives a missed gap its reply in the mistakes list', () => {
+    const round = play(buildRound('p1', 'everyday', 'food', { poolOf: (t) => pools[t] }), (_, turn) => turn === 1)
+    expect(scoreRound(round).mistakes[0]).toMatchObject({ line: 'line 2', reply: 'Could I ___ it?', answer: 'have' })
+  })
+})

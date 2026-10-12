@@ -10,6 +10,11 @@ export default function RichText({ text }) {
   })
 }
 
+/** The reply with its gap filled in, the filler in bold: "Could I **have** the salad?" */
+export function fillGap(reply, filler) {
+  return reply.replace(/_{3,}/, () => `**${filler}**`)
+}
+
 /** "Waiter: What can I get you?" -> { speaker: 'Waiter', words: 'What can I get you?' } */
 export function splitSpeaker(line) {
   const match = /^([A-Z][\w' .-]{0,24}):\s+(.+)$/.exec(line)

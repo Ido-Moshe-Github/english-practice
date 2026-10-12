@@ -1,7 +1,9 @@
 /**
  * Every question is stored in one of two shapes (see the spec):
  *   single:       { topic, context?, prompt, options, answer, why }
- *   conversation: { topic, situation, turns: [{ line, options, answer, why }] }
+ *   conversation: { topic, situation, turns: [turn] }
+ *     reply turn: { kind: 'reply', line, options, answer, why } — pick the reply that fits
+ *     gap turn:   { kind: 'gap', line, reply, options, answer, why } — fill the ___ in your reply
  *
  * The app works with one shape only — a list of turns with an optional intro —
  * so a single question is just a conversation of one turn.

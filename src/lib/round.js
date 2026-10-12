@@ -136,7 +136,8 @@ export function scoreRound(round) {
     .map((pick) => {
       const item = round.items[pick.item]
       const turn = item.turns[pick.turn]
-      return { intro: item.intro, line: turn.line, choice: pick.choice, answer: turn.answer, why: turn.why }
+      const mistake = { intro: item.intro, line: turn.line, choice: pick.choice, answer: turn.answer, why: turn.why }
+      return turn.kind === 'gap' ? { ...mistake, reply: turn.reply } : mistake
     })
 
   return {
