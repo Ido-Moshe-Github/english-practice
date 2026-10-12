@@ -1,0 +1,3174 @@
+[
+  {
+    "topic": "get",
+    "context": "Dan's alarm rang early on Monday.",
+    "prompt": "My alarm went off at six, but I didn't ___ until seven.",
+    "options": [
+      "get up",
+      "get over",
+      "get by",
+      "get along"
+    ],
+    "answer": "get up",
+    "why": "\"Get up\" means to leave your bed after sleeping."
+  },
+  {
+    "topic": "get",
+    "context": "Maya just moved into a shared apartment.",
+    "prompt": "Do you **get along with** your new roommate?",
+    "options": [
+      "Do you have a friendly relationship with her?",
+      "Do you move to a new flat with her?",
+      "Do you travel to work together with her?",
+      "Do you finish your chores before her?"
+    ],
+    "answer": "Do you have a friendly relationship with her?",
+    "why": "\"Get along with\" someone means you like each other and have no problems."
+  },
+  {
+    "topic": "get",
+    "context": "Tom was home sick last week.",
+    "prompt": "It took me almost a week to ___ the flu.",
+    "options": [
+      "get over",
+      "get off",
+      "get across",
+      "get away"
+    ],
+    "answer": "get over",
+    "why": "\"Get over\" an illness means to recover from it."
+  },
+  {
+    "topic": "get",
+    "context": "Two friends talk about money.",
+    "prompt": "Salaries here are low, but we **get by**.",
+    "options": [
+      "We manage with just enough money.",
+      "We stop at a shop on the way.",
+      "We pass other people on the road.",
+      "We buy small gifts for friends."
+    ],
+    "answer": "We manage with just enough money.",
+    "why": "\"Get by\" means to have just enough to live, without much extra."
+  },
+  {
+    "topic": "get",
+    "context": "A coworker asks a question you can't answer yet.",
+    "prompt": "Sorry, I don't know right now. I'll ___ to you tomorrow.",
+    "options": [
+      "get back",
+      "get up",
+      "get over",
+      "get off"
+    ],
+    "answer": "get back",
+    "why": "\"Get back to\" someone means to reply to them later."
+  },
+  {
+    "topic": "get",
+    "context": "Two classmates talk about school.",
+    "prompt": "Ben copied his friend's homework and **got away with** it.",
+    "options": [
+      "Nobody noticed, so he had no trouble.",
+      "He ran away from the classroom.",
+      "He took the homework home with him.",
+      "He gave it back to his friend."
+    ],
+    "answer": "Nobody noticed, so he had no trouble.",
+    "why": "\"Get away with\" something bad means to do it without being caught or punished."
+  },
+  {
+    "topic": "get",
+    "context": "Noa has had a very long week.",
+    "prompt": "I'm so tired. I really want to ___ going to the party tonight.",
+    "options": [
+      "get out of",
+      "get up to",
+      "get over",
+      "get along"
+    ],
+    "answer": "get out of",
+    "why": "\"Get out of\" something means to avoid doing it."
+  },
+  {
+    "topic": "get",
+    "context": "Two friends make weekend plans.",
+    "prompt": "Let's **get together** on Saturday.",
+    "options": [
+      "Let's meet up and spend time together.",
+      "Let's clean the house in the morning.",
+      "Let's wake up early and go out.",
+      "Let's travel to another city."
+    ],
+    "answer": "Let's meet up and spend time together.",
+    "why": "\"Get together\" means to meet up with other people, usually for fun."
+  },
+  {
+    "topic": "get",
+    "context": "Lior is talking about an old friend.",
+    "prompt": "I wanted to call her last month, but I never ___ it.",
+    "options": [
+      "got around to",
+      "got around at",
+      "got round for",
+      "got around with"
+    ],
+    "answer": "got around to",
+    "why": "\"Get around to\" something means to finally find time to do it."
+  },
+  {
+    "topic": "get",
+    "context": "Sara tried to phone her sister.",
+    "prompt": "I couldn't **get through** to her; the line was busy.",
+    "options": [
+      "reach her by phone",
+      "walk past her house",
+      "pass her a message",
+      "wait for her outside"
+    ],
+    "answer": "reach her by phone",
+    "why": "\"Get through\" to someone means to successfully contact them, usually by phone."
+  },
+  {
+    "topic": "get",
+    "context": "Dan is talking about his morning routine.",
+    "prompt": "I never ___ before seven on weekends, even if I'm wide awake.",
+    "options": [
+      "get up",
+      "get on",
+      "get over",
+      "get away"
+    ],
+    "answer": "get up",
+    "why": "\"Get up\" means to leave your bed. The other verbs have different meanings and don't fit here."
+  },
+  {
+    "topic": "get",
+    "context": "Two coworkers are talking about a new team member.",
+    "prompt": "Maya really ___ her new teammates, so work is fun now.",
+    "options": [
+      "gets along with",
+      "gets on to",
+      "gets away with",
+      "gets out with"
+    ],
+    "answer": "gets along with",
+    "why": "\"Get along with\" means to have a good relationship with someone. The others don't work with people this way."
+  },
+  {
+    "topic": "get",
+    "context": "A friend is feeling better after a bad flu.",
+    "prompt": "It took me almost two weeks to ___ the flu, but I'm fine now.",
+    "options": [
+      "get over",
+      "get off",
+      "get into",
+      "get around"
+    ],
+    "answer": "get over",
+    "why": "\"Get over\" an illness means to recover from it. The other options don't mean that."
+  },
+  {
+    "topic": "get",
+    "context": "Sam is talking about his small salary.",
+    "prompt": "Sam: \"I don't earn much, but I ___ on what I have.\"",
+    "options": [
+      "get by",
+      "get off",
+      "get through",
+      "get up"
+    ],
+    "answer": "get by",
+    "why": "\"Get by\" means to manage with just enough money or resources. The other options don't fit this meaning."
+  },
+  {
+    "topic": "get",
+    "context": "Lena is texting a friend about her trip.",
+    "prompt": "Lena: \"What time do we ___ from the airport tomorrow? I need to tell my mom.\"",
+    "options": [
+      "get back",
+      "get along",
+      "get over",
+      "get into"
+    ],
+    "answer": "get back",
+    "why": "\"Get back\" means to return to a place. The other options don't describe coming home from a trip."
+  },
+  {
+    "topic": "get",
+    "context": "Two classmates are talking about a friend who skips homework.",
+    "prompt": "Tom thinks he can ___ not doing his homework, but the teacher always notices.",
+    "options": [
+      "get away with",
+      "get along with",
+      "get back to",
+      "get on with"
+    ],
+    "answer": "get away with",
+    "why": "\"Get away with\" means to do something wrong and not be punished for it."
+  },
+  {
+    "topic": "get",
+    "context": "Noa is explaining something she heard at a meeting.",
+    "prompt": "What does the phrase mean? \"Sorry, I didn't catch your point. What are you **getting at**?\"",
+    "options": [
+      "What are you trying to say?",
+      "Where are you traveling to?",
+      "What are you planning to buy?",
+      "Why are you so angry at me?"
+    ],
+    "answer": "What are you trying to say?",
+    "why": "\"Get at\" means to try to say something, especially when the meaning isn't clear yet."
+  },
+  {
+    "topic": "get",
+    "context": "Ben is talking to a friend about a hard project.",
+    "prompt": "What does the phrase mean? \"I know this is boring, but let's **get on with** it so we can go home.\"",
+    "options": [
+      "continue doing it",
+      "stop doing it",
+      "talk about it later",
+      "ask someone else to do it"
+    ],
+    "answer": "continue doing it",
+    "why": "\"Get on with\" something means to keep doing it, especially after a break or when you don't want to."
+  },
+  {
+    "topic": "get",
+    "context": "Ofir is chatting with a colleague about work.",
+    "prompt": "What does the phrase mean? \"I've been so busy this week, I haven't **gotten around to** cleaning my desk.\"",
+    "options": [
+      "found the time to do it",
+      "felt too shy to do it",
+      "forgotten how to do it",
+      "asked someone to do it"
+    ],
+    "answer": "found the time to do it",
+    "why": "\"Get around to\" something means to finally find the time to do it, usually something you've been putting off."
+  },
+  {
+    "topic": "get",
+    "context": "Rachel didn't get the job she wanted, and a friend is cheering her up.",
+    "prompt": "What does the phrase mean? \"Don't let it **get you down**, Rachel. You'll find a job soon!\"",
+    "options": [
+      "make you sad",
+      "make you angry",
+      "make you run away",
+      "make you sleepy"
+    ],
+    "answer": "make you sad",
+    "why": "\"Get someone down\" means to make them feel sad or low."
+  },
+  {
+    "topic": "get",
+    "context": "Dana is talking about her morning routine.",
+    "prompt": "I have an early meeting, so I usually ___ at six.",
+    "options": [
+      "get up",
+      "get out",
+      "get off",
+      "get on"
+    ],
+    "answer": "get up",
+    "why": "\"Get up\" means to leave your bed after sleeping. The other options don't fit waking up in the morning."
+  },
+  {
+    "topic": "get",
+    "context": "Two coworkers are chatting about the new manager.",
+    "prompt": "I really like Tom. We ___ really well.",
+    "options": [
+      "get along",
+      "get on with",
+      "get along to",
+      "get over"
+    ],
+    "answer": "get along",
+    "why": "\"Get along\" means to have a good relationship with someone. \"Get on with\" would need a person right after it, and \"get along to\" is not used."
+  },
+  {
+    "topic": "get",
+    "context": "Noa is talking to a friend after a bad breakup.",
+    "prompt": "It took me months to ___ him, but I'm finally happy again.",
+    "options": [
+      "get over",
+      "get through",
+      "get across",
+      "get away"
+    ],
+    "answer": "get over",
+    "why": "\"Get over\" someone means to feel better after being sad about them. The other verbs don't work with a person here."
+  },
+  {
+    "topic": "get",
+    "context": "Liam is explaining why he can't buy a new phone.",
+    "prompt": "My salary isn't great, but I **get by** if I'm careful with money.",
+    "options": [
+      "I have just enough money to live",
+      "I save a lot of money every month",
+      "I get a big bonus every year",
+      "I spend money without thinking"
+    ],
+    "answer": "I have just enough money to live",
+    "why": "\"Get by\" means to manage with only just enough money or resources, without much extra."
+  },
+  {
+    "topic": "get",
+    "context": "Maya is texting her sister about a trip.",
+    "prompt": "We're flying to Rome tomorrow. I'll call you as soon as we ___ to the hotel.",
+    "options": [
+      "get",
+      "get by",
+      "get on",
+      "get off"
+    ],
+    "answer": "get",
+    "why": "\"Get to\" a place means to arrive there. Adding \"by\", \"on\" or \"off\" makes it wrong here."
+  },
+  {
+    "topic": "get",
+    "context": "Ben is talking to his teacher about a book he borrowed.",
+    "prompt": "Sorry I still have your book. I'll **get it back** to you by Friday.",
+    "options": [
+      "return it",
+      "copy it",
+      "lose it",
+      "read it aloud"
+    ],
+    "answer": "return it",
+    "why": "\"Get something back to someone\" means to give it back or return it to them."
+  },
+  {
+    "topic": "get",
+    "context": "Emma is at the office, watching her coworker leave early again.",
+    "prompt": "I can't believe he always ___ it. Nobody ever says anything!",
+    "options": [
+      "gets away with",
+      "gets out of",
+      "gets on with",
+      "gets up to"
+    ],
+    "answer": "gets away with",
+    "why": "\"Get away with\" something means to do something wrong and not be punished or caught."
+  },
+  {
+    "topic": "get",
+    "context": "Yossi is calling his friend who is already at the party.",
+    "prompt": "I'm running late. I'll ___ the bus at the next stop and be there soon.",
+    "options": [
+      "get on",
+      "get over",
+      "get up",
+      "get through"
+    ],
+    "answer": "get on",
+    "why": "\"Get on\" a bus, train or plane means to climb aboard. The other options don't describe entering a bus."
+  },
+  {
+    "topic": "get",
+    "context": "Sara is talking about her busy week at work.",
+    "prompt": "I've got so much to do. I'm not sure how I'll **get through** all of it.",
+    "options": [
+      "finish it all",
+      "forget about it",
+      "skip some of it",
+      "complain about it"
+    ],
+    "answer": "finish it all",
+    "why": "\"Get through\" something means to finish a lot of work or a hard task, even if it takes effort."
+  },
+  {
+    "topic": "get",
+    "context": "Chris is planning a weekend with his friend Omer.",
+    "prompt": "We've been so busy lately. Let's ___ this weekend and go hiking.",
+    "options": [
+      "get away",
+      "get off",
+      "get along",
+      "get down"
+    ],
+    "answer": "get away",
+    "why": "\"Get away\" means to go somewhere for a short break from your normal life, like a weekend trip."
+  },
+  {
+    "topic": "look",
+    "context": "Sara is about to leave for a trip and can't find her passport.",
+    "prompt": "I can't find my passport anywhere. Can you help me ___ it?",
+    "options": [
+      "look for",
+      "look after",
+      "look into",
+      "look up"
+    ],
+    "answer": "look for",
+    "why": "\"Look for\" means to search for something you can't find."
+  },
+  {
+    "topic": "look",
+    "context": "Dan's neighbor is going away for the weekend.",
+    "prompt": "Could you ___ my cat while I'm away this weekend?",
+    "options": [
+      "look after",
+      "look at",
+      "look out",
+      "look over"
+    ],
+    "answer": "look after",
+    "why": "\"Look after\" means to take care of someone or something."
+  },
+  {
+    "topic": "look",
+    "context": "Two friends are chatting about a new movie.",
+    "prompt": "I'm really ___ the new Marvel movie. It comes out on Friday!",
+    "options": [
+      "looking forward to",
+      "looking up to",
+      "looking out for",
+      "looking down on"
+    ],
+    "answer": "looking forward to",
+    "why": "\"Look forward to\" means to be excited about something that will happen soon."
+  },
+  {
+    "topic": "look",
+    "context": "Noa doesn't know a word in a text message.",
+    "prompt": "I don't know this word. Let me ___ it in the dictionary.",
+    "options": [
+      "look up",
+      "look out",
+      "look into",
+      "look after"
+    ],
+    "answer": "look up",
+    "why": "\"Look up\" means to search for information in a book or online."
+  },
+  {
+    "topic": "look",
+    "context": "A teacher talks to the class about Tom and his family.",
+    "prompt": "Which sentence means the same as: \"Tom really **looks up to** his older brother\"?",
+    "options": [
+      "He admires and respects his brother.",
+      "He searches for his brother.",
+      "He is waiting for his brother.",
+      "He takes care of his brother."
+    ],
+    "answer": "He admires and respects his brother.",
+    "why": "\"Look up to\" means to respect and admire someone."
+  },
+  {
+    "topic": "look",
+    "context": "A friend warns you while you're walking near a busy road.",
+    "prompt": "___! There's a bike coming right at you!",
+    "options": [
+      "Look out",
+      "Look up",
+      "Look after",
+      "Look into"
+    ],
+    "answer": "Look out",
+    "why": "\"Look out\" is what you say to warn someone about danger right now."
+  },
+  {
+    "topic": "look",
+    "context": "At work, Maya's boss talks about a customer complaint.",
+    "prompt": "What does **\"We'll look into it\"** mean?",
+    "options": [
+      "We'll investigate the problem.",
+      "We'll forget about the problem.",
+      "We'll look at it quickly.",
+      "We'll ask you to fix it."
+    ],
+    "answer": "We'll investigate the problem.",
+    "why": "\"Look into\" means to check or investigate something to find out more."
+  },
+  {
+    "topic": "look",
+    "context": "Lior is reading a long contract before signing it.",
+    "prompt": "Before I sign this, I want to ___ it carefully one more time.",
+    "options": [
+      "look over",
+      "look up to",
+      "look forward to",
+      "look down on"
+    ],
+    "answer": "look over",
+    "why": "\"Look over\" means to read or check something to find any problems."
+  },
+  {
+    "topic": "look",
+    "context": "Amir is telling a friend about his new coworker.",
+    "prompt": "What does **\"She looks down on people who don't have a degree\"** mean?",
+    "options": [
+      "She thinks she's better than them.",
+      "She feels sorry for them.",
+      "She is afraid of them.",
+      "She wants to help them."
+    ],
+    "answer": "She thinks she's better than them.",
+    "why": "\"Look down on\" means to think someone is less important than you."
+  },
+  {
+    "topic": "look",
+    "context": "Yael is at a family dinner and her cousin is moving to a new flat.",
+    "prompt": "When you get to the new place, I'll ___ you and see how you're doing.",
+    "options": [
+      "look in on",
+      "look out for",
+      "look up to",
+      "look down on"
+    ],
+    "answer": "look in on",
+    "why": "\"Look in on\" means to visit someone briefly to check that they're okay."
+  },
+  {
+    "topic": "look",
+    "context": "Sara is getting ready to go out with friends.",
+    "prompt": "I can't find my keys anywhere. Can you help me ___ them?",
+    "options": [
+      "look for",
+      "look after",
+      "look into",
+      "look up"
+    ],
+    "answer": "look for",
+    "why": "\"Look for\" means to search for something you can't find."
+  },
+  {
+    "topic": "look",
+    "context": "Dan's neighbor is going on vacation.",
+    "prompt": "Could you ___ my cat while I'm away this weekend?",
+    "options": [
+      "look after",
+      "look for",
+      "look out",
+      "look over"
+    ],
+    "answer": "look after",
+    "why": "\"Look after\" means to take care of someone or something."
+  },
+  {
+    "topic": "look",
+    "context": "Two coworkers are reading an email in English.",
+    "prompt": "I don't know this word. Let me ___ it in the dictionary.",
+    "options": [
+      "look up",
+      "look after",
+      "look out",
+      "look over"
+    ],
+    "answer": "look up",
+    "why": "\"Look up\" means to search for information in a book or online."
+  },
+  {
+    "topic": "look",
+    "context": "Maya is at a family dinner, talking about her grandmother.",
+    "prompt": "\"I really **look up to** my grandmother.\" What does this mean?",
+    "options": [
+      "I admire and respect her",
+      "I search for her everywhere",
+      "I take care of her at home",
+      "I watch her from far away"
+    ],
+    "answer": "I admire and respect her",
+    "why": "\"Look up to\" someone means you respect them and want to be like them."
+  },
+  {
+    "topic": "look",
+    "context": "Tom is texting a friend who is coming to visit soon.",
+    "prompt": "I'm really ___ seeing you next week!",
+    "options": [
+      "looking forward to",
+      "looking forward for",
+      "looking out to",
+      "looking up to"
+    ],
+    "answer": "looking forward to",
+    "why": "\"Look forward to\" means you are excited about something in the future. It is followed by \"to\", then -ing."
+  },
+  {
+    "topic": "look",
+    "context": "Noa is walking with her little brother near a busy road.",
+    "prompt": "\"**Look out!** A bike is coming!\" What does this mean?",
+    "options": [
+      "Be careful right now",
+      "Go outside and see",
+      "Wait for the bike",
+      "Search for the bike"
+    ],
+    "answer": "Be careful right now",
+    "why": "\"Look out!\" is what you shout to warn someone about danger."
+  },
+  {
+    "topic": "look",
+    "context": "Liam's manager sent him a report before a meeting.",
+    "prompt": "Can you ___ this report before the meeting and tell me what you think?",
+    "options": [
+      "look over",
+      "look up to",
+      "look forward",
+      "look out"
+    ],
+    "answer": "look over",
+    "why": "\"Look over\" means to check something quickly from start to finish."
+  },
+  {
+    "topic": "look",
+    "context": "Emma is at a clothing store with her friend.",
+    "prompt": "\"No thanks, we're just **looking around**.\" What does this mean?",
+    "options": [
+      "We're browsing without buying yet",
+      "We're searching for a lost thing",
+      "We're waiting for a friend",
+      "We're taking care of the store"
+    ],
+    "answer": "We're browsing without buying yet",
+    "why": "\"Look around\" means to walk through a place and see what's there, without buying anything yet."
+  },
+  {
+    "topic": "look",
+    "context": "A customer calls Ben's company about a problem with the app.",
+    "prompt": "Don't worry, our tech team is ___ the problem right now.",
+    "options": [
+      "looking into",
+      "looking after",
+      "looking up to",
+      "looking forward"
+    ],
+    "answer": "looking into",
+    "why": "\"Look into\" means to check something carefully to find out what happened."
+  },
+  {
+    "topic": "look",
+    "context": "Yael is chatting with her sister about an old friend.",
+    "prompt": "\"Finding these old photos made me **look back on** our school days.\" What does this mean?",
+    "options": [
+      "I remembered and thought about the past",
+      "I searched for the photos again",
+      "I turned around to see behind me",
+      "I took care of the old photos"
+    ],
+    "answer": "I remembered and thought about the past",
+    "why": "\"Look back on\" means to think about things that happened in the past."
+  },
+  {
+    "topic": "look",
+    "context": "Maya is taking a bus to a new job.",
+    "prompt": "I don't know this area. Can you ___ the bus times on your phone?",
+    "options": [
+      "look up",
+      "look after",
+      "look into",
+      "look over"
+    ],
+    "answer": "look up",
+    "why": "\"Look up\" means to search for a piece of information, like times, in a phone or book."
+  },
+  {
+    "topic": "look",
+    "context": "Dan is talking about his weekend plans.",
+    "prompt": "I'm babysitting my sister's kids on Saturday. I have to ___ them all day.",
+    "options": [
+      "look after",
+      "look for",
+      "look out",
+      "look up"
+    ],
+    "answer": "look after",
+    "why": "\"Look after\" means to take care of someone, like a child."
+  },
+  {
+    "topic": "look",
+    "context": "Noa can't find her keys before leaving home.",
+    "prompt": "I've been ___ my keys for ten minutes and they're not anywhere!",
+    "options": [
+      "looking for",
+      "looking at",
+      "looking after",
+      "looking up"
+    ],
+    "answer": "looking for",
+    "why": "\"Look for\" means to try to find something you can't find."
+  },
+  {
+    "topic": "look",
+    "context": "Tom is at work, talking to his manager.",
+    "prompt": "The numbers seem wrong. Could you ___ this report before I send it?",
+    "options": [
+      "look over",
+      "look out",
+      "look up to",
+      "look forward"
+    ],
+    "answer": "look over",
+    "why": "\"Look over\" means to check something quickly from start to finish."
+  },
+  {
+    "topic": "look",
+    "context": "Lena is texting her cousin about a trip.",
+    "prompt": "I'm really ___ seeing you next month!",
+    "options": [
+      "looking forward to",
+      "looking up to",
+      "looking out for",
+      "looking down on"
+    ],
+    "answer": "looking forward to",
+    "why": "\"Look forward to\" means to feel happy and excited about something that will happen soon."
+  },
+  {
+    "topic": "look",
+    "context": "Sam is walking with a friend near a busy road.",
+    "prompt": "**Look out!** There's a bike coming.",
+    "options": [
+      "Be careful right now",
+      "Look at that picture",
+      "Go and search for it",
+      "Wait until later"
+    ],
+    "answer": "Be careful right now",
+    "why": "\"Look out\" is what you shout to warn someone about danger."
+  },
+  {
+    "topic": "look",
+    "context": "Priya is talking about her older brother.",
+    "prompt": "She says: \"I really **look up to** my brother.\" What does it mean?",
+    "options": [
+      "I respect and admire him",
+      "I am taller than him",
+      "I search for him often",
+      "I check his homework"
+    ],
+    "answer": "I respect and admire him",
+    "why": "\"Look up to\" someone means you admire them and respect them."
+  },
+  {
+    "topic": "look",
+    "context": "Chris is talking about a problem at the office.",
+    "prompt": "The manager said: \"We'll **look into** the problem.\" What does it mean?",
+    "options": [
+      "We will try to find out more about it",
+      "We will ignore it for now",
+      "We will look at it quickly",
+      "We will ask you to fix it"
+    ],
+    "answer": "We will try to find out more about it",
+    "why": "\"Look into\" means to investigate something to understand it or solve it."
+  },
+  {
+    "topic": "look",
+    "context": "Yael is talking about how people treat each other.",
+    "prompt": "Some people ___ others just because of their job, and that's not nice.",
+    "options": [
+      "look down on",
+      "look up to",
+      "look forward to",
+      "look out for"
+    ],
+    "answer": "look down on",
+    "why": "\"Look down on\" means to think someone is worse or less important than you."
+  },
+  {
+    "topic": "look",
+    "context": "Ben is chatting with a friend about his grandma.",
+    "prompt": "My grandma lives alone, so I ___ her every Sunday to see how she's doing.",
+    "options": [
+      "look in on",
+      "look up to",
+      "look down on",
+      "look into"
+    ],
+    "answer": "look in on",
+    "why": "\"Look in on\" means to visit someone for a short time to check they are OK."
+  },
+  {
+    "topic": "take",
+    "context": "Two friends are talking about a new hobby.",
+    "prompt": "Dana: \"When did you start playing the guitar?\" Noam: \"Last year. I ___ it after I saw a concert.\"",
+    "options": [
+      "took up",
+      "took on",
+      "took off",
+      "took in"
+    ],
+    "answer": "took up",
+    "why": "\"Take up\" means to start a new hobby or activity."
+  },
+  {
+    "topic": "take",
+    "context": "A colleague is telling you about her flight.",
+    "prompt": "Our plane ___ twenty minutes late because of the weather.",
+    "options": [
+      "took off",
+      "took out",
+      "took after",
+      "took over"
+    ],
+    "answer": "took off",
+    "why": "\"Take off\" is what a plane does when it leaves the ground and starts its flight."
+  },
+  {
+    "topic": "take",
+    "context": "Two sisters are talking about their family.",
+    "prompt": "People say I **take after** my mom. What does this mean?",
+    "options": [
+      "I look or act like my mom",
+      "I take care of my mom",
+      "I follow my mom everywhere",
+      "I borrow things from my mom"
+    ],
+    "answer": "I look or act like my mom",
+    "why": "\"Take after\" means to be similar to an older family member, in looks or personality."
+  },
+  {
+    "topic": "take",
+    "context": "A manager is talking to a new employee.",
+    "prompt": "Hi Lior, I'm leaving the company next month, and you'll ___ my projects.",
+    "options": [
+      "take over",
+      "take out",
+      "take away",
+      "take up"
+    ],
+    "answer": "take over",
+    "why": "\"Take over\" means to start being responsible for something that someone else did before."
+  },
+  {
+    "topic": "take",
+    "context": "Two friends are talking after a class.",
+    "prompt": "Tom: \"The teacher spoke so fast!\" Maya: \"I know. I couldn't ___ all the information.\"",
+    "options": [
+      "take in",
+      "take off",
+      "take on",
+      "take back"
+    ],
+    "answer": "take in",
+    "why": "\"Take in\" here means to understand and remember new information."
+  },
+  {
+    "topic": "take",
+    "context": "You are talking about a shirt you bought online.",
+    "prompt": "The shirt was too small, so I'm going to **take** it **back** to the store. What does this mean?",
+    "options": [
+      "Return it to the store",
+      "Wear it again later",
+      "Show it to my friends",
+      "Wash it at the store"
+    ],
+    "answer": "Return it to the store",
+    "why": "\"Take back\" means to bring something to the place where you got it, usually to return it."
+  },
+  {
+    "topic": "take",
+    "context": "Two coworkers are talking about a busy week.",
+    "prompt": "I can't ___ any more work this week. I'm already too busy!",
+    "options": [
+      "take on",
+      "take off",
+      "take after",
+      "take up"
+    ],
+    "answer": "take on",
+    "why": "\"Take on\" means to accept more work or responsibility."
+  },
+  {
+    "topic": "take",
+    "context": "A teacher is talking to the class.",
+    "prompt": "Please ___ your jackets before you sit down. It's warm in here.",
+    "options": [
+      "take off",
+      "take out",
+      "take over",
+      "take after"
+    ],
+    "answer": "take off",
+    "why": "\"Take off\" means to remove clothes from your body."
+  },
+  {
+    "topic": "take",
+    "context": "Two friends are planning a Friday night.",
+    "prompt": "Yossi: \"I'm so hungry.\" Rina: \"Let's go to a restaurant! I'll **take** you **out**. It's my treat.\" What does this mean?",
+    "options": [
+      "I'll invite you and pay for you",
+      "I'll carry you outside the house",
+      "I'll drive you back to your home",
+      "I'll ask you to pay for me"
+    ],
+    "answer": "I'll invite you and pay for you",
+    "why": "\"Take someone out\" means to invite them somewhere, like a restaurant, and usually pay."
+  },
+  {
+    "topic": "take",
+    "context": "A young man is talking about his old habit.",
+    "prompt": "I used to eat a lot of junk food, but I ___ running last month, and now I feel much better.",
+    "options": [
+      "took up",
+      "took off",
+      "took over",
+      "took after"
+    ],
+    "answer": "took up",
+    "why": "\"Took up\" means started a new activity or habit. It's the past tense of \"take up\"."
+  },
+  {
+    "topic": "take",
+    "context": "Two friends talk about a new hobby.",
+    "prompt": "Dana ___ yoga last month and now she does it every morning.",
+    "options": [
+      "took up",
+      "took off",
+      "took in",
+      "took out"
+    ],
+    "answer": "took up",
+    "why": "\"Take up\" means start a new hobby or activity. The sentence says she started last month."
+  },
+  {
+    "topic": "take",
+    "context": "A plane is leaving from Tel Aviv.",
+    "prompt": "Our flight ___ at 6 a.m., so we have to be at the airport very early.",
+    "options": [
+      "takes off",
+      "takes up",
+      "takes over",
+      "takes after"
+    ],
+    "answer": "takes off",
+    "why": "\"Take off\" is what a plane does when it leaves the ground and starts its flight."
+  },
+  {
+    "topic": "take",
+    "context": "Someone notices a child looks like a parent.",
+    "prompt": "Everyone says Liam really ___ his dad. They have the same smile and the same laugh.",
+    "options": [
+      "takes after",
+      "takes back",
+      "takes down",
+      "takes away"
+    ],
+    "answer": "takes after",
+    "why": "\"Take after\" means look or act like an older family member, like a parent."
+  },
+  {
+    "topic": "take",
+    "context": "A coworker just left a long meeting.",
+    "prompt": "Wow, that was a lot of information. I can't ___ it all at once.",
+    "options": [
+      "take in",
+      "take off",
+      "take up",
+      "take after"
+    ],
+    "answer": "take in",
+    "why": "\"Take in\" means understand or absorb new information, especially a lot of it."
+  },
+  {
+    "topic": "take",
+    "context": "Students talk about a group project.",
+    "prompt": "Mia said: \"I'm going to **take over** the group project because nobody else is doing it.\" What does **take over** mean?",
+    "options": [
+      "Start being in charge of it",
+      "Carry it to someone's house",
+      "Give it back to the teacher",
+      "Stop working on it for a while"
+    ],
+    "answer": "Start being in charge of it",
+    "why": "\"Take over\" means start controlling or being responsible for something, often from someone else."
+  },
+  {
+    "topic": "take",
+    "context": "A customer talks to a shop assistant.",
+    "prompt": "I'd like to ___ these shoes. They're too small, and I need a bigger size.",
+    "options": [
+      "take back",
+      "take up",
+      "take after",
+      "take in"
+    ],
+    "answer": "take back",
+    "why": "\"Take back\" means return something to the shop where you bought it."
+  },
+  {
+    "topic": "take",
+    "context": "Two coworkers are chatting at lunch.",
+    "prompt": "Omar told me: \"I'm sorry I was rude yesterday. I **take it back**.\" What does **take it back** mean?",
+    "options": [
+      "I wish I had not said that",
+      "I want to say it again",
+      "I will repeat it to everyone",
+      "I forgot what I said"
+    ],
+    "answer": "I wish I had not said that",
+    "why": "\"Take it back\" means say you did not mean something you said earlier."
+  },
+  {
+    "topic": "take",
+    "context": "Sam is at the office on a hot day.",
+    "prompt": "It's so warm in here. Do you mind if I ___ my jacket?",
+    "options": [
+      "take off",
+      "take up",
+      "take over",
+      "take after"
+    ],
+    "answer": "take off",
+    "why": "\"Take off\" also means remove clothes. Here it means removing the jacket."
+  },
+  {
+    "topic": "take",
+    "context": "A waiter talks to customers at a restaurant.",
+    "prompt": "Excuse me, could I ___ the dishes from your table? Or are you still eating?",
+    "options": [
+      "take away",
+      "take after",
+      "take up",
+      "take over"
+    ],
+    "answer": "take away",
+    "why": "\"Take away\" means remove something from a place, like dishes from a table."
+  },
+  {
+    "topic": "take",
+    "context": "Two friends talk about a new coworker.",
+    "prompt": "Noa said: \"I didn't like him at first, but I'm starting to **take to** him.\" What does **take to** mean?",
+    "options": [
+      "Begin to like",
+      "Start to avoid",
+      "Learn a lot from",
+      "Walk with"
+    ],
+    "answer": "Begin to like",
+    "why": "\"Take to\" someone means start to like them, often quite quickly and naturally."
+  },
+  {
+    "topic": "take",
+    "context": "Two friends talking about a new hobby.",
+    "prompt": "Dana: \"When did you start playing guitar?\" Ben: \"I ___ it last summer, just for fun.\"",
+    "options": [
+      "took up",
+      "took off",
+      "took in",
+      "took out"
+    ],
+    "answer": "took up",
+    "why": "\"Take up\" means start a new hobby or activity."
+  },
+  {
+    "topic": "take",
+    "context": "At the airport, waiting for a flight.",
+    "prompt": "Our plane should ___ at 6:15, so we need to be at the gate soon.",
+    "options": [
+      "take off",
+      "take up",
+      "take over",
+      "take away"
+    ],
+    "answer": "take off",
+    "why": "\"Take off\" is what a plane does when it leaves the ground."
+  },
+  {
+    "topic": "take",
+    "context": "Two coworkers chatting about a family trip.",
+    "prompt": "Maya: \"Wow, your son is tall!\" Tom: \"I know! He really ___ his dad.\"",
+    "options": [
+      "takes after",
+      "takes off",
+      "takes in",
+      "takes over"
+    ],
+    "answer": "takes after",
+    "why": "\"Take after\" means look or act like an older family member."
+  },
+  {
+    "topic": "take",
+    "context": "A teacher is talking to the class.",
+    "prompt": "The teacher said, \"Please **take off** your shoes before you come in.\" What does \"take off\" mean here?",
+    "options": [
+      "remove something you are wearing",
+      "start doing something new",
+      "leave the ground and fly",
+      "look like someone else"
+    ],
+    "answer": "remove something you are wearing",
+    "why": "With clothes or shoes, \"take off\" means to remove them."
+  },
+  {
+    "topic": "take",
+    "context": "A manager is talking about a new job.",
+    "prompt": "Lior: \"Is Sarah still running the team?\" Noa: \"No, Eli ___ last month when she moved to another office.\"",
+    "options": [
+      "took over",
+      "took after",
+      "took up",
+      "took out"
+    ],
+    "answer": "took over",
+    "why": "\"Take over\" means start being in charge of something from someone else."
+  },
+  {
+    "topic": "take",
+    "context": "Friends are texting after a small argument.",
+    "prompt": "Yael: \"That was really rude.\" Avi: \"You're right, I'm sorry. I ___ what I said.\"",
+    "options": [
+      "take back",
+      "take up",
+      "take off",
+      "take over"
+    ],
+    "answer": "take back",
+    "why": "\"Take back\" what you said means you say you were wrong to say it."
+  },
+  {
+    "topic": "take",
+    "context": "You're chatting with a friend about a tough class.",
+    "prompt": "Rami: \"Did you understand the lecture?\" Gal: \"Not really, there was too much to **take in** at once.\" What does \"take in\" mean here?",
+    "options": [
+      "understand and remember information",
+      "bring something outside",
+      "start a new class",
+      "remove something from a bag"
+    ],
+    "answer": "understand and remember information",
+    "why": "\"Take in\" can mean fully understand new information."
+  },
+  {
+    "topic": "take",
+    "context": "A friend has a very busy schedule.",
+    "prompt": "Noam: \"Can you help me move on Saturday?\" Lena: \"Sorry, I already ___ too much work this week.\"",
+    "options": [
+      "took on",
+      "took after",
+      "took off",
+      "took up"
+    ],
+    "answer": "took on",
+    "why": "\"Take on\" means accept a job or responsibility."
+  },
+  {
+    "topic": "take",
+    "context": "Two roommates are cleaning up after dinner.",
+    "prompt": "Omer: \"Can you ___ the trash when you leave?\" Shir: \"Sure, no problem.\"",
+    "options": [
+      "take out",
+      "take after",
+      "take up",
+      "take over"
+    ],
+    "answer": "take out",
+    "why": "\"Take out the trash\" means carry it outside to the bin."
+  },
+  {
+    "topic": "take",
+    "context": "A friend is shopping for a new phone.",
+    "prompt": "Dan: \"I don't really like my new phone.\" Rona: \"Just **take it back** and get a different one.\" What does \"take back\" mean here?",
+    "options": [
+      "return something to a store",
+      "carry something home",
+      "start using again",
+      "remove from a box"
+    ],
+    "answer": "return something to a store",
+    "why": "\"Take back\" means return an item to the shop where you bought it."
+  },
+  {
+    "topic": "put",
+    "context": "Dana is organising a surprise party for her friend.",
+    "prompt": "Can you ___ the decorations in the living room before Maya gets here?",
+    "options": [
+      "put up",
+      "put on",
+      "put off",
+      "put through"
+    ],
+    "answer": "put up",
+    "why": "\"Put up\" means to hang or attach something, like decorations or posters."
+  },
+  {
+    "topic": "put",
+    "context": "Two coworkers are talking about a meeting.",
+    "prompt": "The boss wants to ___ the meeting until next week because half the team is away.",
+    "options": [
+      "put off",
+      "put up",
+      "put away",
+      "put down"
+    ],
+    "answer": "put off",
+    "why": "\"Put off\" means to delay something until a later time."
+  },
+  {
+    "topic": "put",
+    "context": "Tom is cold in a friend's flat in London.",
+    "prompt": "It's freezing in here. Could you ___ the heating?",
+    "options": [
+      "put on",
+      "put away",
+      "put off",
+      "put out"
+    ],
+    "answer": "put on",
+    "why": "\"Put on\" means to switch on a device like the heating or a light."
+  },
+  {
+    "topic": "put",
+    "context": "Noa is calling a company about a problem with her order.",
+    "prompt": "The receptionist said: \"I'll **put you through** to the manager.\" What does it mean?",
+    "options": [
+      "Connect you by phone",
+      "Make you wait outside",
+      "Ask you to leave",
+      "Give you extra work"
+    ],
+    "answer": "Connect you by phone",
+    "why": "\"Put through\" means to connect someone on a phone call to another person."
+  },
+  {
+    "topic": "put",
+    "context": "Ben is chatting with his roommate about the weekend.",
+    "prompt": "I can't ___ his loud music anymore. It's so annoying!",
+    "options": [
+      "put up with",
+      "put up for",
+      "put in with",
+      "put out with"
+    ],
+    "answer": "put up with",
+    "why": "\"Put up with\" means to accept something annoying without complaining."
+  },
+  {
+    "topic": "put",
+    "context": "Maria is tidying her room in the spring.",
+    "prompt": "Maria says: \"I need to **put away** my winter clothes.\" What does she mean?",
+    "options": [
+      "Store them in a cupboard",
+      "Throw them in the trash",
+      "Wear them every day",
+      "Sell them online"
+    ],
+    "answer": "Store them in a cupboard",
+    "why": "\"Put away\" means to tidy something into its usual place, like a cupboard or drawer."
+  },
+  {
+    "topic": "put",
+    "context": "Sam is helping his neighbour after a small kitchen accident.",
+    "prompt": "Quick, grab a lid and help me ___ the fire in the pan!",
+    "options": [
+      "put out",
+      "put off",
+      "put up",
+      "put in"
+    ],
+    "answer": "put out",
+    "why": "\"Put out\" means to stop a fire from burning."
+  },
+  {
+    "topic": "put",
+    "context": "Yael is on a work trip and needs a place to sleep.",
+    "prompt": "My friend in Boston said he can **put me up** for two nights. What does it mean?",
+    "options": [
+      "Let me stay at his place",
+      "Pay for my plane ticket",
+      "Show me around the city",
+      "Pick me up at the airport"
+    ],
+    "answer": "Let me stay at his place",
+    "why": "\"Put someone up\" means to give them a place to stay for a short time."
+  },
+  {
+    "topic": "put",
+    "context": "Chris is talking about his gym habits.",
+    "prompt": "I always ___ my headphones before I start running.",
+    "options": [
+      "put on",
+      "put up",
+      "put off",
+      "put out"
+    ],
+    "answer": "put on",
+    "why": "\"Put on\" means to place clothes or things like headphones on your body."
+  },
+  {
+    "topic": "put",
+    "context": "Rina is reading a text from her teammate.",
+    "prompt": "Ella's text says: \"Don't **put me down** in front of everyone!\" What does it mean?",
+    "options": [
+      "Make me look bad",
+      "Pick me up later",
+      "Add me to the list",
+      "Give me a call"
+    ],
+    "answer": "Make me look bad",
+    "why": "\"Put someone down\" means to criticise or embarrass them, often in front of other people."
+  },
+  {
+    "topic": "put",
+    "context": "Sara is talking about her new apartment.",
+    "prompt": "The neighbors play loud music every night. I can't ___ it anymore.",
+    "options": [
+      "put up with",
+      "put up for",
+      "put out with",
+      "put on with"
+    ],
+    "answer": "put up with",
+    "why": "\"Put up with\" means to accept something annoying without complaining."
+  },
+  {
+    "topic": "put",
+    "context": "A manager sends an email to the team.",
+    "prompt": "We had to **put off** the meeting until Monday. What does \"put off\" mean?",
+    "options": [
+      "move it to a later time",
+      "make it much shorter",
+      "start it much earlier",
+      "change it to a video call"
+    ],
+    "answer": "move it to a later time",
+    "why": "\"Put off\" means to delay something until a later time."
+  },
+  {
+    "topic": "put",
+    "context": "Dad is talking to his daughter at the front door.",
+    "prompt": "It's freezing outside, Dana! ___ your jacket before you go.",
+    "options": [
+      "Put on",
+      "Put in",
+      "Put up",
+      "Put into"
+    ],
+    "answer": "Put on",
+    "why": "\"Put on\" is what we say for clothes: you put on a jacket."
+  },
+  {
+    "topic": "put",
+    "context": "Leo's flight got cancelled and he calls his friend.",
+    "prompt": "\"Can you **put me up** for the night?\" What does Leo want?",
+    "options": [
+      "a place to sleep at his friend's home",
+      "a ride to the airport",
+      "some money for a hotel",
+      "help to book a new flight"
+    ],
+    "answer": "a place to sleep at his friend's home",
+    "why": "\"Put someone up\" means to let them stay at your place for a while."
+  },
+  {
+    "topic": "put",
+    "context": "Maya hosted a party last night.",
+    "prompt": "After the party, Maya ___ all the dishes, so the kitchen looked clean again.",
+    "options": [
+      "put away",
+      "put off",
+      "put up",
+      "put on"
+    ],
+    "answer": "put away",
+    "why": "\"Put away\" means to put things back in their proper place."
+  },
+  {
+    "topic": "put",
+    "context": "Two friends are talking after a group lunch.",
+    "prompt": "\"Please don't **put me down** in front of everyone!\" What does it mean?",
+    "options": [
+      "make me feel bad by criticizing me",
+      "make me pay for everyone's lunch",
+      "ask me to sit down quietly",
+      "forget to invite me to lunch"
+    ],
+    "answer": "make me feel bad by criticizing me",
+    "why": "\"Put someone down\" means to say mean things that make them feel small."
+  },
+  {
+    "topic": "put",
+    "context": "Noam is talking about his savings.",
+    "prompt": "I try to ___ a little money every month for a new phone.",
+    "options": [
+      "put aside",
+      "put apart",
+      "put along",
+      "put beside"
+    ],
+    "answer": "put aside",
+    "why": "\"Put aside\" means to save something, like money, for later."
+  },
+  {
+    "topic": "put",
+    "context": "You call a company and the receptionist answers.",
+    "prompt": "\"Hold on, I'll **put you through** to the manager.\" What will she do?",
+    "options": [
+      "connect your call to him",
+      "ask him to meet you",
+      "tell him your message later",
+      "make you wait outside"
+    ],
+    "answer": "connect your call to him",
+    "why": "On the phone, \"put someone through\" means to connect them to another person."
+  },
+  {
+    "topic": "put",
+    "context": "Ben was cooking dinner when the pan started burning.",
+    "prompt": "Luckily, Ben quickly ___ the small fire in the pan with a lid.",
+    "options": [
+      "put out",
+      "put off",
+      "put away",
+      "put up"
+    ],
+    "answer": "put out",
+    "why": "\"Put out\" means to stop a fire from burning."
+  },
+  {
+    "topic": "put",
+    "context": "Friends are talking about Lena's birthday party.",
+    "prompt": "We ___ a short slideshow for Lena's birthday last night.",
+    "options": [
+      "put together",
+      "putted together",
+      "have put together",
+      "put up together"
+    ],
+    "answer": "put together",
+    "why": "\"Put together\" means to make something by joining parts. \"Last night\" needs the past simple, and \"put\" stays the same."
+  },
+  {
+    "topic": "put",
+    "context": "Dana's phone keeps buzzing during a meeting.",
+    "prompt": "Could you ___ your phone, please? It's really distracting.",
+    "options": [
+      "put away",
+      "put on",
+      "put out",
+      "put up"
+    ],
+    "answer": "put away",
+    "why": "\"Put away\" means to move something out of sight, like into your pocket or bag."
+  },
+  {
+    "topic": "put",
+    "context": "Two friends are talking about a noisy neighbor.",
+    "prompt": "I can't ___ his loud music anymore. I'm going to talk to him.",
+    "options": [
+      "put up with",
+      "put up to",
+      "put on with",
+      "put away with"
+    ],
+    "answer": "put up with",
+    "why": "\"Put up with\" means to accept something annoying without complaining."
+  },
+  {
+    "topic": "put",
+    "context": "It's freezing outside and Tom is leaving the house.",
+    "prompt": "It's cold out there. ___ a jacket before you go.",
+    "options": [
+      "Put on",
+      "Put up",
+      "Put off",
+      "Put in"
+    ],
+    "answer": "Put on",
+    "why": "\"Put on\" is what you do with clothes: you wear them."
+  },
+  {
+    "topic": "put",
+    "context": "Maya is talking to her coworker about a presentation.",
+    "prompt": "The boss wants to **put off** the meeting until next week. What does that mean?",
+    "options": [
+      "Move it to a later time",
+      "Cancel it for good",
+      "Make it shorter",
+      "Start it earlier"
+    ],
+    "answer": "Move it to a later time",
+    "why": "\"Put off\" means to delay something until a later time."
+  },
+  {
+    "topic": "put",
+    "context": "Leo is cooking dinner and the fire alarm goes off.",
+    "prompt": "Quick, ___ the fire on the stove before it gets bigger!",
+    "options": [
+      "put out",
+      "put off",
+      "put down",
+      "put over"
+    ],
+    "answer": "put out",
+    "why": "\"Put out\" means to stop a fire from burning."
+  },
+  {
+    "topic": "put",
+    "context": "Noa is chatting with her roommate about the weekend.",
+    "prompt": "Our landlord said we can ___ a few friends for the night if we ask first.",
+    "options": [
+      "put up",
+      "put in",
+      "put off",
+      "put out"
+    ],
+    "answer": "put up",
+    "why": "\"Put up\" means to let someone stay at your place for a while."
+  },
+  {
+    "topic": "put",
+    "context": "Sam is talking about his new gym routine.",
+    "prompt": "I've **put on** a few pounds since the holidays. What does that mean?",
+    "options": [
+      "I gained some weight",
+      "I lost some weight",
+      "I bought new clothes",
+      "I started a diet"
+    ],
+    "answer": "I gained some weight",
+    "why": "\"Put on weight\" means to get heavier."
+  },
+  {
+    "topic": "put",
+    "context": "Rita is fixing a messy shelf with her brother.",
+    "prompt": "When you finish with the tools, please ___ them back in the box.",
+    "options": [
+      "put",
+      "take",
+      "give",
+      "make"
+    ],
+    "answer": "put",
+    "why": "\"Put back\" means to return something to where it was."
+  },
+  {
+    "topic": "put",
+    "context": "Jake is complaining about his boss at lunch.",
+    "prompt": "My boss always **puts me down** in front of everyone. What does that mean?",
+    "options": [
+      "Makes me feel small",
+      "Gives me a raise",
+      "Asks for my help",
+      "Gives me a ride"
+    ],
+    "answer": "Makes me feel small",
+    "why": "\"Put someone down\" means to say mean things that make them feel bad."
+  },
+  {
+    "topic": "turn",
+    "context": "Dana is still in bed on a Saturday morning.",
+    "prompt": "I'm so tired. Can you ___ the alarm? I'm not getting up yet.",
+    "options": [
+      "turn off",
+      "turn over",
+      "turn into",
+      "turn away"
+    ],
+    "answer": "turn off",
+    "why": "\"Turn off\" means stop a device or sound, like an alarm or a light."
+  },
+  {
+    "topic": "turn",
+    "context": "Two friends are talking about a party.",
+    "prompt": "Only five people ___ to Maya's party, so it was pretty quiet.",
+    "options": [
+      "turned up",
+      "turned in",
+      "turned down",
+      "turned around"
+    ],
+    "answer": "turned up",
+    "why": "\"Turn up\" means arrive or show up, often when it's not certain who will come."
+  },
+  {
+    "topic": "turn",
+    "context": "Noa is on a work call at home.",
+    "prompt": "Can you ___ the music a little? I can't hear Tom on the phone.",
+    "options": [
+      "turn down",
+      "turn over",
+      "turn out",
+      "turn away"
+    ],
+    "answer": "turn down",
+    "why": "\"Turn down\" means make something quieter or lower, like music, TV or heat."
+  },
+  {
+    "topic": "turn",
+    "context": "A coworker is talking about a job offer.",
+    "prompt": "Ben got a great offer from a startup, but he **turned it down**. What does it mean?",
+    "options": [
+      "He said no to it",
+      "He read it again",
+      "He made it smaller",
+      "He asked for more time"
+    ],
+    "answer": "He said no to it",
+    "why": "\"Turn down\" also means refuse an offer or invitation."
+  },
+  {
+    "topic": "turn",
+    "context": "Lena is talking about school.",
+    "prompt": "I have to ___ my report by Friday, or my teacher will be angry.",
+    "options": [
+      "turn in",
+      "turn on",
+      "turn up",
+      "turn over"
+    ],
+    "answer": "turn in",
+    "why": "\"Turn in\" means give your work to a teacher or boss."
+  },
+  {
+    "topic": "turn",
+    "context": "Two colleagues are talking about a new project.",
+    "prompt": "I thought the presentation would be a disaster, but it **turned out** great. What does it mean?",
+    "options": [
+      "It ended up being great",
+      "It became very short",
+      "It was cancelled",
+      "It started late"
+    ],
+    "answer": "It ended up being great",
+    "why": "\"Turn out\" means end up a certain way, often different from what you expected."
+  },
+  {
+    "topic": "turn",
+    "context": "Omar is at the cinema.",
+    "prompt": "Please ___ your phone before the movie starts.",
+    "options": [
+      "turn off",
+      "turn up",
+      "turn in",
+      "turn out"
+    ],
+    "answer": "turn off",
+    "why": "\"Turn off\" is the normal phrase for switching a phone or device off."
+  },
+  {
+    "topic": "turn",
+    "context": "Rita and a friend are driving to a new café.",
+    "prompt": "We took the wrong road, so we had to ___ and go back.",
+    "options": [
+      "turn around",
+      "turn into",
+      "turn in",
+      "turn over"
+    ],
+    "answer": "turn around",
+    "why": "\"Turn around\" means go back the other way."
+  },
+  {
+    "topic": "turn",
+    "context": "Two friends are waiting for Sam.",
+    "prompt": "We waited for Sam for hours, and he finally **turned up** at midnight. Which sentence uses \"turn up\" the same way?",
+    "options": [
+      "Only three people turned up to the meeting.",
+      "Please turn up the volume.",
+      "Can you turn up the heat?",
+      "Turn up the TV, I can't hear it."
+    ],
+    "answer": "Only three people turned up to the meeting.",
+    "why": "Here \"turn up\" means arrive. Only the meeting sentence is about people arriving."
+  },
+  {
+    "topic": "turn",
+    "context": "Two roommates are talking about the heating.",
+    "prompt": "It's freezing in here! Can you ___ the heat, please?",
+    "options": [
+      "turn up",
+      "turn over",
+      "turn away",
+      "turn in"
+    ],
+    "answer": "turn up",
+    "why": "\"Turn up\" means make something stronger or higher, like heat or volume."
+  },
+  {
+    "topic": "turn",
+    "context": "Sara is talking to her coworker about the office music.",
+    "prompt": "Could you ___ the music a bit? I'm trying to talk on the phone.",
+    "options": [
+      "turn down",
+      "turn off it",
+      "turn out",
+      "turn away"
+    ],
+    "answer": "turn down",
+    "why": "\"Turn down\" means make something quieter. \"Turn off it\" has the wrong word order, and \"turn out\" and \"turn away\" mean something else."
+  },
+  {
+    "topic": "turn",
+    "context": "Dan is checking his phone before bed.",
+    "prompt": "I always ___ my phone at night so it doesn't wake me up.",
+    "options": [
+      "turn off",
+      "turn in",
+      "turn up",
+      "turn around"
+    ],
+    "answer": "turn off",
+    "why": "\"Turn off\" means stop a device from working. \"Turn up\" would make it louder, and the others don't fit with a phone."
+  },
+  {
+    "topic": "turn",
+    "context": "Maya is getting ready for a party and it's too dark in the room.",
+    "prompt": "It's so dark in here. Can you ___ the light?",
+    "options": [
+      "turn on",
+      "turn out",
+      "turn into",
+      "turn after"
+    ],
+    "answer": "turn on",
+    "why": "\"Turn on\" means make a light or device start working. \"Turn out\" the light means switch it off."
+  },
+  {
+    "topic": "turn",
+    "context": "Tom is telling a friend about a surprise at work.",
+    "prompt": "I thought the meeting would be boring, but it **turned out** to be really fun. What does \"turned out\" mean?",
+    "options": [
+      "ended up being",
+      "was changed into",
+      "was switched off",
+      "went around in a circle"
+    ],
+    "answer": "ended up being",
+    "why": "\"Turn out\" means that something ends up a certain way, often when you didn't expect it."
+  },
+  {
+    "topic": "turn",
+    "context": "Noa is talking about her brother, who is always late.",
+    "prompt": "My brother never ___ on time, so we started dinner without him.",
+    "options": [
+      "turns up",
+      "turns on",
+      "turns off",
+      "turns down"
+    ],
+    "answer": "turns up",
+    "why": "\"Turn up\" means arrive or appear. Here it fits because he is always late."
+  },
+  {
+    "topic": "turn",
+    "context": "Liam is telling a friend about a job offer.",
+    "prompt": "The offer was nice, but I had to **turn** it **down**. What does \"turn down\" mean here?",
+    "options": [
+      "say no to",
+      "pay for",
+      "think about",
+      "pick up"
+    ],
+    "answer": "say no to",
+    "why": "\"Turn down\" an offer means to say no or refuse it politely."
+  },
+  {
+    "topic": "turn",
+    "context": "Emma's teacher is talking to the class about homework.",
+    "prompt": "Please ___ your essays by Friday so I can read them over the weekend.",
+    "options": [
+      "turn in",
+      "turn up",
+      "turn out",
+      "turn round"
+    ],
+    "answer": "turn in",
+    "why": "\"Turn in\" means give something to a teacher or boss. \"Turn up\" would mean arrive."
+  },
+  {
+    "topic": "turn",
+    "context": "Jack is driving with his friend and gets lost.",
+    "prompt": "I think we went the wrong way. Let's ___ and go back.",
+    "options": [
+      "turn around",
+      "turn into",
+      "turn off",
+      "turn down"
+    ],
+    "answer": "turn around",
+    "why": "\"Turn around\" means go back the other way. It fits when you took the wrong road."
+  },
+  {
+    "topic": "turn",
+    "context": "Lily is talking about her little cousin.",
+    "prompt": "After the summer holiday, my shy cousin **turned into** a very confident girl. What does \"turned into\" mean?",
+    "options": [
+      "became",
+      "returned to",
+      "moved away from",
+      "looked for"
+    ],
+    "answer": "became",
+    "why": "\"Turn into\" means change and become something different."
+  },
+  {
+    "topic": "turn",
+    "context": "Ben is staying the night at a friend's house.",
+    "prompt": "I'm really tired, so I think I'll ___ early tonight.",
+    "options": [
+      "turn in",
+      "turn out",
+      "turn up",
+      "turn down"
+    ],
+    "answer": "turn in",
+    "why": "\"Turn in\" can also mean go to bed. It's a casual way to say you're going to sleep."
+  },
+  {
+    "topic": "turn",
+    "context": "Sara is telling her friend about her morning.",
+    "prompt": "I was so tired that I ___ my alarm and went back to sleep.",
+    "options": [
+      "turned off",
+      "turned up",
+      "turned into",
+      "turned around"
+    ],
+    "answer": "turned off",
+    "why": "\"Turn off\" means to stop a device or alarm. \"Turn up\" would make it louder, which doesn't fit going back to sleep."
+  },
+  {
+    "topic": "turn",
+    "context": "Dan is at a party and the music is too quiet.",
+    "prompt": "Can you ___ the music a bit? I can't hear it.",
+    "options": [
+      "turn up",
+      "turn down",
+      "turn out",
+      "turn away"
+    ],
+    "answer": "turn up",
+    "why": "\"Turn up\" means to make something louder. \"Turn down\" would make the music quieter."
+  },
+  {
+    "topic": "turn",
+    "context": "Mia is talking about a job offer.",
+    "prompt": "The salary was too low, so she **turned** the offer **down**.",
+    "options": [
+      "She said no to it",
+      "She took it right away",
+      "She forgot about it",
+      "She asked for more time"
+    ],
+    "answer": "She said no to it",
+    "why": "\"Turn down\" means to refuse or say no to an offer or request."
+  },
+  {
+    "topic": "turn",
+    "context": "Tom is waiting for his friends at a restaurant.",
+    "prompt": "We waited for an hour, but Jake never ___.",
+    "options": [
+      "turned up",
+      "turned on",
+      "turned over",
+      "turned in"
+    ],
+    "answer": "turned up",
+    "why": "\"Turn up\" also means to arrive or show up, often when you aren't sure someone will come."
+  },
+  {
+    "topic": "turn",
+    "context": "Noa is in a cold, dark apartment.",
+    "prompt": "It's so dark in here. Can you ___ the light?",
+    "options": [
+      "turn on",
+      "turn off",
+      "turn out",
+      "turn down"
+    ],
+    "answer": "turn on",
+    "why": "\"Turn on\" means to start a light or machine. The room is dark, so you need the light on."
+  },
+  {
+    "topic": "turn",
+    "context": "Liam is telling a friend about his weekend plans.",
+    "prompt": "We were going to have a picnic, but it rained, so the day **turned out** to be pretty boring.",
+    "options": [
+      "ended up being",
+      "stopped being",
+      "started to be",
+      "refused to be"
+    ],
+    "answer": "ended up being",
+    "why": "\"Turn out\" means to end up a certain way, often in a way you didn't expect."
+  },
+  {
+    "topic": "turn",
+    "context": "Emma is in class and it's the end of the day.",
+    "prompt": "Don't forget to ___ your homework before you leave.",
+    "options": [
+      "turn in",
+      "turn on",
+      "turn up",
+      "turn around"
+    ],
+    "answer": "turn in",
+    "why": "\"Turn in\" means to give something, like homework, to a teacher or boss."
+  },
+  {
+    "topic": "turn",
+    "context": "Omar is driving with his wife and realizes they are going the wrong way.",
+    "prompt": "I think we missed the exit. Let's ___ and go back.",
+    "options": [
+      "turn around",
+      "turn into",
+      "turn down",
+      "turn up"
+    ],
+    "answer": "turn around",
+    "why": "\"Turn around\" means to go in the opposite direction."
+  },
+  {
+    "topic": "turn",
+    "context": "Ruth is explaining why she is going to bed early.",
+    "prompt": "I'm really tired, so I think I'll **turn in** early tonight.",
+    "options": [
+      "go to bed",
+      "go out",
+      "come home late",
+      "stay up"
+    ],
+    "answer": "go to bed",
+    "why": "\"Turn in\" can also mean to go to bed, especially in casual speech."
+  },
+  {
+    "topic": "turn",
+    "context": "Ben is in the kitchen with his roommate.",
+    "prompt": "The soup is boiling too fast. Please ___ the heat a little.",
+    "options": [
+      "turn down",
+      "turn up",
+      "turn into",
+      "turn out"
+    ],
+    "answer": "turn down",
+    "why": "\"Turn down\" means to lower the level of something, like heat, sound or volume."
+  },
+  {
+    "topic": "come",
+    "context": "Planning with friends",
+    "prompt": "Can anyone ___ a better name for our group chat?",
+    "options": [
+      "come up with",
+      "come in with",
+      "come on with",
+      "come over for"
+    ],
+    "answer": "come up with",
+    "why": "\"Come up with\" means to think of an idea or a plan."
+  },
+  {
+    "topic": "come",
+    "context": "Cleaning day at home",
+    "prompt": "I **came across** my old school photos while cleaning my room. What does \"came across\" mean?",
+    "options": [
+      "found them by chance",
+      "looked for them carefully",
+      "threw them away",
+      "showed them to someone"
+    ],
+    "answer": "found them by chance",
+    "why": "\"Come across\" means to find or meet something without looking for it."
+  },
+  {
+    "topic": "come",
+    "context": "Talking to a coworker",
+    "prompt": "I don't feel great. I think I'm ___ a cold.",
+    "options": [
+      "coming down with",
+      "coming down to",
+      "coming down for",
+      "coming down into"
+    ],
+    "answer": "coming down with",
+    "why": "\"Come down with\" means to start getting a mild illness."
+  },
+  {
+    "topic": "come",
+    "context": "Texting a friend",
+    "prompt": "Hey Dana, why don't you ___ tonight? We're ordering pizza.",
+    "options": [
+      "come over",
+      "come about",
+      "come into",
+      "come to"
+    ],
+    "answer": "come over",
+    "why": "\"Come over\" means to visit someone at their home."
+  },
+  {
+    "topic": "come",
+    "context": "Chatting about music",
+    "prompt": "Their new album **comes out** on Friday. What does \"comes out\" mean?",
+    "options": [
+      "becomes available to everyone",
+      "gets cancelled for now",
+      "stops being sold",
+      "moves to another place"
+    ],
+    "answer": "becomes available to everyone",
+    "why": "\"Come out\" means a movie, song or product is released to the public."
+  },
+  {
+    "topic": "come",
+    "context": "Weekend plans",
+    "prompt": "We're going to the beach tomorrow. Do you want to ___?",
+    "options": [
+      "come along",
+      "come from",
+      "come off",
+      "come into"
+    ],
+    "answer": "come along",
+    "why": "\"Come along\" means to go with someone to a place or event."
+  },
+  {
+    "topic": "come",
+    "context": "Cancelling plans",
+    "prompt": "Sorry, I can't make it tonight. Something **came up**. What does \"came up\" mean?",
+    "options": [
+      "happened unexpectedly",
+      "was already planned",
+      "went up in price",
+      "finished early"
+    ],
+    "answer": "happened unexpectedly",
+    "why": "\"Something came up\" means an unexpected thing happened, so you're busy."
+  },
+  {
+    "topic": "come",
+    "context": "Catching up with a friend",
+    "prompt": "Mia ___ from Spain last week, and she looks great.",
+    "options": [
+      "came back",
+      "came up",
+      "came off",
+      "came out"
+    ],
+    "answer": "came back",
+    "why": "\"Come back\" means to return from a place."
+  },
+  {
+    "topic": "come",
+    "context": "Family talk",
+    "prompt": "My dad didn't like the idea at first, but he **came around**. What does \"came around\" mean?",
+    "options": [
+      "changed his mind and agreed",
+      "got more upset about it",
+      "forgot about the idea",
+      "walked away from us"
+    ],
+    "answer": "changed his mind and agreed",
+    "why": "\"Come around\" means to change your opinion and accept something."
+  },
+  {
+    "topic": "come",
+    "context": "Weekend plans",
+    "prompt": "I'm not sure what Dana is doing tonight, but she might ___ later if she finishes work early.",
+    "options": [
+      "come over",
+      "come in to",
+      "come off",
+      "come about"
+    ],
+    "answer": "come over",
+    "why": "\"Come over\" means to visit someone at their home."
+  },
+  {
+    "topic": "come",
+    "context": "A coworker liked your idea for the project.",
+    "prompt": "Sam asked how I ___ that great idea for the project.",
+    "options": [
+      "came up with",
+      "came up for",
+      "came out with up",
+      "came around of"
+    ],
+    "answer": "came up with",
+    "why": "\"Come up with\" means to think of an idea or a plan."
+  },
+  {
+    "topic": "come",
+    "context": "You are chatting about a friend who has been sick.",
+    "prompt": "Maya is finally feeling better. She ___ the flu last week.",
+    "options": [
+      "came down with",
+      "came up with",
+      "came down from",
+      "came on to"
+    ],
+    "answer": "came down with",
+    "why": "\"Come down with\" means to start getting an illness like a cold or the flu."
+  },
+  {
+    "topic": "come",
+    "context": "Your friend sends you a message about an old photo.",
+    "prompt": "Guess what! I ___ my old school yearbook while cleaning my room.",
+    "options": [
+      "came across",
+      "came along",
+      "came apart",
+      "came about"
+    ],
+    "answer": "came across",
+    "why": "\"Come across\" means to find something by chance, without looking for it."
+  },
+  {
+    "topic": "come",
+    "context": "Your coworker is talking about his new phone.",
+    "prompt": "Leo said, \"The new phone I ordered **came out** last week.\" What does \"came out\" mean here?",
+    "options": [
+      "It was released to buyers",
+      "It broke after a short time",
+      "It was sent back to the shop",
+      "It was too expensive to buy"
+    ],
+    "answer": "It was released to buyers",
+    "why": "\"Come out\" can mean a product becomes available to the public for the first time."
+  },
+  {
+    "topic": "come",
+    "context": "A friend promised to help you with something important.",
+    "prompt": "Noa said, \"Don't worry, I'll **come through** for you tomorrow.\" What does she mean?",
+    "options": [
+      "I will do what you need",
+      "I will pass by your house",
+      "I will call you again",
+      "I will forget about it"
+    ],
+    "answer": "I will do what you need",
+    "why": "\"Come through\" means to do what people expect or need from you, especially in a hard moment."
+  },
+  {
+    "topic": "come",
+    "context": "You and a friend are talking about a trip with your family.",
+    "prompt": "We were going to leave at nine, but something ___ and we had to wait.",
+    "options": [
+      "came up",
+      "came by",
+      "came off",
+      "came along"
+    ],
+    "answer": "came up",
+    "why": "\"Come up\" means that something unexpected happens, often a problem or a new thing to deal with."
+  },
+  {
+    "topic": "come",
+    "context": "Two people are talking about a sad moment after a breakup.",
+    "prompt": "Tom said, \"It took her weeks to **come to terms with** the news.\" What does it mean?",
+    "options": [
+      "accept a hard fact slowly",
+      "argue with someone loudly",
+      "forget about it quickly",
+      "tell it to everyone"
+    ],
+    "answer": "accept a hard fact slowly",
+    "why": "\"Come to terms with\" means to slowly accept something that is hard or not nice."
+  },
+  {
+    "topic": "come",
+    "context": "A teacher is talking to her class.",
+    "prompt": "Please be quiet for a minute. Can you ___ the front so everyone can see?",
+    "options": [
+      "come up to",
+      "come out of",
+      "come down with",
+      "come over for"
+    ],
+    "answer": "come up to",
+    "why": "\"Come up to\" means to move closer to a place or a person, here the front of the room."
+  },
+  {
+    "topic": "come",
+    "context": "Your friend is talking about a movie she just saw.",
+    "prompt": "Ella said, \"The movie didn't **come close to** the book.\" What does she mean?",
+    "options": [
+      "It was not nearly as good",
+      "It was almost as good",
+      "It was just as good",
+      "It was a bit better"
+    ],
+    "answer": "It was not nearly as good",
+    "why": "\"Not come close to\" means something is far from as good as something else."
+  },
+  {
+    "topic": "come",
+    "context": "Planning a surprise for a friend.",
+    "prompt": "I can't ___ a good gift idea for Dana's birthday.",
+    "options": [
+      "come up with",
+      "come over with",
+      "come down with",
+      "come out for"
+    ],
+    "answer": "come up with",
+    "why": "\"Come up with\" means to think of an idea or plan."
+  },
+  {
+    "topic": "come",
+    "context": "Cleaning the house on a Sunday.",
+    "prompt": "I **came across** my old school photos in the attic.",
+    "options": [
+      "found them by chance",
+      "looked for them for days",
+      "bought them from a shop",
+      "showed them to a friend"
+    ],
+    "answer": "found them by chance",
+    "why": "\"Come across\" means to find something by accident, without looking for it."
+  },
+  {
+    "topic": "come",
+    "context": "Texting a friend on Friday afternoon.",
+    "prompt": "Why don't you ___ tonight? We're watching a movie at my place.",
+    "options": [
+      "come over",
+      "come across",
+      "come out of",
+      "come off"
+    ],
+    "answer": "come over",
+    "why": "\"Come over\" means to visit someone at their home."
+  },
+  {
+    "topic": "come",
+    "context": "Talking about a friend before a trip.",
+    "prompt": "Max **came down with** the flu right before the trip.",
+    "options": [
+      "got sick with it",
+      "got better from it",
+      "was worried about it",
+      "stayed home to avoid it"
+    ],
+    "answer": "got sick with it",
+    "why": "\"Come down with\" means to start to have an illness."
+  },
+  {
+    "topic": "come",
+    "context": "Calling your manager from the car.",
+    "prompt": "Sorry I'm late! Something ___ at home and I had to deal with it.",
+    "options": [
+      "came up",
+      "came off",
+      "came with",
+      "came for"
+    ],
+    "answer": "came up",
+    "why": "\"Come up\" means something unexpected happens and needs your attention."
+  },
+  {
+    "topic": "come",
+    "context": "Friends running for the bus.",
+    "prompt": "The bus is leaving! **Come on!**",
+    "options": [
+      "Please be quick",
+      "Please come inside",
+      "Please go home",
+      "Please wait here"
+    ],
+    "answer": "Please be quick",
+    "why": "\"Come on\" is a casual way to tell someone to hurry up."
+  },
+  {
+    "topic": "come",
+    "context": "Talking about a reliable friend.",
+    "prompt": "Don't worry about the party. Lior always ___ when we really need him.",
+    "options": [
+      "comes through",
+      "comes off",
+      "comes down",
+      "comes out"
+    ],
+    "answer": "comes through",
+    "why": "\"Come through\" means to do what people hope or expect you to do."
+  },
+  {
+    "topic": "come",
+    "context": "Chatting about music.",
+    "prompt": "Her new album **comes out** on Friday.",
+    "options": [
+      "is released for people to buy",
+      "is finished by her team",
+      "is cancelled for now",
+      "is played at a party"
+    ],
+    "answer": "is released for people to buy",
+    "why": "\"Come out\" means something is released or made available to the public."
+  },
+  {
+    "topic": "come",
+    "context": "Asking a coworker to join you.",
+    "prompt": "Do you want to ___ to the gym with me tomorrow?",
+    "options": [
+      "come along",
+      "come off",
+      "come apart",
+      "come by"
+    ],
+    "answer": "come along",
+    "why": "\"Come along\" means to go somewhere with someone."
+  },
+  {
+    "topic": "come",
+    "context": "Two friends talking about a trip plan.",
+    "prompt": "It took me a while, but I **came around** to his idea.",
+    "options": [
+      "changed my mind and agreed",
+      "walked around to see it",
+      "forgot about it completely",
+      "explained it to him"
+    ],
+    "answer": "changed my mind and agreed",
+    "why": "\"Come around\" means to change your opinion and finally agree."
+  },
+  {
+    "topic": "come",
+    "context": "Dana is telling a friend about her weekend.",
+    "prompt": "I was cleaning my room when I ___ some old letters from my grandma.",
+    "options": [
+      "came across",
+      "came on",
+      "came forward",
+      "came along"
+    ],
+    "answer": "came across",
+    "why": "\"Come across\" means to find something by chance. The other options don't fit finding an object."
+  },
+  {
+    "topic": "come",
+    "context": "Two coworkers are talking about a new project.",
+    "prompt": "Tom said, \"I need a few more days to **come up with** a good idea.\" What does it mean?",
+    "options": [
+      "to think of a good idea",
+      "to wait for a good idea",
+      "to copy a good idea",
+      "to hear about a good idea"
+    ],
+    "answer": "to think of a good idea",
+    "why": "\"Come up with\" means to think of or create an idea or plan."
+  },
+  {
+    "topic": "come",
+    "context": "Leo is calling his sister about his cold.",
+    "prompt": "I think I'm ___ a cold, so I'm going to bed early tonight.",
+    "options": [
+      "coming down with",
+      "coming up with",
+      "coming out with",
+      "coming over with"
+    ],
+    "answer": "coming down with",
+    "why": "\"Come down with\" means to start getting sick, usually with a cold or the flu."
+  },
+  {
+    "topic": "go",
+    "context": "Dana is talking about her weekend plans.",
+    "prompt": "We're thinking of ___ for dinner on Saturday night.",
+    "options": [
+      "going out",
+      "going off",
+      "going on",
+      "going by"
+    ],
+    "answer": "going out",
+    "why": "\"Go out\" means leave home to do something fun, like going to dinner or a movie."
+  },
+  {
+    "topic": "go",
+    "context": "Two coworkers talk about a delayed project.",
+    "prompt": "The team had to ___ the whole plan again because the client changed everything.",
+    "options": [
+      "go over",
+      "go out",
+      "go on",
+      "go by"
+    ],
+    "answer": "go over",
+    "why": "\"Go over\" means to check or review something carefully from start to finish."
+  },
+  {
+    "topic": "go",
+    "context": "Tom is texting his friend about a bad day.",
+    "prompt": "Tom's message: \"My alarm didn't ring, so my whole morning ___ wrong.\"",
+    "options": [
+      "went",
+      "goes",
+      "go",
+      "going"
+    ],
+    "answer": "went",
+    "why": "We use the past simple \"went\" for a finished event. \"Go wrong\" means things didn't work out."
+  },
+  {
+    "topic": "go",
+    "context": "A friend asks Lena how a long meeting is going.",
+    "prompt": "Lena: \"Sorry, I'll be late. The meeting is still ___ and nobody wants to stop.\"",
+    "options": [
+      "going on",
+      "going off",
+      "going out",
+      "going away"
+    ],
+    "answer": "going on",
+    "why": "\"Go on\" means to continue. The meeting hasn't ended yet."
+  },
+  {
+    "topic": "go",
+    "context": "Mike is chatting with a neighbor about his phone.",
+    "prompt": "My alarm didn't ___ this morning, so I woke up late.",
+    "options": [
+      "go off",
+      "go out",
+      "go on",
+      "go away"
+    ],
+    "answer": "go off",
+    "why": "When an alarm \"goes off\", it makes its sound."
+  },
+  {
+    "topic": "go",
+    "context": "Sam tells a friend about his weekend plans.",
+    "prompt": "Sam says: \"I want to **go through** my old photos this weekend.\" What does it mean?",
+    "options": [
+      "look at them one by one",
+      "throw them all away",
+      "take them to a shop",
+      "hide them from people"
+    ],
+    "answer": "look at them one by one",
+    "why": "\"Go through\" something means to look at or check each part of it carefully."
+  },
+  {
+    "topic": "go",
+    "context": "Noa is chatting with a colleague after a stressful month.",
+    "prompt": "Noa says: \"Sorry I've been so quiet. I'm **going through** a lot right now.\" What does it mean?",
+    "options": [
+      "I'm dealing with a difficult time",
+      "I'm traveling a lot these days",
+      "I'm spending a lot of money",
+      "I'm leaving my job soon"
+    ],
+    "answer": "I'm dealing with a difficult time",
+    "why": "\"Go through\" can mean to live through something hard or stressful."
+  },
+  {
+    "topic": "go",
+    "context": "Chris is talking about a party at his office.",
+    "prompt": "Chris says: \"Don't worry about the shirt. It will **go with** your jeans.\" What does it mean?",
+    "options": [
+      "it will look good with them",
+      "it will fit inside them",
+      "it will be sold with them",
+      "it will get dirty like them"
+    ],
+    "answer": "it will look good with them",
+    "why": "\"Go with\" means two things look good or match well together."
+  },
+  {
+    "topic": "go",
+    "context": "Rachel is giving advice to her younger brother.",
+    "prompt": "Rachel says: \"I know you're nervous, but just **go for it**!\" What does it mean?",
+    "options": [
+      "try it, don't be afraid",
+      "forget about it",
+      "wait a little longer",
+      "ask somebody else"
+    ],
+    "answer": "try it, don't be afraid",
+    "why": "\"Go for it\" means to try something and be brave about it."
+  },
+  {
+    "topic": "go",
+    "context": "Yossi is telling his roommate why he's leaving for a few minutes.",
+    "prompt": "We've run out of milk, so I need to ___ and buy some more from the shop.",
+    "options": [
+      "go out",
+      "go on",
+      "go with",
+      "go through"
+    ],
+    "answer": "go out",
+    "why": "\"Go out\" means leave the house or building, here to buy something."
+  },
+  {
+    "topic": "go",
+    "context": "Dana is talking about her weekend plans.",
+    "prompt": "I'm not sure yet, but I might ___ for the weekend with some friends, maybe to Eilat.",
+    "options": [
+      "go away",
+      "go on",
+      "go with",
+      "go through"
+    ],
+    "answer": "go away",
+    "why": "\"Go away\" means to leave home for a short trip or holiday."
+  },
+  {
+    "topic": "go",
+    "context": "Two coworkers are chatting at the office.",
+    "prompt": "What time does the meeting start? I need to ___ my notes before it begins.",
+    "options": [
+      "go over",
+      "go for",
+      "go with",
+      "go by"
+    ],
+    "answer": "go over",
+    "why": "\"Go over\" means to check or review something carefully."
+  },
+  {
+    "topic": "go",
+    "context": "Tom is talking about his plan to eat out tonight.",
+    "prompt": "Let's ___ for dinner tonight. I'm tired of cooking.",
+    "options": [
+      "go out",
+      "go off",
+      "go in",
+      "go on"
+    ],
+    "answer": "go out",
+    "why": "\"Go out\" means to leave home to eat, have fun or meet people."
+  },
+  {
+    "topic": "go",
+    "context": "Maya is telling a friend about her new apartment.",
+    "prompt": "Her mom said: \"Don't worry, the noise will ___ when the builders finish.\"",
+    "options": [
+      "go away",
+      "go off",
+      "go over",
+      "go with"
+    ],
+    "answer": "go away",
+    "why": "\"Go away\" here means to stop or disappear."
+  },
+  {
+    "topic": "go",
+    "context": "A friend asks Liam about his plans after work.",
+    "prompt": "I'd love to come, but I have to ___ the supermarket first.",
+    "options": [
+      "go by",
+      "go on",
+      "go off",
+      "go with"
+    ],
+    "answer": "go by",
+    "why": "\"Go by\" means to stop briefly at a place on the way."
+  },
+  {
+    "topic": "go",
+    "context": "Noa is telling a friend about her morning.",
+    "prompt": "The alarm on my phone ___ at 6 a.m., and I almost jumped out of bed.",
+    "options": [
+      "went off",
+      "went on",
+      "went out",
+      "went up"
+    ],
+    "answer": "went off",
+    "why": "\"Go off\" is what alarms and phones do when they ring."
+  },
+  {
+    "topic": "go",
+    "context": "Ben is describing a long meeting.",
+    "prompt": "Our manager kept talking and talking. He **went on** for almost two hours!",
+    "options": [
+      "He continued without stopping",
+      "He left the room early",
+      "He finished very quickly",
+      "He changed the subject"
+    ],
+    "answer": "He continued without stopping",
+    "why": "\"Go on\" means to continue, often for a long time."
+  },
+  {
+    "topic": "go",
+    "context": "Emma is telling a friend about her day.",
+    "prompt": "What does the sentence mean? \"The power **went out** during the storm, so we used candles.\"",
+    "options": [
+      "The electricity stopped working",
+      "The lights became brighter",
+      "The power was fixed",
+      "The house became colder"
+    ],
+    "answer": "The electricity stopped working",
+    "why": "\"Go out\" can mean a light or power stops working."
+  },
+  {
+    "topic": "go",
+    "context": "Omar is talking about prices at the store.",
+    "prompt": "What does the sentence mean? \"Prices have **gone up** a lot this year.\"",
+    "options": [
+      "They became higher",
+      "They became lower",
+      "They stayed the same",
+      "They were removed"
+    ],
+    "answer": "They became higher",
+    "why": "\"Go up\" means to increase."
+  },
+  {
+    "topic": "go",
+    "context": "Chloe is talking about her gym habit.",
+    "prompt": "What does the sentence mean? \"I really want to **go for** a run this morning.\"",
+    "options": [
+      "Go running",
+      "Stop running",
+      "Watch people run",
+      "Plan a race"
+    ],
+    "answer": "Go running",
+    "why": "To \"go for\" a run means to go running, often for fun or exercise."
+  },
+  {
+    "topic": "go",
+    "context": "Dana is talking about her new job.",
+    "prompt": "I was nervous at first, but the interview ___ really well.",
+    "options": [
+      "went",
+      "gone",
+      "went on",
+      "went out"
+    ],
+    "answer": "went",
+    "why": "\"Go well\" means something turns out well. Here it's past tense, so \"went\"."
+  },
+  {
+    "topic": "go",
+    "context": "Two friends are choosing a restaurant.",
+    "prompt": "I'm not in the mood for pizza. Let's ___ the Thai place instead.",
+    "options": [
+      "go for",
+      "go on",
+      "go with for",
+      "go to for"
+    ],
+    "answer": "go for",
+    "why": "\"Go for\" something means to choose it. Here it means picking the Thai place."
+  },
+  {
+    "topic": "go",
+    "context": "Tom is talking to his manager.",
+    "prompt": "Sorry I'm late. My alarm didn't ___ this morning.",
+    "options": [
+      "go off",
+      "go out",
+      "go away",
+      "go up"
+    ],
+    "answer": "go off",
+    "why": "An alarm \"goes off\" when it rings. That's the normal phrase."
+  },
+  {
+    "topic": "go",
+    "context": "Lena is at a party and it's getting late.",
+    "prompt": "We have to get up early tomorrow, so we should ___ soon.",
+    "options": [
+      "get going",
+      "get gone",
+      "go through",
+      "go over"
+    ],
+    "answer": "get going",
+    "why": "\"Get going\" is a casual way to say it's time to leave."
+  },
+  {
+    "topic": "go",
+    "context": "Mark is telling a coworker about a rough week.",
+    "prompt": "I'm really tired. I've ___ a lot of stress lately.",
+    "options": [
+      "gone through",
+      "gone over",
+      "gone off",
+      "gone along"
+    ],
+    "answer": "gone through",
+    "why": "\"Go through\" something means to live through a hard or stressful time."
+  },
+  {
+    "topic": "go",
+    "context": "Noa is talking about last night.",
+    "prompt": "We couldn't finish the movie. The power ___ out in the middle of it.",
+    "options": [
+      "went",
+      "goes",
+      "was going",
+      "has gone to"
+    ],
+    "answer": "went",
+    "why": "\"Go out\" can mean stop working, like lights or power. It happened in the past, so \"went\"."
+  },
+  {
+    "topic": "go",
+    "context": "Sam is telling a friend about work.",
+    "prompt": "Our boss said, \"Let's **go over** the plan again before the meeting.\" What does it mean?",
+    "options": [
+      "Check it carefully one more time",
+      "Leave the plan for later",
+      "Walk over to the meeting room",
+      "Change the plan completely"
+    ],
+    "answer": "Check it carefully one more time",
+    "why": "\"Go over\" something means to review or check it again."
+  },
+  {
+    "topic": "go",
+    "context": "Rita is checking the fridge.",
+    "prompt": "The milk smells strange. I think it **went off**. What does it mean?",
+    "options": [
+      "It became bad and not safe to use",
+      "It was taken out of the fridge",
+      "It got very cold in the fridge",
+      "It was finished by someone else"
+    ],
+    "answer": "It became bad and not safe to use",
+    "why": "Food or drink that \"goes off\" has gone bad. This is common British English."
+  },
+  {
+    "topic": "go",
+    "context": "Ben is telling a friend about his weekend.",
+    "prompt": "My brother said, \"Don't worry, I'll **go ahead** and book the tickets.\" What does it mean?",
+    "options": [
+      "Start doing it now without waiting",
+      "Walk to the ticket office first",
+      "Wait until you say it's okay",
+      "Check the price with someone else"
+    ],
+    "answer": "Start doing it now without waiting",
+    "why": "\"Go ahead\" means to start doing something now, often without waiting for anyone else."
+  },
+  {
+    "topic": "go",
+    "context": "Yael is on the phone with a friend.",
+    "prompt": "Sorry, I can't talk now. I have to ___ with my work, or I won't finish today.",
+    "options": [
+      "go off",
+      "go on",
+      "go in",
+      "carry out"
+    ],
+    "answer": "go on",
+    "why": "\"Go on\" means to continue doing something. Here it means she has to keep working."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "Dana is talking about her old phone.",
+    "prompt": "My old phone keeps turning off by itself. I think it's going to ___ soon.",
+    "options": [
+      "make up",
+      "break down",
+      "make out",
+      "give away"
+    ],
+    "answer": "break down",
+    "why": "\"Break down\" means a machine stops working."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "Two friends are talking about a quiz.",
+    "prompt": "I couldn't ___ what the teacher wrote on the board, so I just guessed.",
+    "options": [
+      "make out",
+      "break out",
+      "give in",
+      "make up"
+    ],
+    "answer": "make out",
+    "why": "\"Make out\" means to see or read something that is hard to see."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "Tom is chatting with his coworker about a long meeting.",
+    "prompt": "The boss kept going for two hours, so in the end we all ___ and went home.",
+    "options": [
+      "gave up",
+      "made up",
+      "broke up",
+      "gave out"
+    ],
+    "answer": "gave up",
+    "why": "\"Give up\" means to stop trying because something is too hard or boring."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "Noa is telling her friend about a fight with her sister.",
+    "prompt": "We argued all morning, but then we hugged and ___.",
+    "options": [
+      "made up",
+      "broke up",
+      "gave up",
+      "gave away"
+    ],
+    "answer": "made up",
+    "why": "\"Make up\" means to become friends again after an argument."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "Liam is stuck in traffic and calls his friend.",
+    "prompt": "Sorry, I'm late! My car ___ on the highway and I'm waiting for a tow truck.",
+    "options": [
+      "broke down",
+      "gave in",
+      "made up",
+      "broke in"
+    ],
+    "answer": "broke down",
+    "why": "\"Break down\" means a car or machine stops working."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "Ben is talking about music with a friend.",
+    "prompt": "My cousin's band **broke up** last year. What does \"broke up\" mean here?",
+    "options": [
+      "They stopped being a band",
+      "They started a new song",
+      "They played very loudly",
+      "They moved to a new city"
+    ],
+    "answer": "They stopped being a band",
+    "why": "\"Break up\" means to end a relationship or a group."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "Yael is cleaning out the closet with her mom.",
+    "prompt": "My brother's old clothes are too small now, so we're going to ___ them to charity.",
+    "options": [
+      "give away",
+      "give up",
+      "break out",
+      "make out"
+    ],
+    "answer": "give away",
+    "why": "\"Give away\" means to give something to someone for free."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "Omar is talking to a friend about a noisy night.",
+    "prompt": "Suddenly the whole room **burst out** laughing. Which one means the same as \"burst out\"?",
+    "options": [
+      "started suddenly",
+      "gave up slowly",
+      "made up quietly",
+      "broke down slowly"
+    ],
+    "answer": "started suddenly",
+    "why": "\"Burst out\" means to suddenly start doing something, like laughing."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "Eli is on a call with his mom.",
+    "prompt": "I didn't want to go to the party, but my friends kept asking, so I finally ___.",
+    "options": [
+      "gave in",
+      "broke in",
+      "gave out",
+      "gave away"
+    ],
+    "answer": "gave in",
+    "why": "\"Give in\" means to finally agree after someone keeps asking."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "Two coworkers are talking about a long project.",
+    "prompt": "This software is so hard to use. I'm going to ___ on it and ask for a different one.",
+    "options": [
+      "give up",
+      "give out",
+      "give away",
+      "give over"
+    ],
+    "answer": "give up",
+    "why": "\"Give up on\" something means stop trying because it's too hard or annoying."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "Dana is telling a friend about her morning.",
+    "prompt": "I was so late that I had to ___ a story about my cat.",
+    "options": [
+      "make up",
+      "make out",
+      "make over",
+      "make of"
+    ],
+    "answer": "make up",
+    "why": "\"Make up\" a story means invent something that isn't true."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "Two friends are in a car on the way to the beach.",
+    "prompt": "Sorry, the car ___ on the highway, so we're going to be late.",
+    "options": [
+      "broke down",
+      "broke off",
+      "broke out",
+      "broke up"
+    ],
+    "answer": "broke down",
+    "why": "\"Break down\" is what a car does when it suddenly stops working."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "A teacher is talking to her class before a test.",
+    "prompt": "I'm going to ___ the tests now. Take one and pass the rest back.",
+    "options": [
+      "give out",
+      "give in",
+      "give up",
+      "give off"
+    ],
+    "answer": "give out",
+    "why": "\"Give out\" means hand something to each person in a group."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "Tom is talking about his friends at a party.",
+    "prompt": "Ben said, \"I can't **make out** what you're saying, the music is too loud.\" What does **make out** mean here?",
+    "options": [
+      "to understand or hear clearly",
+      "to arrange a meeting place",
+      "to prepare a meal for guests",
+      "to turn the sound down"
+    ],
+    "answer": "to understand or hear clearly",
+    "why": "\"Can't make out\" means you can't hear or understand something clearly."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "Lena is calling her sister about their weekend plans.",
+    "prompt": "Our plans fell through, so we need to ___ for the missed trip with a nice dinner.",
+    "options": [
+      "make up",
+      "make for",
+      "make out",
+      "make in"
+    ],
+    "answer": "make up",
+    "why": "\"Make up for\" something means do something nice to fix a mistake or missed thing."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "A guy is chatting with a coworker in the office kitchen.",
+    "prompt": "My brother and his girlfriend **broke up** last week. What does **broke up** mean?",
+    "options": [
+      "ended their relationship",
+      "moved to a new city",
+      "had a big argument",
+      "got married quickly"
+    ],
+    "answer": "ended their relationship",
+    "why": "\"Break up\" means end a romantic relationship."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "Noa is at a cafe with a friend.",
+    "prompt": "Thanks for lending me your charger. I'll give it ___ tomorrow, I promise.",
+    "options": [
+      "back",
+      "out",
+      "off",
+      "in"
+    ],
+    "answer": "back",
+    "why": "\"Give back\" means return something to its owner."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "Max is helping his neighbor carry a heavy box.",
+    "prompt": "The box is old, so please be careful. The handle might ___ if you pull it too hard.",
+    "options": [
+      "break off",
+      "break out",
+      "break in",
+      "break up"
+    ],
+    "answer": "break off",
+    "why": "\"Break off\" means a part comes away from the main thing."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "Two friends are talking about their first day of school.",
+    "prompt": "Mia said, \"The school **gave out** free pencils to every kid.\" What does **gave out** mean?",
+    "options": [
+      "handed to many people",
+      "took back from people",
+      "sold to a few people",
+      "lost on the way home"
+    ],
+    "answer": "handed to many people",
+    "why": "\"Give out\" means hand something to a group of people."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "Two friends are talking about a tough exam.",
+    "prompt": "The questions were so hard that I almost ___ halfway through the test.",
+    "options": [
+      "gave up",
+      "gave back",
+      "gave off",
+      "gave away"
+    ],
+    "answer": "gave up",
+    "why": "\"Give up\" means to stop trying because something feels too hard."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "A coworker is telling you about her morning commute.",
+    "prompt": "The car ___ on the highway, so I was late for work.",
+    "options": [
+      "broke down",
+      "broke out",
+      "broke up",
+      "broke off"
+    ],
+    "answer": "broke down",
+    "why": "\"Break down\" means a vehicle or machine stops working."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "Two friends are talking on the phone.",
+    "prompt": "Sorry, I can't hear you very well. You keep ___.",
+    "options": [
+      "breaking up",
+      "breaking out",
+      "breaking down",
+      "breaking away"
+    ],
+    "answer": "breaking up",
+    "why": "On a phone call, \"break up\" means the sound cuts in and out because of a bad signal."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "A student is talking to a friend after class.",
+    "prompt": "Tom said he was late because of a flat tire, but I think he ___ that excuse.",
+    "options": [
+      "made up",
+      "made out",
+      "made for",
+      "made over"
+    ],
+    "answer": "made up",
+    "why": "\"Make up\" means to invent something, like a story or an excuse."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "Two siblings are talking about a fight they had yesterday.",
+    "prompt": "We argued all night, but this morning we ___ and had breakfast together.",
+    "options": [
+      "made up",
+      "broke out",
+      "gave away",
+      "broke down"
+    ],
+    "answer": "made up",
+    "why": "\"Make up\" also means to become friends again after a fight."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "A guy is asking his friend for directions at a busy street.",
+    "prompt": "What does the sentence mean? \"Hey, I can't **make out** what that sign says.\"",
+    "options": [
+      "I can't read or see it clearly",
+      "I can't take it down from the wall",
+      "I can't remember where I saw it",
+      "I can't agree with what it says"
+    ],
+    "answer": "I can't read or see it clearly",
+    "why": "\"Make out\" means to see, hear or understand something with difficulty."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "A teen is telling his mom about his phone.",
+    "prompt": "What does the sentence mean? \"My phone **gave out** right in the middle of the game.\"",
+    "options": [
+      "It suddenly stopped working",
+      "It started to ring loudly",
+      "It was taken away by someone",
+      "It got a new update"
+    ],
+    "answer": "It suddenly stopped working",
+    "why": "\"Give out\" means to stop working, often because it's old or the battery is low."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "A friend is telling you about a fun surprise at school.",
+    "prompt": "We wanted to hide the party, but Dan ___ the secret by mistake.",
+    "options": [
+      "gave away",
+      "made away",
+      "broke away",
+      "put away"
+    ],
+    "answer": "gave away",
+    "why": "To \"give away\" a secret means to tell it by accident."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "Dana is talking about her first marathon.",
+    "prompt": "I was so tired at kilometer 30 that I almost ___, but my sister kept me going.",
+    "options": [
+      "gave up",
+      "gave away",
+      "made up",
+      "broke up"
+    ],
+    "answer": "gave up",
+    "why": "\"Give up\" means stop trying. \"Give away\" is to hand something over for free, and the other two don't fit."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "Two coworkers are chatting about a bad phone line.",
+    "prompt": "Sorry, you're ___ — can you say that again?",
+    "options": [
+      "breaking up",
+      "making up",
+      "giving up",
+      "breaking down"
+    ],
+    "answer": "breaking up",
+    "why": "When a phone signal is bad and the voice cuts in and out, we say someone is \"breaking up\"."
+  },
+  {
+    "topic": "give-make-break",
+    "context": "Tom's friend is explaining why he was late again.",
+    "prompt": "Tom said: \"Come on, you're **making up** that story, aren't you?\" What does he mean?",
+    "options": [
+      "You're inventing a story that isn't true",
+      "You're fixing a story you told before",
+      "You're ending a story too early",
+      "You're telling a story very quietly"
+    ],
+    "answer": "You're inventing a story that isn't true",
+    "why": "\"Make up\" a story means to invent it, often to hide the truth or explain something."
+  },
+  {
+    "topic": "put",
+    "context": "Dana is complaining about her noisy neighbor.",
+    "prompt": "I can't ___ his loud music anymore. I'm going to talk to him.",
+    "options": [
+      "put up with",
+      "put on with",
+      "put away with",
+      "put out with"
+    ],
+    "answer": "put up with",
+    "why": "\"Put up with\" means to accept something annoying without complaining. The other options don't exist in English."
+  },
+  {
+    "topic": "put",
+    "context": "Tom and his friend are about to leave the house.",
+    "prompt": "It's getting cold. ___ a jacket before we go out.",
+    "options": [
+      "Put on",
+      "Put up",
+      "Put in",
+      "Put out"
+    ],
+    "answer": "Put on",
+    "why": "\"Put on\" means to start wearing a piece of clothing. It is the normal phrase for getting dressed."
+  },
+  {
+    "topic": "put",
+    "context": "Lior's coworker is explaining why the meeting changed.",
+    "prompt": "The manager said: \"We need to **put off** the meeting until next week.\" What does \"put off\" mean?",
+    "options": [
+      "Move it to a later time",
+      "Cancel it forever",
+      "Make it shorter",
+      "Start it earlier"
+    ],
+    "answer": "Move it to a later time",
+    "why": "\"Put off\" means to delay something until a later time, not to cancel it."
+  }
+]

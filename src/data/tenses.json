@@ -1,0 +1,3226 @@
+[
+  {
+    "topic": "conditionals",
+    "context": "Dana is checking the weather before a weekend trip.",
+    "prompt": "If it ___ tomorrow, we'll cancel the picnic and stay home.",
+    "options": [
+      "will rain",
+      "rains",
+      "would rain",
+      "rained"
+    ],
+    "answer": "rains",
+    "why": "First conditional: use the present simple after 'if' for a real possibility in the future, and 'will' in the other part."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Tom is dreaming about a different life.",
+    "prompt": "If I ___ a million dollars right now, I ___ a house by the beach.",
+    "options": [
+      "will have / will buy",
+      "had / would buy",
+      "have / would buy",
+      "would have / bought"
+    ],
+    "answer": "had / would buy",
+    "why": "Second conditional: an unreal situation now uses past simple after 'if' and 'would' in the result."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Noa missed her friend's birthday party last night.",
+    "prompt": "If I ___ about the party, I ___ there on time.",
+    "options": [
+      "knew / would be",
+      "would know / was",
+      "had known / would have been",
+      "have known / will be"
+    ],
+    "answer": "had known / would have been",
+    "why": "Third conditional: a past situation that did not happen uses past perfect after 'if' and 'would have' in the result."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Lisa is talking to her coworker about a deadline this week.",
+    "prompt": "If you ___ me the file by noon, I'll send it to the client today.",
+    "options": [
+      "will give",
+      "gave",
+      "would give",
+      "give"
+    ],
+    "answer": "give",
+    "why": "First conditional: a real future possibility uses the present simple after 'if', and 'will' in the result."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Yossi missed his flight yesterday because of heavy traffic.",
+    "prompt": "If we ___ earlier, we ___ the flight.",
+    "options": [
+      "left / would catch",
+      "had left / would have caught",
+      "would leave / had caught",
+      "leave / will catch"
+    ],
+    "answer": "had left / would have caught",
+    "why": "Third conditional: this is about a past event that can't change, so use past perfect and 'would have'."
+  },
+  {
+    "topic": "present",
+    "context": "Maya is calling her friend from the train.",
+    "prompt": "Sorry, I can't talk long. I ___ to work right now.",
+    "options": [
+      "go",
+      "am going",
+      "am go",
+      "go now"
+    ],
+    "answer": "am going",
+    "why": "\"Right now\" means it's happening at this moment, so we use the present continuous."
+  },
+  {
+    "topic": "present",
+    "context": "Dan is telling a new coworker about his weekly routine.",
+    "prompt": "I usually ___ the gym on Tuesday evenings.",
+    "options": [
+      "am going to",
+      "go to",
+      "am going",
+      "going to"
+    ],
+    "answer": "go to",
+    "why": "\"Usually\" and a weekly habit need the present simple. 'Go' is followed by 'to' here."
+  },
+  {
+    "topic": "present",
+    "context": "Lena is texting her sister while watching a show.",
+    "prompt": "Don't call me now. I ___ my favorite show.",
+    "options": [
+      "watch",
+      "am watch",
+      "am watching",
+      "watching am"
+    ],
+    "answer": "am watching",
+    "why": "She is watching it at this moment, so we use the present continuous."
+  },
+  {
+    "topic": "present",
+    "context": "Tom is chatting with a friend about his family.",
+    "prompt": "My brother usually ___ from nine to five, Monday to Friday.",
+    "options": [
+      "is working",
+      "working",
+      "work",
+      "works"
+    ],
+    "answer": "works",
+    "why": "\"Usually\" and a regular schedule need the present simple. With 'he' we add -s: 'works'."
+  },
+  {
+    "topic": "present",
+    "context": "Sam is talking about the weather from his window.",
+    "prompt": "Look outside! It ___ really hard, so take an umbrella.",
+    "options": [
+      "rains",
+      "is raining",
+      "rain",
+      "does rain"
+    ],
+    "answer": "is raining",
+    "why": "\"Look outside\" shows it's happening now, so we use the present continuous."
+  },
+  {
+    "topic": "present",
+    "context": "Nora is explaining her morning habits to a roommate.",
+    "prompt": "I never ___ coffee before eight o'clock.",
+    "options": [
+      "am drinking",
+      "drinking",
+      "drink",
+      "do drinking"
+    ],
+    "answer": "drink",
+    "why": "\"Never\" shows a habit, so we use the present simple."
+  },
+  {
+    "topic": "present",
+    "context": "Jake is on the phone with his mom.",
+    "prompt": "Hi Mom, I can't hear you well because we ___ dinner at a loud place.",
+    "options": [
+      "are having",
+      "have",
+      "having",
+      "are have"
+    ],
+    "answer": "are having",
+    "why": "Here 'have' means 'eat', and it's happening right now, so we use the present continuous."
+  },
+  {
+    "topic": "present",
+    "context": "Ella is asking a classmate about a trip.",
+    "prompt": "What time ___ the bus to the airport leave?",
+    "options": [
+      "is",
+      "does",
+      "is it",
+      "do"
+    ],
+    "answer": "does",
+    "why": "A bus schedule is a fixed fact, so we use the present simple. Questions use 'does'."
+  },
+  {
+    "topic": "present",
+    "context": "Omar is talking about his sister, who is studying abroad this year.",
+    "prompt": "My sister ___ with a friend in London this semester, so we only talk online.",
+    "options": [
+      "stays",
+      "is staying",
+      "stay",
+      "does staying"
+    ],
+    "answer": "is staying",
+    "why": "\"This semester\" shows a temporary situation, so we use the present continuous."
+  },
+  {
+    "topic": "present",
+    "context": "Ruth and a friend are ordering food together.",
+    "prompt": "I ___ spicy food, so please don't put chili in mine.",
+    "options": [
+      "am not liking",
+      "don't like",
+      "not like",
+      "doesn't like"
+    ],
+    "answer": "don't like",
+    "why": "'Like' describes a feeling, not an action, so we use the present simple with 'I'."
+  },
+  {
+    "topic": "present",
+    "context": "Maya is on the phone with her sister.",
+    "prompt": "Sorry, I can't talk right now. I ___ dinner for the kids.",
+    "options": [
+      "make",
+      "am making",
+      "makes",
+      "do make"
+    ],
+    "answer": "am making",
+    "why": "It's happening right now, so we use the present continuous."
+  },
+  {
+    "topic": "present",
+    "context": "Two coworkers are chatting at lunch.",
+    "prompt": "Dan ___ to work by bike every day, even when it rains.",
+    "options": [
+      "is riding",
+      "ride",
+      "rides",
+      "is ride"
+    ],
+    "answer": "rides",
+    "why": "\"Every day\" is a habit, so we use present simple. With Dan, add -s."
+  },
+  {
+    "topic": "present",
+    "context": "Noa is calling her friend from the train.",
+    "prompt": "Hi! I ___ at the station now. Where are you?",
+    "options": [
+      "am standing",
+      "stand",
+      "stands",
+      "am stand"
+    ],
+    "answer": "am standing",
+    "why": "\"Now\" means this moment, so we use present continuous."
+  },
+  {
+    "topic": "present",
+    "context": "A student is talking about her class schedule.",
+    "prompt": "My English class ___ at 6 p.m. on Tuesdays.",
+    "options": [
+      "is starting",
+      "start",
+      "starts",
+      "does starts"
+    ],
+    "answer": "starts",
+    "why": "A regular schedule uses present simple. \"Class\" is singular, so add -s."
+  },
+  {
+    "topic": "present",
+    "context": "Tom is telling his friend about his new roommate.",
+    "prompt": "Sam is a night owl. He usually ___ to bed after 2 a.m.",
+    "options": [
+      "is going",
+      "goes",
+      "go",
+      "is go"
+    ],
+    "answer": "goes",
+    "why": "\"Usually\" shows a habit, so we use present simple."
+  },
+  {
+    "topic": "present",
+    "context": "A mom is looking out the window.",
+    "prompt": "Look! It ___ outside, so take an umbrella.",
+    "options": [
+      "rains",
+      "is raining",
+      "rain",
+      "does rain"
+    ],
+    "answer": "is raining",
+    "why": "\"Look!\" points to something happening right now, so we use present continuous."
+  },
+  {
+    "topic": "present",
+    "context": "Lena is asking a friend about his job.",
+    "prompt": "What ___ for a living, Omar?",
+    "options": [
+      "does you do",
+      "do you do",
+      "you do",
+      "do you doing"
+    ],
+    "answer": "do you do",
+    "why": "This question asks about your regular job, so we use present simple."
+  },
+  {
+    "topic": "present",
+    "context": "Ben is explaining why his cousin is at his place.",
+    "prompt": "My cousin ___ with us this month because his flat is being painted.",
+    "options": [
+      "stays",
+      "is staying",
+      "stay",
+      "does stay"
+    ],
+    "answer": "is staying",
+    "why": "It's a temporary situation for this month, so we use present continuous."
+  },
+  {
+    "topic": "present",
+    "context": "Two friends are talking about their favorite snacks.",
+    "prompt": "I ___ spicy food. It's just too hot for me.",
+    "options": [
+      "am not liking",
+      "don't like",
+      "not like",
+      "doesn't like"
+    ],
+    "answer": "don't like",
+    "why": "\"Like\" is a feeling verb, so we use present simple, even about now."
+  },
+  {
+    "topic": "present",
+    "context": "Rita is chatting with her friend on a video call.",
+    "prompt": "Hey, it's 2 a.m.! What ___ up so late?",
+    "options": [
+      "do you do",
+      "are you doing",
+      "you are doing",
+      "does you do"
+    ],
+    "answer": "are you doing",
+    "why": "We're asking about what's happening right now, so we use present continuous."
+  },
+  {
+    "topic": "present",
+    "context": "Maya is texting her friend from the office.",
+    "prompt": "I can't talk right now, I ___ on an important report.",
+    "options": [
+      "work",
+      "am working",
+      "worked",
+      "am work"
+    ],
+    "answer": "am working",
+    "why": "She is working on it right now, so we use the present continuous."
+  },
+  {
+    "topic": "present",
+    "context": "Dan is telling a new coworker about his weekend habits.",
+    "prompt": "I usually ___ to the gym on Saturday mornings.",
+    "options": [
+      "am going",
+      "go",
+      "am go",
+      "going"
+    ],
+    "answer": "go",
+    "why": "'Usually' shows a regular habit, so we use the present simple."
+  },
+  {
+    "topic": "present",
+    "context": "Noa is calling her mom from a busy street.",
+    "prompt": "Sorry, it's really loud here. I ___ for the bus right now.",
+    "options": [
+      "wait",
+      "am waiting",
+      "waiting",
+      "waits"
+    ],
+    "answer": "am waiting",
+    "why": "'Right now' means it's happening at this moment, so we use the present continuous."
+  },
+  {
+    "topic": "present",
+    "context": "Tom is chatting with a friend about his sister.",
+    "prompt": "My sister ___ in London, but she's just here for a visit this week.",
+    "options": [
+      "living",
+      "lives",
+      "live",
+      "is live"
+    ],
+    "answer": "lives",
+    "why": "Her home is in London, which is a permanent fact, so we use the present simple."
+  },
+  {
+    "topic": "present",
+    "context": "Lior is talking to the kids in the living room.",
+    "prompt": "Please be quiet, the baby ___ and I don't want to wake him up.",
+    "options": [
+      "sleeps",
+      "is sleeping",
+      "sleep",
+      "sleeping"
+    ],
+    "answer": "is sleeping",
+    "why": "The baby is asleep at this moment, so we use the present continuous."
+  },
+  {
+    "topic": "present",
+    "context": "Emma is explaining her morning routine to a friend.",
+    "prompt": "I always ___ coffee before I leave for work.",
+    "options": [
+      "am drinking",
+      "drink",
+      "drinking",
+      "am drink"
+    ],
+    "answer": "drink",
+    "why": "'Always' shows a routine, so we use the present simple."
+  },
+  {
+    "topic": "present",
+    "context": "Yossi is talking about his job this month.",
+    "prompt": "This month I ___ from home because the office is being fixed.",
+    "options": [
+      "work",
+      "am working",
+      "works",
+      "am work"
+    ],
+    "answer": "am working",
+    "why": "This is a temporary situation, so we use the present continuous."
+  },
+  {
+    "topic": "present",
+    "context": "Sarah's friend is telling her about the weather in his city.",
+    "prompt": "It ___ a lot in Seattle in the winter.",
+    "options": [
+      "is raining",
+      "rains",
+      "rain",
+      "raining"
+    ],
+    "answer": "rains",
+    "why": "This is a general fact about the place, so we use the present simple."
+  },
+  {
+    "topic": "present",
+    "context": "Amit is talking to his friend at a café.",
+    "prompt": "Look, Jake ___ a new jacket today. It looks great!",
+    "options": [
+      "wears",
+      "is wearing",
+      "wear",
+      "does wear"
+    ],
+    "answer": "is wearing",
+    "why": "'Today' and 'look' point to what is happening now, so we use the present continuous."
+  },
+  {
+    "topic": "present",
+    "context": "Rachel is chatting with a new friend about food.",
+    "prompt": "I ___ spicy food, so please don't put any on my plate.",
+    "options": [
+      "am not liking",
+      "don't like",
+      "not like",
+      "doesn't like"
+    ],
+    "answer": "don't like",
+    "why": "'Like' describes a feeling, not an action, so we use the present simple."
+  },
+  {
+    "topic": "perfect",
+    "context": "Maya is telling a friend about her trip.",
+    "prompt": "We ___ to Lisbon last summer, and it was amazing.",
+    "options": [
+      "went",
+      "have gone",
+      "were going",
+      "have been going"
+    ],
+    "answer": "went",
+    "why": "\"Last summer\" is a finished time in the past, so we use the past simple."
+  },
+  {
+    "topic": "perfect",
+    "context": "Two coworkers are talking about a new show.",
+    "prompt": "I ___ three episodes so far, and it's really good.",
+    "options": [
+      "watched",
+      "have watched",
+      "was watching",
+      "am watching"
+    ],
+    "answer": "have watched",
+    "why": "\"So far\" connects the past to now, so we use the present perfect."
+  },
+  {
+    "topic": "perfect",
+    "context": "Dan is looking for his phone.",
+    "prompt": "I can't find my phone. I think I ___ it at the gym yesterday.",
+    "options": [
+      "have left",
+      "left",
+      "am leaving",
+      "have been leaving"
+    ],
+    "answer": "left",
+    "why": "\"Yesterday\" is a finished time in the past, so we use the past simple."
+  },
+  {
+    "topic": "perfect",
+    "context": "A teacher is chatting with a new student.",
+    "prompt": "How long ___ English?",
+    "options": [
+      "did you study",
+      "have you been studying",
+      "do you study",
+      "were you studying"
+    ],
+    "answer": "have you been studying",
+    "why": "The studying started in the past and still goes on now, so we use the present perfect."
+  },
+  {
+    "topic": "perfect",
+    "context": "Noa is talking about her old school.",
+    "prompt": "I ___ my best friend when I was ten.",
+    "options": [
+      "have met",
+      "met",
+      "was meeting",
+      "have been meeting"
+    ],
+    "answer": "met",
+    "why": "\"When I was ten\" is a finished time in the past, so we use the past simple."
+  },
+  {
+    "topic": "perfect",
+    "context": "Tom is calling his mom from the airport.",
+    "prompt": "Hi Mom, we just ___ and everything is fine.",
+    "options": [
+      "landing",
+      "were landing",
+      "have landed",
+      "land"
+    ],
+    "answer": "have landed",
+    "why": "\"Just\" shows a very recent action with a result now, so we use the present perfect."
+  },
+  {
+    "topic": "perfect",
+    "context": "Two friends are talking about a movie.",
+    "prompt": "I ___ that movie yesterday, and honestly it was boring.",
+    "options": [
+      "have seen",
+      "saw",
+      "have been seeing",
+      "see"
+    ],
+    "answer": "saw",
+    "why": "\"Yesterday\" is a finished time, so we use the past simple."
+  },
+  {
+    "topic": "perfect",
+    "context": "Lena is talking to a new neighbor.",
+    "prompt": "I ___ in this building for five years, and I love it.",
+    "options": [
+      "lived",
+      "have lived",
+      "did live",
+      "am living"
+    ],
+    "answer": "have lived",
+    "why": "She still lives there now, so we use the present perfect with \"for five years\"."
+  },
+  {
+    "topic": "perfect",
+    "context": "A friend asks Omar about his weekend.",
+    "prompt": "I ___ pizza with my cousins on Saturday night.",
+    "options": [
+      "have eaten",
+      "ate",
+      "have been eating",
+      "was eaten"
+    ],
+    "answer": "ate",
+    "why": "\"On Saturday night\" is a specific finished time, so we use the past simple."
+  },
+  {
+    "topic": "perfect",
+    "context": "Chris is talking about his life experience.",
+    "prompt": "I ___ to Japan twice, but I'd love to go again.",
+    "options": [
+      "go",
+      "have been",
+      "was going",
+      "been"
+    ],
+    "answer": "have been",
+    "why": "We talk about life experience with no exact time, so we use the present perfect."
+  },
+  {
+    "topic": "perfect",
+    "context": "Sara is telling a friend about her trip to Rome last summer.",
+    "prompt": "We ___ the Colosseum on our second day.",
+    "options": [
+      "visited",
+      "have visited",
+      "have been visiting",
+      "had been visiting"
+    ],
+    "answer": "visited",
+    "why": "The trip was in the past and finished, with a clear time (last summer, second day), so use the past simple."
+  },
+  {
+    "topic": "perfect",
+    "context": "Dan is texting a coworker.",
+    "prompt": "I ___ my phone, so I can't call you right now.",
+    "options": [
+      "have lost",
+      "lose",
+      "was losing",
+      "am losing"
+    ],
+    "answer": "have lost",
+    "why": "The loss matters now: Dan still doesn't have the phone. Present perfect connects the past action to the present."
+  },
+  {
+    "topic": "perfect",
+    "context": "Two friends are chatting about a movie.",
+    "prompt": "Have you seen the new Marvel movie yet? I ___ it last weekend and loved it.",
+    "options": [
+      "have seen",
+      "saw",
+      "have been seeing",
+      "was seeing"
+    ],
+    "answer": "saw",
+    "why": "'Last weekend' is a finished time in the past, so we use the past simple, not present perfect."
+  },
+  {
+    "topic": "perfect",
+    "context": "Noa is applying for a job and talking about her experience.",
+    "prompt": "I ___ in marketing for six years, and I still love it.",
+    "options": [
+      "worked",
+      "was working",
+      "have worked",
+      "did work"
+    ],
+    "answer": "have worked",
+    "why": "She still works in marketing now. For something that started in the past and continues, use present perfect."
+  },
+  {
+    "topic": "perfect",
+    "context": "Mike is calling his sister from the train station.",
+    "prompt": "Sorry I'm late! My train ___ ten minutes ago, and I had to wait for the next one.",
+    "options": [
+      "has left",
+      "left",
+      "has been leaving",
+      "leaves"
+    ],
+    "answer": "left",
+    "why": "'Ten minutes ago' points to a specific past moment, so use the past simple."
+  },
+  {
+    "topic": "perfect",
+    "context": "Lena is chatting with a new neighbor.",
+    "prompt": "I ___ in this building since 2019, so I know everyone here.",
+    "options": [
+      "live",
+      "lived",
+      "am living",
+      "have lived"
+    ],
+    "answer": "have lived",
+    "why": "'Since 2019' means from then until now. Use present perfect for a situation that started in the past and is still true."
+  },
+  {
+    "topic": "perfect",
+    "context": "Tom is asking his friend about food.",
+    "prompt": "___ sushi before, or is this your first time?",
+    "options": [
+      "Do you ever eat",
+      "Have you ever eaten",
+      "Are you ever eating",
+      "Were you ever eating"
+    ],
+    "answer": "Have you ever eaten",
+    "why": "The question is about any time in your life up to now, so use present perfect with 'ever'."
+  },
+  {
+    "topic": "perfect",
+    "context": "Yossi is talking about his last holiday.",
+    "prompt": "Last year we ___ to Greece, and the beaches were amazing.",
+    "options": [
+      "have gone",
+      "have been going",
+      "went",
+      "were going"
+    ],
+    "answer": "went",
+    "why": "'Last year' is a finished time period, so we need the past simple."
+  },
+  {
+    "topic": "perfect",
+    "context": "Emma is texting her mom while cooking.",
+    "prompt": "I ___ cooking yet, so we can eat in about twenty minutes.",
+    "options": [
+      "don't finish",
+      "haven't finished",
+      "am not finishing",
+      "wasn't finishing"
+    ],
+    "answer": "haven't finished",
+    "why": "'Yet' is used with present perfect for something that hasn't happened up to now but is expected soon."
+  },
+  {
+    "topic": "perfect",
+    "context": "Ben is talking to a friend about a famous singer.",
+    "prompt": "She ___ her first album in 2015, and she has made five more since then.",
+    "options": [
+      "has released",
+      "has been releasing",
+      "was releasing",
+      "released"
+    ],
+    "answer": "released",
+    "why": "'In 2015' is a finished time, so use the past simple. Present perfect doesn't go with a finished time like 'in 2015'."
+  },
+  {
+    "topic": "perfect",
+    "context": "Dana is telling a friend about her weekend.",
+    "prompt": "We ___ to the beach last Saturday, and it was packed.",
+    "options": [
+      "went",
+      "have gone",
+      "have been going",
+      "had been going"
+    ],
+    "answer": "went",
+    "why": "\"Last Saturday\" is a finished time in the past, so we use the past simple."
+  },
+  {
+    "topic": "perfect",
+    "context": "Two coworkers are chatting at the office.",
+    "prompt": "I ___ my keys, so I can't open the door.",
+    "options": [
+      "have lost",
+      "was losing",
+      "am losing",
+      "had lost"
+    ],
+    "answer": "have lost",
+    "why": "The loss still matters now (I can't get in), so we use the present perfect."
+  },
+  {
+    "topic": "perfect",
+    "context": "Tom is talking about his friend's travels.",
+    "prompt": "Sarah ___ to Italy three times so far.",
+    "options": [
+      "has been",
+      "was",
+      "went",
+      "is going"
+    ],
+    "answer": "has been",
+    "why": "\"So far\" means up to now, so we use the present perfect."
+  },
+  {
+    "topic": "perfect",
+    "context": "A friend asks about your new phone.",
+    "prompt": "I ___ it two weeks ago, and I love it.",
+    "options": [
+      "bought",
+      "have bought",
+      "have been buying",
+      "buy"
+    ],
+    "answer": "bought",
+    "why": "\"Two weeks ago\" is a finished time, so we use the past simple."
+  },
+  {
+    "topic": "perfect",
+    "context": "Two friends are waiting for a third at a cafe.",
+    "prompt": "Mike still ___ here, and we've been waiting for an hour.",
+    "options": [
+      "hasn't arrived",
+      "didn't arrive",
+      "doesn't arrive",
+      "wasn't arriving"
+    ],
+    "answer": "hasn't arrived",
+    "why": "\"Still\" and \"for an hour\" connect the past to now, so we use the present perfect."
+  },
+  {
+    "topic": "perfect",
+    "context": "Lena is chatting with a classmate about a film.",
+    "prompt": "I ___ that movie in 2019, and I loved it.",
+    "options": [
+      "saw",
+      "have seen",
+      "have been seeing",
+      "see"
+    ],
+    "answer": "saw",
+    "why": "\"In 2019\" is a specific finished year, so we use the past simple."
+  },
+  {
+    "topic": "perfect",
+    "context": "A manager is checking on the team's progress.",
+    "prompt": "We ___ the report yet, but we'll send it soon.",
+    "options": [
+      "haven't finished",
+      "didn't finished",
+      "don't finish",
+      "weren't finishing"
+    ],
+    "answer": "haven't finished",
+    "why": "\"Yet\" means up to now, so we use the present perfect."
+  },
+  {
+    "topic": "perfect",
+    "context": "Omar is talking about his new job.",
+    "prompt": "I ___ here since March, and I really like it.",
+    "options": [
+      "have worked",
+      "worked",
+      "am working",
+      "work"
+    ],
+    "answer": "have worked",
+    "why": "\"Since March\" starts in the past and continues now, so we use the present perfect."
+  },
+  {
+    "topic": "perfect",
+    "context": "Two neighbors are chatting in the street.",
+    "prompt": "When ___ to this neighborhood?",
+    "options": [
+      "did you move",
+      "have you moved",
+      "have you been moving",
+      "are you moving"
+    ],
+    "answer": "did you move",
+    "why": "\"When\" asks about a specific past time, so we use the past simple."
+  },
+  {
+    "topic": "perfect",
+    "context": "A friend walks in with a new haircut.",
+    "prompt": "Wow, you ___ your hair! It looks great.",
+    "options": [
+      "have cut",
+      "are cutting",
+      "were cutting",
+      "had cut"
+    ],
+    "answer": "have cut",
+    "why": "We see the result now, with no finished time given, so we use the present perfect."
+  },
+  {
+    "topic": "past",
+    "context": "Ben is telling a friend about a phone call.",
+    "prompt": "When I called Dana last night, she ___ dinner, so she couldn't talk long.",
+    "options": [
+      "was cooking",
+      "had cooked",
+      "has been cooking",
+      "cooked"
+    ],
+    "answer": "was cooking",
+    "why": "The cooking was in progress when I called. Past continuous shows an action that was happening at that moment."
+  },
+  {
+    "topic": "past",
+    "context": "Maya got to the station on Monday morning.",
+    "prompt": "By the time Maya got to the station, the train ___ .",
+    "options": [
+      "had already left",
+      "has already left",
+      "will already leave",
+      "is already leaving"
+    ],
+    "answer": "had already left",
+    "why": "The train left before she arrived. Past perfect shows the earlier of two past events."
+  },
+  {
+    "topic": "past",
+    "context": "Two friends are talking about a bad day.",
+    "prompt": "I ___ to work when my car suddenly stopped.",
+    "options": [
+      "was driving",
+      "had driven",
+      "drove",
+      "have driven"
+    ],
+    "answer": "was driving",
+    "why": "The driving was in progress when something else interrupted it. Past continuous fits an interrupted action."
+  },
+  {
+    "topic": "past",
+    "context": "Tom is explaining why he was late to the meeting.",
+    "prompt": "I was late because I ___ my phone at home and had to go back.",
+    "options": [
+      "had left",
+      "was leaving",
+      "have left",
+      "leave"
+    ],
+    "answer": "had left",
+    "why": "Leaving the phone happened before I was late. Past perfect shows the earlier event in the story."
+  },
+  {
+    "topic": "past",
+    "context": "Lena is telling a friend about her evening at home.",
+    "prompt": "While Lena ___ to music, her neighbors ___ loudly in the hallway.",
+    "options": [
+      "was listening / were talking",
+      "had listened / had talked",
+      "has listened / talked",
+      "was listening / had talked"
+    ],
+    "answer": "was listening / were talking",
+    "why": "Both actions were happening at the same time, so both use past continuous."
+  },
+  {
+    "topic": "past",
+    "context": "Sam is telling a friend about a trip to London.",
+    "prompt": "I felt really relaxed in London because I ___ there before.",
+    "options": [
+      "had been",
+      "was being",
+      "have been",
+      "go"
+    ],
+    "answer": "had been",
+    "why": "The earlier visit happened before the London trip I'm describing. Past perfect marks that earlier time."
+  },
+  {
+    "topic": "past",
+    "context": "Noa is describing what she saw out the window.",
+    "prompt": "At 8 o'clock yesterday evening, it ___ heavily, so we stayed in.",
+    "options": [
+      "was raining",
+      "had rained",
+      "rains",
+      "has been raining"
+    ],
+    "answer": "was raining",
+    "why": "At a specific moment in the past, the rain was in progress. Past continuous describes that scene."
+  },
+  {
+    "topic": "past",
+    "context": "Chris is talking about a movie night.",
+    "prompt": "When we got to the cinema, the movie ___ already ___ .",
+    "options": [
+      "had / started",
+      "is / starting",
+      "has / started",
+      "did / start"
+    ],
+    "answer": "had / started",
+    "why": "The movie started before we arrived. Past perfect shows what was already finished first."
+  },
+  {
+    "topic": "past",
+    "context": "Yael is telling a story about her morning.",
+    "prompt": "I ___ a shower when the doorbell rang, so I didn't hear it at first.",
+    "options": [
+      "was taking",
+      "had taken",
+      "have taken",
+      "took"
+    ],
+    "answer": "was taking",
+    "why": "The shower was in progress when the doorbell interrupted it. Past continuous fits that."
+  },
+  {
+    "topic": "past",
+    "context": "Alex is talking about a surprise at work.",
+    "prompt": "I didn't recognize Kyle because he ___ a lot of weight since I last saw him.",
+    "options": [
+      "had lost",
+      "was losing",
+      "loses",
+      "has lost"
+    ],
+    "answer": "had lost",
+    "why": "The change happened before I saw him again. Past perfect shows the earlier event that explains the surprise."
+  },
+  {
+    "topic": "past",
+    "context": "Nina called you at 8 p.m. last night.",
+    "prompt": "When Nina called, I ___ dinner, so I couldn't talk for long.",
+    "options": [
+      "was cooking",
+      "had cooked",
+      "cooked",
+      "have been cooking"
+    ],
+    "answer": "was cooking",
+    "why": "The cooking was in progress when the call came, so we use the past continuous."
+  },
+  {
+    "topic": "past",
+    "context": "You arrived at the train station in Leeds.",
+    "prompt": "When I got to the station, the train ___ already.",
+    "options": [
+      "had left",
+      "is leaving",
+      "has left",
+      "leaves"
+    ],
+    "answer": "had left",
+    "why": "The train left before I arrived, so we use the past perfect for the earlier action."
+  },
+  {
+    "topic": "past",
+    "context": "Tom's friends came over unexpectedly.",
+    "prompt": "Tom was embarrassed because he ___ the apartment yet.",
+    "options": [
+      "hadn't cleaned",
+      "wasn't cleaning",
+      "didn't have cleaned",
+      "hasn't cleaned"
+    ],
+    "answer": "hadn't cleaned",
+    "why": "The cleaning should have happened before the friends arrived, so we use the past perfect."
+  },
+  {
+    "topic": "past",
+    "context": "Yael remembers a long bus ride in Spain.",
+    "prompt": "At noon yesterday, we ___ through the mountains on a bus.",
+    "options": [
+      "were traveling",
+      "had traveled",
+      "traveled",
+      "have traveled"
+    ],
+    "answer": "were traveling",
+    "why": "At noon, the trip was still going on, so we use the past continuous."
+  },
+  {
+    "topic": "past",
+    "context": "Liam finally found his keys.",
+    "prompt": "I looked everywhere, but I ___ them in my jacket pocket the whole time.",
+    "options": [
+      "had left",
+      "was leaving",
+      "have left",
+      "leave"
+    ],
+    "answer": "had left",
+    "why": "Leaving the keys happened before the looking, so we use the past perfect."
+  },
+  {
+    "topic": "past",
+    "context": "Sara is telling a friend about last night.",
+    "prompt": "I ___ a show when the lights suddenly went out.",
+    "options": [
+      "was watching",
+      "had watched",
+      "have watched",
+      "watch"
+    ],
+    "answer": "was watching",
+    "why": "The show was in progress when the lights went out, so we use the past continuous."
+  },
+  {
+    "topic": "past",
+    "context": "Omar got a job offer from a company in Berlin.",
+    "prompt": "He was nervous at the interview because he ___ one before.",
+    "options": [
+      "had never done",
+      "was never doing",
+      "has never done",
+      "never does"
+    ],
+    "answer": "had never done",
+    "why": "The lack of experience came before the interview, so we use the past perfect."
+  },
+  {
+    "topic": "past",
+    "context": "Rita ran into an old friend at the mall.",
+    "prompt": "Rita ___ for shoes when she bumped into her old classmate.",
+    "options": [
+      "was looking",
+      "had looked",
+      "has looked",
+      "looks"
+    ],
+    "answer": "was looking",
+    "why": "She was in the middle of shopping when the meeting happened, so we use the past continuous."
+  },
+  {
+    "topic": "past",
+    "context": "Maya called you at 8 p.m. last night.",
+    "prompt": "When Maya called, I ___ dinner, so I couldn't talk for long.",
+    "options": [
+      "was cooking",
+      "had cooked",
+      "cooked",
+      "have been cooking"
+    ],
+    "answer": "was cooking",
+    "why": "The cooking was in progress at the moment she called, so we use past continuous."
+  },
+  {
+    "topic": "past",
+    "context": "Dan got to the station and looked at the board.",
+    "prompt": "By the time Dan got to the station, his train ___ .",
+    "options": [
+      "had already left",
+      "is already leaving",
+      "already leaves",
+      "has already left"
+    ],
+    "answer": "had already left",
+    "why": "The train left before he arrived. The earlier action uses past perfect."
+  },
+  {
+    "topic": "past",
+    "context": "Talking about a rainy walk home yesterday.",
+    "prompt": "I ___ home when it started to rain.",
+    "options": [
+      "was walking",
+      "had walked",
+      "have walked",
+      "am walking"
+    ],
+    "answer": "was walking",
+    "why": "The walk was in progress when the rain started, so we use past continuous."
+  },
+  {
+    "topic": "past",
+    "context": "Lina came home last week and was surprised.",
+    "prompt": "By the time Lina got home, her roommates ___ the whole place, and it was spotless.",
+    "options": [
+      "had cleaned",
+      "were cleaning",
+      "have cleaned",
+      "clean"
+    ],
+    "answer": "had cleaned",
+    "why": "The cleaning was finished before she got home, so we use past perfect."
+  },
+  {
+    "topic": "past",
+    "context": "Tom is telling a friend why he missed the call.",
+    "prompt": "I didn't hear my phone because I ___ to music with headphones on.",
+    "options": [
+      "was listening",
+      "had listened",
+      "listened",
+      "have listened"
+    ],
+    "answer": "was listening",
+    "why": "The listening was going on at that time, so we use past continuous."
+  },
+  {
+    "topic": "past",
+    "context": "Noa is explaining why she was so happy on her first day in Rome.",
+    "prompt": "I felt great because I ___ the city before, so I knew my way around.",
+    "options": [
+      "had visited",
+      "was visiting",
+      "have visited",
+      "visit"
+    ],
+    "answer": "had visited",
+    "why": "The visit happened before that day, so we use past perfect."
+  },
+  {
+    "topic": "past",
+    "context": "Ella missed the start of the movie.",
+    "prompt": "When we got to the cinema, the movie ___ already ___ .",
+    "options": [
+      "had / started",
+      "was / starting",
+      "has / started",
+      "did / start"
+    ],
+    "answer": "had / started",
+    "why": "The movie started before we arrived, so the earlier action uses past perfect."
+  },
+  {
+    "topic": "past",
+    "context": "Ben is remembering a bad afternoon at work.",
+    "prompt": "At 3 p.m. yesterday, I ___ on my report when my laptop suddenly shut down.",
+    "options": [
+      "was working",
+      "had worked",
+      "have worked",
+      "worked"
+    ],
+    "answer": "was working",
+    "why": "The work was in progress at that moment, so we use past continuous."
+  },
+  {
+    "topic": "past",
+    "context": "Rita is telling her friend why she was upset at the airport.",
+    "prompt": "I realized I ___ my passport at home, so I had to go back.",
+    "options": [
+      "had left",
+      "was leaving",
+      "have left",
+      "leave"
+    ],
+    "answer": "had left",
+    "why": "Leaving the passport happened before she realized it, so we use past perfect."
+  },
+  {
+    "topic": "past",
+    "context": "Dana called Tom last night, but he didn't pick up.",
+    "prompt": "When she finally reached him, he said he ___ a movie and had turned his phone off.",
+    "options": [
+      "was watching",
+      "had been watched",
+      "has watched",
+      "did watch"
+    ],
+    "answer": "was watching",
+    "why": "Past continuous describes an action in progress at a past moment: he was in the middle of the movie when she called."
+  },
+  {
+    "topic": "past",
+    "context": "Noa got to the station and saw the empty platform.",
+    "prompt": "The train ___ by the time she got there, so she had to wait an hour.",
+    "options": [
+      "had already left",
+      "is already leaving",
+      "already leaves",
+      "has already left"
+    ],
+    "answer": "had already left",
+    "why": "Past perfect shows the train left before she arrived, so one past action happened earlier than another."
+  },
+  {
+    "topic": "future",
+    "context": "Tom is at a café. The waiter says they are out of tea.",
+    "prompt": "No problem. I ___ a coffee instead, please.",
+    "options": [
+      "will have",
+      "having",
+      "have",
+      "am having"
+    ],
+    "answer": "will have",
+    "why": "We use will for a decision made at the moment of speaking, like choosing a drink right now."
+  },
+  {
+    "topic": "future",
+    "context": "Yossi is talking to his boss about next week.",
+    "prompt": "I can't join the meeting on Monday. I ___ my sister at the airport at 9.",
+    "options": [
+      "am meeting",
+      "will meet",
+      "meet",
+      "am going meet"
+    ],
+    "answer": "am meeting",
+    "why": "We use the present continuous for a fixed plan with a set time, like meeting someone."
+  },
+  {
+    "topic": "future",
+    "context": "Lisa's phone is ringing in the kitchen, but her hands are full. Her friend says:",
+    "prompt": "Hold on, I ___ it for you.",
+    "options": [
+      "will get",
+      "am getting",
+      "get",
+      "am going to getting"
+    ],
+    "answer": "will get",
+    "why": "We use will when we offer to help and decide right now."
+  },
+  {
+    "topic": "future",
+    "context": "Ben tells his friend about his plans for later this year.",
+    "prompt": "I've saved some money, so I ___ a small flat in Manchester this autumn.",
+    "options": [
+      "am going to rent",
+      "will to rent",
+      "rent",
+      "am going rent"
+    ],
+    "answer": "am going to rent",
+    "why": "We use going to for a plan you already decided before speaking."
+  },
+  {
+    "topic": "future",
+    "context": "Maya sees her friend carrying a huge pile of books and about to drop them.",
+    "prompt": "Careful! You ___ them all!",
+    "options": [
+      "are going to drop",
+      "will to drop",
+      "drop",
+      "dropped"
+    ],
+    "answer": "are going to drop",
+    "why": "We use going to when the situation now shows something is about to happen."
+  },
+  {
+    "topic": "future",
+    "context": "Omar is chatting with a coworker on Friday afternoon.",
+    "prompt": "We ___ dinner with my parents tomorrow night. They booked a table already.",
+    "options": [
+      "are having",
+      "will to have",
+      "have had",
+      "are going have"
+    ],
+    "answer": "are having",
+    "why": "We use the -ing form for an arranged plan, especially when a table is already booked."
+  },
+  {
+    "topic": "future",
+    "context": "Someone asks Rina for her guess about the football match tonight.",
+    "prompt": "I think our team ___ tonight. They look really tired.",
+    "options": [
+      "will lose",
+      "is losing",
+      "loses",
+      "are going lose"
+    ],
+    "answer": "will lose",
+    "why": "We use will with I think for an opinion or guess about the future."
+  },
+  {
+    "topic": "future",
+    "context": "Sam is on the phone with a friend who just said she is late.",
+    "prompt": "Don't worry, I ___ for you here until you arrive.",
+    "options": [
+      "will wait",
+      "wait",
+      "waited",
+      "am going wait"
+    ],
+    "answer": "will wait",
+    "why": "We use will for a promise or a quick decision to help someone."
+  },
+  {
+    "topic": "future",
+    "context": "Chloe is telling her friend why she is going to the shop.",
+    "prompt": "I ___ a birthday cake for Dad. That's why I'm buying eggs and flour.",
+    "options": [
+      "am going to bake",
+      "will to bake",
+      "bake",
+      "have baked"
+    ],
+    "answer": "am going to bake",
+    "why": "We use going to for something you planned before now, and the shopping shows the plan."
+  },
+  {
+    "topic": "future",
+    "context": "Tom is at a café. The phone rings and he decides on the spot.",
+    "prompt": "Oh, you need a ride? Don't worry, I ___ you to the station.",
+    "options": [
+      "will drive",
+      "drive",
+      "drove",
+      "have driven"
+    ],
+    "answer": "will drive",
+    "why": "A decision made at the moment of speaking, like an offer to help, uses will."
+  },
+  {
+    "topic": "future",
+    "context": "Noa is talking about her weekend. She bought the tickets last week.",
+    "prompt": "We ___ to the beach on Saturday, so I can't come to your party.",
+    "options": [
+      "are going",
+      "will to go",
+      "go",
+      "went"
+    ],
+    "answer": "are going",
+    "why": "A fixed plan that is already arranged uses the -ing form (present continuous) with a future time."
+  },
+  {
+    "topic": "future",
+    "context": "Liam's phone is almost dead. He suddenly remembers there is a charger in his car.",
+    "prompt": "My battery is at 1%! Wait, I ___ it in the car, one second.",
+    "options": [
+      "will charge",
+      "charged",
+      "charge",
+      "have charged"
+    ],
+    "answer": "will charge",
+    "why": "He decides right now, in the moment, so we use will."
+  },
+  {
+    "topic": "future",
+    "context": "Maya has been planning this for months.",
+    "prompt": "I've saved enough money, so next year I ___ a small business.",
+    "options": [
+      "am going to start",
+      "started",
+      "start",
+      "am starting now"
+    ],
+    "answer": "am going to start",
+    "why": "This is a plan she made a long time ago, so we use going to."
+  },
+  {
+    "topic": "future",
+    "context": "Two coworkers are checking the calendar.",
+    "prompt": "The meeting is arranged. We ___ the new client at 3 p.m. tomorrow.",
+    "options": [
+      "are meeting",
+      "met",
+      "have met",
+      "are going meeting"
+    ],
+    "answer": "are meeting",
+    "why": "An arranged meeting with a fixed time uses the -ing form for the future."
+  },
+  {
+    "topic": "future",
+    "context": "Ben is chatting with a friend who is worried about an exam.",
+    "prompt": "Don't stress. I'm sure you ___ fine tomorrow.",
+    "options": [
+      "will do",
+      "are doing",
+      "do",
+      "are going do"
+    ],
+    "answer": "will do",
+    "why": "We use will for an opinion or a guess about the future, like 'I'm sure'."
+  },
+  {
+    "topic": "future",
+    "context": "Sara hears a knock on the door while she is cooking.",
+    "prompt": "Someone's at the door? I ___ it, I'm not busy.",
+    "options": [
+      "will get",
+      "got",
+      "have got",
+      "get"
+    ],
+    "answer": "will get",
+    "why": "She offers to help at the moment she hears the knock, so we use will."
+  },
+  {
+    "topic": "future",
+    "context": "Ron is talking to his boss on Friday.",
+    "prompt": "I've booked my flight, so I ___ for Berlin at 6 a.m. on Monday.",
+    "options": [
+      "am leaving",
+      "left",
+      "leaves",
+      "am leave"
+    ],
+    "answer": "am leaving",
+    "why": "The flight is booked, so it's a fixed arrangement, and we use the -ing form for it."
+  },
+  {
+    "topic": "future",
+    "context": "Tom is on the phone ordering food.",
+    "prompt": "I can't decide... OK, I think I ___ the burger.",
+    "options": [
+      "will have",
+      "had",
+      "am have",
+      "have"
+    ],
+    "answer": "will have",
+    "why": "He decides at the moment of speaking, so 'will' is natural."
+  },
+  {
+    "topic": "future",
+    "context": "Noa is chatting with a friend about next weekend.",
+    "prompt": "I can't meet you on Saturday. I ___ my cousins in Haifa.",
+    "options": [
+      "am visiting",
+      "visit",
+      "will to visit",
+      "am visit"
+    ],
+    "answer": "am visiting",
+    "why": "This is a fixed plan with a set time. Use the present continuous for arranged plans."
+  },
+  {
+    "topic": "future",
+    "context": "Mia hears her phone ringing in the other room.",
+    "prompt": "Don't move, I ___ it!",
+    "options": [
+      "'ll get",
+      "got",
+      "get",
+      "'m get"
+    ],
+    "answer": "'ll get",
+    "why": "She offers to help right now, on the spot. Use 'will' for quick offers and decisions."
+  },
+  {
+    "topic": "future",
+    "context": "Yael is not sure about her exam result.",
+    "prompt": "I think I ___ the test, but I'm not sure.",
+    "options": [
+      "will pass",
+      "am passing",
+      "pass",
+      "am going pass"
+    ],
+    "answer": "will pass",
+    "why": "This is an opinion or guess with 'I think'. Use 'will' for predictions based on opinion."
+  },
+  {
+    "topic": "future",
+    "context": "Ben sees his friend carrying too many boxes.",
+    "prompt": "Wait, you ___ those! Let me help you.",
+    "options": [
+      "are going to drop",
+      "will to drop",
+      "are drop",
+      "drop"
+    ],
+    "answer": "are going to drop",
+    "why": "He can see the boxes are about to fall. 'Going to' predicts something from what you see now."
+  },
+  {
+    "topic": "future",
+    "context": "Sara is talking to her boss about the schedule.",
+    "prompt": "The meeting is arranged. I ___ the client at 3 p.m. tomorrow.",
+    "options": [
+      "am meeting",
+      "meet will",
+      "will to meet",
+      "met"
+    ],
+    "answer": "am meeting",
+    "why": "The meeting is already arranged for a set time. The present continuous works for arranged plans."
+  },
+  {
+    "topic": "future",
+    "context": "Omer's phone is at 2% battery and his friend lends him a charger.",
+    "prompt": "Oh, thanks! I ___ it back to you tomorrow.",
+    "options": [
+      "'ll give",
+      "am give",
+      "give will",
+      "gave"
+    ],
+    "answer": "'ll give",
+    "why": "He makes a promise at the moment of speaking. 'Will' is used for promises."
+  },
+  {
+    "topic": "future",
+    "context": "Chloe tells a coworker about her big news.",
+    "prompt": "I'm so excited! I ___ a baby in March.",
+    "options": [
+      "'m going to have",
+      "will to have",
+      "am have",
+      "have will"
+    ],
+    "answer": "'m going to have",
+    "why": "This is a plan or fact already known before speaking. 'Going to' shows a decision or situation already in place."
+  },
+  {
+    "topic": "future",
+    "context": "Dana is looking at the dark sky with her friend.",
+    "prompt": "Look at those clouds! It ___ rain any minute.",
+    "options": [
+      "is going to",
+      "will to",
+      "is going",
+      "rains"
+    ],
+    "answer": "is going to",
+    "why": "We see clear evidence now (dark clouds), so we use 'going to' for a prediction about the very near future."
+  },
+  {
+    "topic": "future",
+    "context": "Tom is walking out of a café with a friend.",
+    "prompt": "Wait, I forgot my keys! I ___ back and get them.",
+    "options": [
+      "will go",
+      "would go",
+      "go",
+      "am go"
+    ],
+    "answer": "will go",
+    "why": "We use 'will' for a decision made at the moment of speaking, with no earlier plan."
+  },
+  {
+    "topic": "future",
+    "context": "Noa is telling a coworker about her weekend plans.",
+    "prompt": "I ___ my cousin in Haifa this Saturday. We already bought the train tickets.",
+    "options": [
+      "am visiting",
+      "visiting",
+      "visit",
+      "am visit"
+    ],
+    "answer": "am visiting",
+    "why": "A fixed arrangement with tickets already bought uses the present continuous for the future."
+  },
+  {
+    "topic": "future",
+    "context": "Liam is talking to a friend about next year.",
+    "prompt": "I've decided to change careers. I ___ a course in web design next month.",
+    "options": [
+      "am going to start",
+      "will to start",
+      "start going",
+      "am starting going"
+    ],
+    "answer": "am going to start",
+    "why": "The decision was made before speaking, so 'going to' shows a plan or intention."
+  },
+  {
+    "topic": "future",
+    "context": "Maya answers her brother, who asks for help.",
+    "prompt": "Sure, don't worry about the dishes. I ___ them for you right now.",
+    "options": [
+      "will do",
+      "am going do",
+      "do",
+      "did"
+    ],
+    "answer": "will do",
+    "why": "An offer made on the spot uses 'will'."
+  },
+  {
+    "topic": "future",
+    "context": "Eitan is checking his calendar with a colleague.",
+    "prompt": "Sorry, I can't meet on Thursday. I ___ the dentist at 3 p.m. — it's already booked.",
+    "options": [
+      "am seeing",
+      "will seeing",
+      "see going",
+      "am go to see"
+    ],
+    "answer": "am seeing",
+    "why": "An appointment already booked is a fixed arrangement, so we use the present continuous."
+  },
+  {
+    "topic": "future",
+    "context": "Ella is guessing about the football match.",
+    "prompt": "I think Brazil ___ the game tomorrow. They're a really strong team.",
+    "options": [
+      "will win",
+      "is winning",
+      "wins",
+      "are going win"
+    ],
+    "answer": "will win",
+    "why": "'I think' plus an opinion about the future uses 'will'."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Weather forecast for the weekend.",
+    "prompt": "If it ___ tomorrow, we'll cancel the picnic.",
+    "options": [
+      "will rain",
+      "would rain",
+      "rains",
+      "rained"
+    ],
+    "answer": "rains",
+    "why": "A real possibility in the future uses present simple after 'if', and 'will' in the other part."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Sam is daydreaming about something that isn't real right now.",
+    "prompt": "If I ___ more money, I'd travel around the world.",
+    "options": [
+      "had",
+      "have",
+      "will have",
+      "would have"
+    ],
+    "answer": "had",
+    "why": "For an unreal situation now, use past simple after 'if' and 'would' in the other part."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Maya missed her friend's party last night because nobody told her about it.",
+    "prompt": "If I ___ about the party, I ___ .",
+    "options": [
+      "knew / would come",
+      "had known / would have come",
+      "have known / will come",
+      "would know / had come"
+    ],
+    "answer": "had known / would have come",
+    "why": "The party is over, so use past perfect after 'if' and 'would have' plus past participle."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Noa is talking to a friend about tonight's movie.",
+    "prompt": "Don't worry, if you ___ late, I'll start without you.",
+    "options": [
+      "will be",
+      "would be",
+      "were",
+      "are"
+    ],
+    "answer": "are",
+    "why": "This is a real possibility for tonight, so use present simple after 'if' and 'will' in the other part."
+  },
+  {
+    "topic": "conditionals",
+    "context": "A friend asks Ben for advice about a job offer.",
+    "prompt": "If I were you, I ___ that job.",
+    "options": [
+      "took",
+      "will take",
+      "would take",
+      "had taken"
+    ],
+    "answer": "would take",
+    "why": "Giving advice about an imaginary situation uses 'if I were you' with 'would' plus the base verb."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Tali and her friends couldn't get into last night's concert.",
+    "prompt": "If we ___ the tickets earlier, we would have got in.",
+    "options": [
+      "bought",
+      "would buy",
+      "had bought",
+      "buy"
+    ],
+    "answer": "had bought",
+    "why": "Last night is finished, so use past perfect after 'if' when 'would have' is in the other part."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Your friend's bus leaves in two minutes.",
+    "prompt": "If you ___ the 8:15 bus now, you ___ on time.",
+    "options": [
+      "will catch / arrive",
+      "catch / will arrive",
+      "caught / will arrive",
+      "catch / would arrive"
+    ],
+    "answer": "catch / will arrive",
+    "why": "This is a real chance right now, so use present simple after 'if' and 'will' in the other part."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Lena lives an hour away from her gym.",
+    "prompt": "If Lena lived closer, she ___ to the gym every day.",
+    "options": [
+      "will go",
+      "goes",
+      "had gone",
+      "would go"
+    ],
+    "answer": "would go",
+    "why": "Lena doesn't live close, so it's unreal now. Past simple after 'if' goes with 'would' plus the base verb."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Planning the weekend with friends.",
+    "prompt": "If it ___ tomorrow, we'll cancel the picnic.",
+    "options": [
+      "rains",
+      "will rain",
+      "would rain",
+      "rained"
+    ],
+    "answer": "rains",
+    "why": "For a real possibility in the future, use the present simple after \"if\", and \"will\" in the other part."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Noa works long hours and is always tired.",
+    "prompt": "If I ___ more free time, I'd learn the guitar.",
+    "options": [
+      "had",
+      "have",
+      "would have",
+      "will have"
+    ],
+    "answer": "had",
+    "why": "This is an unreal situation now, so use the past simple after \"if\" and \"would\" in the other part."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Yesterday Sam and his sister arrived late to a family meeting.",
+    "prompt": "If we ___ the bus, we wouldn't have been late.",
+    "options": [
+      "hadn't missed",
+      "didn't miss",
+      "wouldn't miss",
+      "haven't missed"
+    ],
+    "answer": "hadn't missed",
+    "why": "Talking about a past situation that can't change, use the past perfect after \"if\" and \"would have\" in the other part."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Lior is texting a friend about holiday pictures.",
+    "prompt": "If you ___ me tonight, I ___ you the photos.",
+    "options": [
+      "call / will send",
+      "will call / will send",
+      "called / will send",
+      "call / would send"
+    ],
+    "answer": "call / will send",
+    "why": "This is a real future possibility: present simple after \"if\", \"will\" in the other part."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Dan lives far from his office and drives every day.",
+    "prompt": "If Dan ___ in Tel Aviv, he ___ to work by bike.",
+    "options": [
+      "lived / would ride",
+      "lives / would ride",
+      "lived / will ride",
+      "would live / rode"
+    ],
+    "answer": "lived / would ride",
+    "why": "He doesn't live there now, so use the past simple after \"if\" and \"would\" in the other part."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Tal missed her friend's birthday party last weekend.",
+    "prompt": "If I ___ about the party, I ___ a gift.",
+    "options": [
+      "had known / would have bought",
+      "knew / would have bought",
+      "have known / would have bought",
+      "would have known / had bought"
+    ],
+    "answer": "had known / would have bought",
+    "why": "It's about the past and can't change: past perfect after \"if\", \"would have\" plus past participle in the other part."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Eli is meeting a friend at a café later.",
+    "prompt": "I'll text you if I ___ late tonight.",
+    "options": [
+      "am",
+      "will be",
+      "would be",
+      "had been"
+    ],
+    "answer": "am",
+    "why": "After \"if\" about the future, use the present simple, not \"will\"."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Your friend is nervous about telling a coworker something awkward.",
+    "prompt": "If I ___ you, I'd talk to her first.",
+    "options": [
+      "were",
+      "would be",
+      "will be",
+      "had been"
+    ],
+    "answer": "were",
+    "why": "When giving advice with \"If I were you\", use \"were\" after \"if\" and \"would\" in the other part."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Mia didn't get the job after her interview last week.",
+    "prompt": "Mia would have got the job if she ___ so nervous.",
+    "options": [
+      "hadn't been",
+      "isn't",
+      "wouldn't be",
+      "hasn't been"
+    ],
+    "answer": "hadn't been",
+    "why": "It's about the past: use \"would have\" in the main part and the past perfect after \"if\"."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Two friends are chatting over lunch.",
+    "prompt": "What ___ if you won a million dollars?",
+    "options": [
+      "would you do",
+      "will you do",
+      "did you do",
+      "you would do"
+    ],
+    "answer": "would you do",
+    "why": "Winning a million is imaginary, so the question uses \"would\" with the normal question word order."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Dana is checking the weather before a picnic.",
+    "prompt": "If it ___ tomorrow, we'll move the picnic to Sunday.",
+    "options": [
+      "rains",
+      "will rain",
+      "rained",
+      "would rain"
+    ],
+    "answer": "rains",
+    "why": "For a real possibility in the future, use the present simple after \"if\", not \"will\"."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Tom is talking to a friend about his job.",
+    "prompt": "If I ___ more free time, I would learn to play the guitar.",
+    "options": [
+      "had",
+      "have",
+      "would have",
+      "will have"
+    ],
+    "answer": "had",
+    "why": "For an unreal situation now, use the past simple after \"if\" and \"would\" in the other part."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Noa didn't hear her alarm and missed her flight this morning.",
+    "prompt": "If I ___ the alarm, I ___ the flight.",
+    "options": [
+      "had heard / wouldn't have missed",
+      "heard / won't have missed",
+      "would have heard / hadn't missed",
+      "have heard / wouldn't miss"
+    ],
+    "answer": "had heard / wouldn't have missed",
+    "why": "For an imaginary change to the past, use past perfect after \"if\" and \"would have\" in the result."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Mark is planning his weekend with a friend.",
+    "prompt": "If you ___ me a ride, I'll buy you lunch.",
+    "options": [
+      "give",
+      "gave",
+      "would give",
+      "had given"
+    ],
+    "answer": "give",
+    "why": "For a real future deal, use the present simple after \"if\" and \"will\" in the result."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Lisa is chatting about living in a big city.",
+    "prompt": "If I ___ in New York, I ___ a car at all.",
+    "options": [
+      "lived / wouldn't need",
+      "live / wouldn't need",
+      "had lived / won't need",
+      "would live / didn't need"
+    ],
+    "answer": "lived / wouldn't need",
+    "why": "This is an imaginary situation now, so use the past simple after \"if\" and \"would\" in the result."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Yossi failed his driving test last week.",
+    "prompt": "If he ___ the sign, he ___ the test.",
+    "options": [
+      "had seen / would have passed",
+      "saw / would pass",
+      "would see / had passed",
+      "has seen / will pass"
+    ],
+    "answer": "had seen / would have passed",
+    "why": "The test is over, so use past perfect after \"if\" and \"would have\" for the imagined result."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Emma is giving her brother advice before his exam.",
+    "prompt": "If you don't study tonight, you ___ the exam tomorrow.",
+    "options": [
+      "will fail",
+      "would fail",
+      "would have failed",
+      "failed"
+    ],
+    "answer": "will fail",
+    "why": "This is a real future situation, so use \"will\" in the result when \"if\" has the present simple."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Sam is talking about a party he skipped last night.",
+    "prompt": "If I ___ you were there, I would have come.",
+    "options": [
+      "had known",
+      "knew",
+      "know",
+      "would know"
+    ],
+    "answer": "had known",
+    "why": "The party is in the past, so use past perfect after \"if\" for something that didn't happen."
+  },
+  {
+    "topic": "conditionals",
+    "context": "Rina is daydreaming at her desk on a busy Monday.",
+    "prompt": "If I ___ the lottery, I ___ my job tomorrow.",
+    "options": [
+      "won / would quit",
+      "win / would quit",
+      "had won / will quit",
+      "would win / quit"
+    ],
+    "answer": "won / would quit",
+    "why": "This is an unlikely, imaginary situation now, so use the past simple after \"if\" and \"would\" in the result."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Tom missed the train this morning.",
+    "prompt": "If I ___ up earlier today, I wouldn't be late for work now.",
+    "options": [
+      "had woken",
+      "would have woken",
+      "woke",
+      "would wake"
+    ],
+    "answer": "had woken",
+    "why": "Past condition (this morning) with a present result (now): use past perfect in the if-part, would + base verb in the result."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Dana is stuck at home with a broken laptop.",
+    "prompt": "I wish I ___ a better laptop last year.",
+    "options": [
+      "had bought",
+      "would buy",
+      "bought",
+      "have bought"
+    ],
+    "answer": "had bought",
+    "why": "To regret something in the past, use wish + past perfect."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Ben is tired of the noise in his flat.",
+    "prompt": "I wish my neighbors ___ so loud every night.",
+    "options": [
+      "weren't",
+      "won't be",
+      "hadn't been",
+      "aren't"
+    ],
+    "answer": "weren't",
+    "why": "To wish a present situation were different, use wish + past simple."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Lena is talking about her friend Omar, who moved abroad.",
+    "prompt": "If Omar ___ that job offer, he ___ in London now.",
+    "options": [
+      "hadn't taken / wouldn't be living",
+      "didn't take / wouldn't have lived",
+      "hadn't taken / wouldn't have lived",
+      "wouldn't take / didn't live"
+    ],
+    "answer": "hadn't taken / wouldn't be living",
+    "why": "Past action (taking the job) with a result now: past perfect in the if-part, would be + -ing for the present."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Sara hates her phone, which keeps freezing.",
+    "prompt": "I wish this phone ___ so slow. It's driving me crazy!",
+    "options": [
+      "wasn't",
+      "hadn't been",
+      "won't be",
+      "isn't"
+    ],
+    "answer": "wasn't",
+    "why": "Wishing a present fact were different takes the past simple (was or were)."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Jake is annoyed that his friend always shows up late.",
+    "prompt": "I wish you ___ me when you're going to be late.",
+    "options": [
+      "would text",
+      "will text",
+      "texted yesterday",
+      "had texting"
+    ],
+    "answer": "would text",
+    "why": "Wish + would is for a habit that annoys you and that you want someone to change."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Nina is speaking about her brother, who is great at cooking.",
+    "prompt": "If he ___ cooking classes as a teenager, he wouldn't be so good in the kitchen today.",
+    "options": [
+      "hadn't taken",
+      "didn't take",
+      "wouldn't take",
+      "wouldn't have taken"
+    ],
+    "answer": "hadn't taken",
+    "why": "Imagining a different past gives past perfect; the result today uses would + base verb."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Chris thinks about yesterday's picnic, which got cancelled because of the rain.",
+    "prompt": "I wish it ___ yesterday. We could have had a great picnic.",
+    "options": [
+      "hadn't rained",
+      "didn't rain",
+      "wouldn't rain",
+      "doesn't rain"
+    ],
+    "answer": "hadn't rained",
+    "why": "Regret about a finished past event (yesterday) takes wish + past perfect."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Maya talks about her friend Yael, who has always been very shy.",
+    "prompt": "If Yael ___ so shy, she ___ more friends back in school.",
+    "options": [
+      "weren't / would have had",
+      "hadn't been / would have",
+      "wasn't / would had",
+      "weren't / would has"
+    ],
+    "answer": "weren't / would have had",
+    "why": "Yael is still shy (present), but the result is in the past: past simple in the if-part, would have + past participle in the result."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Eli has a test tomorrow and still isn't ready.",
+    "prompt": "If I ___ harder last week, I ___ so stressed right now.",
+    "options": [
+      "had studied / wouldn't be",
+      "studied / wouldn't be",
+      "had studied / wouldn't have been",
+      "would study / won't be"
+    ],
+    "answer": "had studied / wouldn't be",
+    "why": "Last week is past, so use past perfect; right now is present, so use would be."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Dana missed her flight this morning because she left home late.",
+    "prompt": "If she ___ earlier, she ___ in Rome by now.",
+    "options": [
+      "had left / would be",
+      "left / would have been",
+      "would leave / would be",
+      "had left / will be"
+    ],
+    "answer": "had left / would be",
+    "why": "Past condition (had left) with a result that is true now (by now) needs 'would be'."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Tom is stuck at home with a cold and wants to be at the party.",
+    "prompt": "I wish I ___ so sick right now, because I'd love to go out.",
+    "options": [
+      "wasn't",
+      "didn't be",
+      "won't be",
+      "haven't been"
+    ],
+    "answer": "wasn't",
+    "why": "To wish something were different right now, use the past tense: 'I wish I wasn't'."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Lena is still angry about a mistake she made at work last week.",
+    "prompt": "I wish I ___ that email to the whole team last Friday.",
+    "options": [
+      "didn't send",
+      "hadn't sent",
+      "wouldn't send",
+      "don't send"
+    ],
+    "answer": "hadn't sent",
+    "why": "To regret something in the past, use 'wish' with the past perfect (had + past participle)."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Sam never studied for his driving test, so he doesn't have a license now.",
+    "prompt": "If Sam ___ for the test back then, he ___ his own car today.",
+    "options": [
+      "studied / would have",
+      "had studied / would have been having",
+      "had studied / would have",
+      "had studied / would be having"
+    ],
+    "answer": "had studied / would have",
+    "why": "Past condition needs had studied; a result true today uses 'would' plus the base verb."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Maya is annoyed that her neighbor plays loud music every night.",
+    "prompt": "I wish my neighbor ___ the music down at night.",
+    "options": [
+      "would turn",
+      "will turn",
+      "turned to",
+      "has turned"
+    ],
+    "answer": "would turn",
+    "why": "We use 'wish ... would' to complain about someone's annoying habit and ask for change."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Ben is tired today because he stayed up late binge-watching a show last night.",
+    "prompt": "If I ___ up so late last night, I ___ so tired right now.",
+    "options": [
+      "didn't stay / wouldn't be",
+      "hadn't stayed / wouldn't be",
+      "hadn't stayed / wouldn't have been",
+      "wouldn't stay / hadn't been"
+    ],
+    "answer": "hadn't stayed / wouldn't be",
+    "why": "Last night is past (hadn't stayed). Being tired right now is present, so 'wouldn't be'."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Noa lives far from the city and spends two hours a day commuting.",
+    "prompt": "I wish I ___ closer to the office. Then I'd have more free time.",
+    "options": [
+      "live",
+      "lived",
+      "would live",
+      "had live"
+    ],
+    "answer": "lived",
+    "why": "To wish a present situation were different, use the past tense: 'I wish I lived'."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Jake isn't a great cook because he never took lessons as a kid.",
+    "prompt": "If my parents ___ me to cooking classes, I ___ a much better cook now.",
+    "options": [
+      "had sent / would be",
+      "sent / would have been",
+      "would send / would be",
+      "had sent / would have been"
+    ],
+    "answer": "had sent / would be",
+    "why": "A past 'if' (had sent) with a result that's true now needs 'would be'."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Rita forgot her friend's birthday yesterday and feels terrible.",
+    "prompt": "I wish I ___ her birthday yesterday. Then she wouldn't be upset today.",
+    "options": [
+      "remembered",
+      "would remember",
+      "had remembered",
+      "have remembered"
+    ],
+    "answer": "had remembered",
+    "why": "Yesterday is finished, so use 'wish' with the past perfect to show regret."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Chris took a job abroad years ago and now misses his family.",
+    "prompt": "If I ___ that job offer, I ___ near my family today.",
+    "options": [
+      "didn't take / would have lived",
+      "hadn't taken / would be living",
+      "wouldn't take / would live",
+      "hadn't taken / would have lived"
+    ],
+    "answer": "hadn't taken / would be living",
+    "why": "Past choice needs had not taken; living near family today is a present result: 'would be living'."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Dan missed his flight this morning.",
+    "prompt": "If I ___ up earlier this morning, I wouldn't be stuck at the airport now.",
+    "options": [
+      "had woken",
+      "would have woken",
+      "woke",
+      "wake"
+    ],
+    "answer": "had woken",
+    "why": "Waking up is a past action with a result now. Use 'had + past participle' in the if-part and 'would + base verb' in the result."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Maya takes the bus to work every day and really hates it.",
+    "prompt": "I wish I ___ a car, so I wouldn't have to take the bus every day.",
+    "options": [
+      "had",
+      "have",
+      "would have",
+      "had had"
+    ],
+    "answer": "had",
+    "why": "To wish for a different situation right now, use the past tense after 'wish'."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Tom failed the driving test yesterday.",
+    "prompt": "I wish I ___ the test yesterday. Now I have to wait another month.",
+    "options": [
+      "had passed",
+      "passed",
+      "would pass",
+      "have passed"
+    ],
+    "answer": "had passed",
+    "why": "For a wish about a past event, use past perfect. 'Yesterday' shows it is already over."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Lisa lives far from her friends.",
+    "prompt": "If she ___ closer to the city, she would have joined us last night.",
+    "options": [
+      "lived",
+      "would live",
+      "would have lived",
+      "lives"
+    ],
+    "answer": "lived",
+    "why": "Where she lives is true in general, so the if-part uses past simple. The result is in the past: 'would have joined'."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Sam is annoyed that his neighbor is so loud every night.",
+    "prompt": "I wish my neighbor ___ the music so loud every night.",
+    "options": [
+      "wouldn't play",
+      "won't play",
+      "hadn't played",
+      "doesn't play"
+    ],
+    "answer": "wouldn't play",
+    "why": "To complain about someone's annoying habit, use 'wish + would'. Here it means 'I want them to stop'."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Nina studied art instead of business. She's not happy with her job now.",
+    "prompt": "If I ___ business at university, I would have a better job today.",
+    "options": [
+      "had studied",
+      "would study",
+      "studied",
+      "would have studied"
+    ],
+    "answer": "had studied",
+    "why": "The past choice (university) changes the present (job today). Use past perfect in the if-part, 'would + base verb' for the result."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Ben forgot his friend's birthday last week.",
+    "prompt": "I wish I ___ Jake's birthday last Friday. He's still upset with me.",
+    "options": [
+      "hadn't forgotten",
+      "didn't forget",
+      "wouldn't forget",
+      "haven't forgotten"
+    ],
+    "answer": "hadn't forgotten",
+    "why": "A wish about a past mistake needs past perfect. 'Last Friday' shows the event is finished."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Chloe doesn't speak Spanish, so she couldn't help the tourists yesterday.",
+    "prompt": "If I ___ Spanish, I would have helped those tourists yesterday.",
+    "options": [
+      "spoke",
+      "have spoken",
+      "would speak",
+      "speak"
+    ],
+    "answer": "spoke",
+    "why": "Speaking Spanish is a general ability now, so use past simple in the if-part. The result is in the past: 'would have helped'."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "It's raining hard, and Omar left his umbrella at home.",
+    "prompt": "I wish I ___ my umbrella this morning. I'm soaking wet now.",
+    "options": [
+      "had taken",
+      "took",
+      "would take",
+      "have taken"
+    ],
+    "answer": "had taken",
+    "why": "A wish about a past action uses past perfect. 'This morning' is finished, and the result is now."
+  },
+  {
+    "topic": "mixed-wish",
+    "context": "Emma is stressed because she has too much work.",
+    "prompt": "If she ___ so many projects last month, she wouldn't be so busy now.",
+    "options": [
+      "hadn't accepted",
+      "didn't accept",
+      "wouldn't accept",
+      "hasn't accepted"
+    ],
+    "answer": "hadn't accepted",
+    "why": "A past action ('last month') causes a present result. Use past perfect in the if-part, 'would + base verb' for the result."
+  },
+  {
+    "topic": "passive",
+    "context": "Maya is talking about her new phone.",
+    "prompt": "My phone ___ in a taxi last night, so I had to buy a new one.",
+    "options": [
+      "was stolen",
+      "was stealing",
+      "stole",
+      "has been stolen"
+    ],
+    "answer": "was stolen",
+    "why": "Past passive: the phone didn't do the stealing, and 'last night' is a finished time, so we use 'was + past participle'."
+  },
+  {
+    "topic": "passive",
+    "context": "Dan is checking on the office renovation.",
+    "prompt": "Don't go in there. The floor ___ right now.",
+    "options": [
+      "is being painted",
+      "is painting",
+      "has painted",
+      "is painted"
+    ],
+    "answer": "is being painted",
+    "why": "Present continuous passive: the painting is happening right now, and the floor receives the action."
+  },
+  {
+    "topic": "passive",
+    "context": "Noa is asking about a package she's waiting for.",
+    "prompt": "Good news! Your order ___ and it will arrive tomorrow.",
+    "options": [
+      "has been sent",
+      "has sent",
+      "is sending",
+      "was sending"
+    ],
+    "answer": "has been sent",
+    "why": "Present perfect passive: the sending is done and the result matters now. The order can't send itself."
+  },
+  {
+    "topic": "passive",
+    "context": "Liam is explaining why the party was moved.",
+    "prompt": "We couldn't use the garden because it ___ for a wedding that weekend.",
+    "options": [
+      "had been booked",
+      "had booked",
+      "was booking",
+      "has been booked"
+    ],
+    "answer": "had been booked",
+    "why": "Past perfect passive: the booking happened before the time we're talking about, and the garden was booked by someone else."
+  },
+  {
+    "topic": "passive",
+    "context": "Tom is talking about next month's event.",
+    "prompt": "Don't worry about the tickets. They ___ to everyone by Friday.",
+    "options": [
+      "will be sent",
+      "will send",
+      "are sending",
+      "were sent"
+    ],
+    "answer": "will be sent",
+    "why": "Future passive: it's a prediction about something that will happen, and the tickets receive the action."
+  },
+  {
+    "topic": "passive",
+    "context": "Sara is telling a friend about her office building.",
+    "prompt": "This building ___ in 1998, and it still looks great.",
+    "options": [
+      "was built",
+      "is built",
+      "has been built",
+      "was building"
+    ],
+    "answer": "was built",
+    "why": "Past passive: '1998' is a finished point in time, so we use the simple past, not the present perfect."
+  },
+  {
+    "topic": "passive",
+    "context": "Yossi is complaining about his street.",
+    "prompt": "The road outside my house ___ right now. It's so noisy!",
+    "options": [
+      "is being repaired",
+      "is repairing",
+      "was repaired",
+      "repairs"
+    ],
+    "answer": "is being repaired",
+    "why": "Present continuous passive: 'right now' means the work is still going on, and workers are doing it, not the road."
+  },
+  {
+    "topic": "passive",
+    "context": "Emma is describing how her favorite café works.",
+    "prompt": "At this café, the bread ___ fresh every morning.",
+    "options": [
+      "is baked",
+      "is baking",
+      "has baked",
+      "was baked"
+    ],
+    "answer": "is baked",
+    "why": "Present simple passive: it's a regular habit, 'every morning', and the bread doesn't bake itself."
+  },
+  {
+    "topic": "passive",
+    "context": "Ben is telling a friend about his trip to the airport.",
+    "prompt": "I couldn't get on the plane because my flight ___ when I got there.",
+    "options": [
+      "had been cancelled",
+      "had cancelled",
+      "was cancelling",
+      "has been cancelled"
+    ],
+    "answer": "had been cancelled",
+    "why": "Past perfect passive: the cancelling happened before he arrived, and someone else cancelled the flight."
+  },
+  {
+    "topic": "passive",
+    "context": "Lena is calling a friend about a lost bag.",
+    "prompt": "Don't worry, your bag ___ by the airline and they'll deliver it tonight.",
+    "options": [
+      "has been found",
+      "has found",
+      "was finding",
+      "is finding"
+    ],
+    "answer": "has been found",
+    "why": "Present perfect passive: the finding is done and it matters now, since the delivery is coming tonight."
+  },
+  {
+    "topic": "passive",
+    "context": "Dana is talking about her new office.",
+    "prompt": "The whole building ___ last year, so everything looks brand new.",
+    "options": [
+      "was painted",
+      "is painted",
+      "has painted",
+      "was painting"
+    ],
+    "answer": "was painted",
+    "why": "Last year is a finished past time, and someone else did the painting, so we use the past simple passive: was + past participle."
+  },
+  {
+    "topic": "passive",
+    "context": "Tom is checking his online order.",
+    "prompt": "Good news! My package ___ already ___, so it should arrive tomorrow.",
+    "options": [
+      "has / been sent",
+      "has / sent",
+      "is / sending",
+      "was / sending"
+    ],
+    "answer": "has / been sent",
+    "why": "'Already' links the past action to now, and someone else sent the package, so we use the present perfect passive: has been + past participle."
+  },
+  {
+    "topic": "passive",
+    "context": "Noa is chatting about a school event.",
+    "prompt": "The party ___ next Friday if the weather is good.",
+    "options": [
+      "will be held",
+      "will hold",
+      "is holding",
+      "has been held"
+    ],
+    "answer": "will be held",
+    "why": "It is a future plan and the party doesn't act, so we use will be + past participle."
+  },
+  {
+    "topic": "passive",
+    "context": "Liam is explaining why he was late.",
+    "prompt": "I couldn't get into the room because the door ___ when I got there.",
+    "options": [
+      "had been locked",
+      "has been locked",
+      "was locking",
+      "had locked"
+    ],
+    "answer": "had been locked",
+    "why": "The locking happened before I got there, so we use the past perfect passive: had been + past participle."
+  },
+  {
+    "topic": "passive",
+    "context": "Maya is talking about her street.",
+    "prompt": "Our street ___ every morning at six, so it's really noisy.",
+    "options": [
+      "is cleaned",
+      "is cleaning",
+      "was cleaned",
+      "has been cleaned"
+    ],
+    "answer": "is cleaned",
+    "why": "Every morning shows a regular habit, so we use the present simple passive: is + past participle."
+  },
+  {
+    "topic": "passive",
+    "context": "Omer is looking at a photo from his childhood.",
+    "prompt": "This photo ___ in 2009, when I was ten.",
+    "options": [
+      "was taken",
+      "is taken",
+      "has been taken",
+      "had taken"
+    ],
+    "answer": "was taken",
+    "why": "In 2009 is a specific past time, so we use the past simple passive: was + past participle."
+  },
+  {
+    "topic": "passive",
+    "context": "Rachel is on the phone with a friend at the mall.",
+    "prompt": "Sorry, I can't talk. My name ___ over the speaker right now.",
+    "options": [
+      "is being called",
+      "is called",
+      "was being call",
+      "has called"
+    ],
+    "answer": "is being called",
+    "why": "Right now the action is happening, so we use the present continuous passive: is being + past participle."
+  },
+  {
+    "topic": "passive",
+    "context": "Yuval is talking about a new app.",
+    "prompt": "By the end of this month, the new app ___ by over a million people.",
+    "options": [
+      "will have been downloaded",
+      "will be downloading",
+      "has been downloaded",
+      "would be downloaded"
+    ],
+    "answer": "will have been downloaded",
+    "why": "By the end of this month points to a future deadline, so we use will have been + past participle."
+  },
+  {
+    "topic": "passive",
+    "context": "Emma is talking about her old bike.",
+    "prompt": "I used to love my bike, but it ___ last week, so now I walk.",
+    "options": [
+      "was stolen",
+      "is stolen",
+      "has stolen",
+      "was stealing"
+    ],
+    "answer": "was stolen",
+    "why": "Last week is a finished past time, so we use the past simple passive: was + past participle."
+  },
+  {
+    "topic": "passive",
+    "context": "Talking about a hotel room in Lisbon.",
+    "prompt": "The room ___ every morning by the staff, so it was always spotless.",
+    "options": [
+      "was cleaned",
+      "was cleaning",
+      "has cleaned",
+      "cleaned"
+    ],
+    "answer": "was cleaned",
+    "why": "Past habit, and the room doesn't clean itself: use past simple passive, was + past participle."
+  },
+  {
+    "topic": "passive",
+    "context": "Two coworkers talk about a delayed project.",
+    "prompt": "Sorry, the report isn't ready yet. It ___ right now.",
+    "options": [
+      "is being checked",
+      "is checking",
+      "is been checked",
+      "checked"
+    ],
+    "answer": "is being checked",
+    "why": "It's happening right now, and the report receives the action: is being + past participle."
+  },
+  {
+    "topic": "passive",
+    "context": "A friend asks about your new phone.",
+    "prompt": "I love it! It ___ to me last week by my cousin.",
+    "options": [
+      "was sent",
+      "has been sent",
+      "is sent",
+      "sent"
+    ],
+    "answer": "was sent",
+    "why": "\"Last week\" is a finished time, so use past simple passive."
+  },
+  {
+    "topic": "passive",
+    "context": "Talking about a famous pizza place in Rome.",
+    "prompt": "This restaurant ___ in 1985 by a young couple, and it's still very popular.",
+    "options": [
+      "was opened",
+      "has opened",
+      "opened it",
+      "is opened"
+    ],
+    "answer": "was opened",
+    "why": "1985 is a finished past time, and \"by a young couple\" tells us who did it: past simple passive, was + past participle."
+  },
+  {
+    "topic": "passive",
+    "context": "A teacher talks to her class before a trip.",
+    "prompt": "Don't worry, all the tickets ___ already ___ by the school.",
+    "options": [
+      "have / been bought",
+      "have / bought",
+      "are / buying",
+      "had / being bought"
+    ],
+    "answer": "have / been bought",
+    "why": "\"Already\" connects past to now, and the tickets receive the action: present perfect passive, have been + past participle."
+  },
+  {
+    "topic": "passive",
+    "context": "Sam is explaining why his street is noisy.",
+    "prompt": "Right now the road ___ , so we can't park outside.",
+    "options": [
+      "is being repaired",
+      "is repairing",
+      "has repaired",
+      "was repairing"
+    ],
+    "answer": "is being repaired",
+    "why": "The work is in progress now, and the road receives the action: is being repaired."
+  },
+  {
+    "topic": "passive",
+    "context": "Emma tells her friend about her lost bag.",
+    "prompt": "Good news! My bag ___ at the train station yesterday.",
+    "options": [
+      "was found",
+      "is found",
+      "has found",
+      "was finding"
+    ],
+    "answer": "was found",
+    "why": "\"Yesterday\" is finished past, and the bag didn't do the finding: was found."
+  },
+  {
+    "topic": "passive",
+    "context": "Planning a party with a roommate.",
+    "prompt": "Don't stress about the music. It ___ by Dan tomorrow night.",
+    "options": [
+      "will be played",
+      "will play",
+      "is played",
+      "was played"
+    ],
+    "answer": "will be played",
+    "why": "\"Tomorrow\" points to the future, and the music receives the action: will be + past participle."
+  },
+  {
+    "topic": "passive",
+    "context": "Chatting about a movie everyone is talking about.",
+    "prompt": "By the time we got to the cinema, all the tickets ___ .",
+    "options": [
+      "had been sold",
+      "were selling",
+      "have been sold",
+      "are sold"
+    ],
+    "answer": "had been sold",
+    "why": "The selling happened before we arrived, so use past perfect passive: had been sold."
+  },
+  {
+    "topic": "passive",
+    "context": "A manager updates the team about a new office.",
+    "prompt": "The new office ___ next month, so we'll move in soon.",
+    "options": [
+      "will be finished",
+      "is finishing",
+      "has finished",
+      "was finished"
+    ],
+    "answer": "will be finished",
+    "why": "\"Next month\" is future and the office receives the action: will be finished."
+  },
+  {
+    "topic": "passive",
+    "context": "Maya's phone fell in the pool yesterday. She's talking to her friend about it.",
+    "prompt": "I took it to the shop this morning, and it ___ right now.",
+    "options": [
+      "is being repaired",
+      "is repairing",
+      "is being repair",
+      "has repaired"
+    ],
+    "answer": "is being repaired",
+    "why": "Right now, an action in progress, done to the phone by someone else: present continuous passive."
+  },
+  {
+    "topic": "passive",
+    "context": "Tom is reading the news about the bridges in his city.",
+    "prompt": "The old bridge ___ in 1950, and it's still used every day.",
+    "options": [
+      "was built",
+      "is built",
+      "has been built",
+      "was building"
+    ],
+    "answer": "was built",
+    "why": "1950 is a finished time in the past, and the bridge didn't build itself: past simple passive."
+  },
+  {
+    "topic": "passive",
+    "context": "Dana is calling the shop about a package she's waiting for.",
+    "prompt": "Hi, I ordered a laptop last week, but it ___ yet.",
+    "options": [
+      "hasn't been delivered",
+      "didn't deliver",
+      "hasn't delivered",
+      "wasn't being delivered"
+    ],
+    "answer": "hasn't been delivered",
+    "why": "\"Yet\" connects the past to now, and the laptop receives the action: present perfect passive."
+  },
+  {
+    "topic": "reported",
+    "context": "Dana is telling a friend about a meeting last week.",
+    "prompt": "My boss said he ___ late for the meeting, but he came early!",
+    "options": [
+      "would be",
+      "will be",
+      "was being",
+      "is being"
+    ],
+    "answer": "would be",
+    "why": "The meeting is over, so we report his 'will' as 'would'."
+  },
+  {
+    "topic": "reported",
+    "context": "Tom is explaining why he missed the bus.",
+    "prompt": "I told my sister that I ___ my keys at home.",
+    "options": [
+      "had left",
+      "have left",
+      "was leaving",
+      "leave"
+    ],
+    "answer": "had left",
+    "why": "The leaving happened before the telling, so reported speech uses the past perfect."
+  },
+  {
+    "topic": "reported",
+    "context": "Lina is chatting about her new flatmate.",
+    "prompt": "She said she ___ in London for five years before moving here.",
+    "options": [
+      "had lived",
+      "has lived",
+      "was living since",
+      "lives"
+    ],
+    "answer": "had lived",
+    "why": "The living came before the moving, so we use the past perfect in reported speech."
+  },
+  {
+    "topic": "reported",
+    "context": "Mark is telling a coworker about his doctor's visit.",
+    "prompt": "The doctor told me that I ___ more water every day.",
+    "options": [
+      "should drink",
+      "should to drink",
+      "should be drink",
+      "should drank"
+    ],
+    "answer": "should drink",
+    "why": "'Should' stays the same in reported speech and is followed by the basic form of the verb."
+  },
+  {
+    "topic": "reported",
+    "context": "Noa is talking about a text from her friend Yael.",
+    "prompt": "Yael asked me if I ___ to the party the night before.",
+    "options": [
+      "had gone",
+      "have gone",
+      "went to go",
+      "was go"
+    ],
+    "answer": "had gone",
+    "why": "A question about an earlier event, reported in the past, uses the past perfect."
+  },
+  {
+    "topic": "reported",
+    "context": "Sam is telling his mom about his teacher.",
+    "prompt": "My teacher said that she ___ our tests the next day.",
+    "options": [
+      "would check",
+      "checks",
+      "has checked",
+      "is checking"
+    ],
+    "answer": "would check",
+    "why": "When reporting a plan for the future, 'will' becomes 'would'."
+  },
+  {
+    "topic": "reported",
+    "context": "Ben is describing a message he got from his landlord.",
+    "prompt": "He said that he ___ the heating that week, but nobody came.",
+    "options": [
+      "was going to fix",
+      "goes to fix",
+      "has gone to fix",
+      "is going to fix"
+    ],
+    "answer": "was going to fix",
+    "why": "'Is going to' becomes 'was going to' when we report it in the past."
+  },
+  {
+    "topic": "reported",
+    "context": "Maya is telling a friend about her brother's call.",
+    "prompt": "My brother said he ___ me when he got to the airport.",
+    "options": [
+      "would call",
+      "calls",
+      "has called",
+      "is calling"
+    ],
+    "answer": "would call",
+    "why": "A promise about the future, reported in the past, uses 'would'."
+  },
+  {
+    "topic": "reported",
+    "context": "Omar is talking about a new colleague.",
+    "prompt": "She told me she ___ a car, so she took the train to work.",
+    "options": [
+      "didn't have",
+      "don't have",
+      "isn't having",
+      "wasn't having"
+    ],
+    "answer": "didn't have",
+    "why": "'Have' as ownership is a state, so 'don't have' becomes the past simple 'didn't have'."
+  },
+  {
+    "topic": "reported",
+    "context": "Eli is talking about a shop assistant.",
+    "prompt": "I asked her when the store ___, and she said at nine.",
+    "options": [
+      "opened",
+      "open",
+      "has opened",
+      "was opening since"
+    ],
+    "answer": "opened",
+    "why": "A question about a regular schedule, reported in the past, uses the past simple."
+  },
+  {
+    "topic": "reported",
+    "context": "Dana is telling a friend about a phone call she had this morning.",
+    "prompt": "My boss called and said he ___ late for the meeting, but he came on time.",
+    "options": [
+      "would be",
+      "will be",
+      "is being",
+      "was being"
+    ],
+    "answer": "would be",
+    "why": "In reported speech, 'will' moves back to 'would' when the original words were said in the past."
+  },
+  {
+    "topic": "reported",
+    "context": "Tom is explaining why he missed the party last night.",
+    "prompt": "I told my friends that I ___ sick all day.",
+    "options": [
+      "had been",
+      "have been",
+      "am being",
+      "was being"
+    ],
+    "answer": "had been",
+    "why": "The sick time was before the moment of speaking in the past, so we use the past perfect."
+  },
+  {
+    "topic": "reported",
+    "context": "Noa is telling her sister what the teacher said yesterday.",
+    "prompt": "The teacher said that we ___ the test the next day.",
+    "options": [
+      "would have",
+      "will have",
+      "are having",
+      "had had"
+    ],
+    "answer": "would have",
+    "why": "A future plan said in the past becomes 'would' in reported speech."
+  },
+  {
+    "topic": "reported",
+    "context": "Liam is talking about a text from his cousin.",
+    "prompt": "He wrote that he ___ at the airport at that moment.",
+    "options": [
+      "was waiting",
+      "is waiting",
+      "has waited",
+      "would wait"
+    ],
+    "answer": "was waiting",
+    "why": "'Is waiting' moves back one step to 'was waiting' when we report a past message."
+  },
+  {
+    "topic": "reported",
+    "context": "Maya is telling her roommate about a chat with the landlord last month.",
+    "prompt": "Last month, he asked me if I ___ the rent already.",
+    "options": [
+      "had paid",
+      "have paid",
+      "am paying",
+      "will pay"
+    ],
+    "answer": "had paid",
+    "why": "'Already' shows an earlier action, and reported questions step back to the past perfect."
+  },
+  {
+    "topic": "reported",
+    "context": "Eli is describing what his coach told him after practice.",
+    "prompt": "She said I ___ harder if I wanted to make the team.",
+    "options": [
+      "had to train",
+      "have to train",
+      "am training",
+      "would have trained"
+    ],
+    "answer": "had to train",
+    "why": "'Have to' becomes 'had to' in reported speech after a past verb like 'said'."
+  },
+  {
+    "topic": "reported",
+    "context": "Shira is telling a friend about her brother's phone call from abroad.",
+    "prompt": "He said he ___ home the following week.",
+    "options": [
+      "was coming",
+      "comes",
+      "has come",
+      "had been coming"
+    ],
+    "answer": "was coming",
+    "why": "'Following week' shows a future plan, so 'is coming' goes back to 'was coming'."
+  },
+  {
+    "topic": "reported",
+    "context": "Ben is explaining a message from the airline.",
+    "prompt": "They told us that our flight ___ two hours earlier.",
+    "options": [
+      "had been cancelled",
+      "has been cancelled",
+      "was cancelling",
+      "would cancel"
+    ],
+    "answer": "had been cancelled",
+    "why": "The cancelling happened before the message, and 'has been cancelled' steps back to the past perfect."
+  },
+  {
+    "topic": "reported",
+    "context": "Yael is chatting about her new neighbor.",
+    "prompt": "She mentioned that she ___ in Chicago for ten years before moving here.",
+    "options": [
+      "had lived",
+      "has lived",
+      "was living",
+      "would live"
+    ],
+    "answer": "had lived",
+    "why": "The living came before the move, and both were in the past, so we use the past perfect."
+  },
+  {
+    "topic": "reported",
+    "context": "Omer is telling his dad about a conversation with his manager last week.",
+    "prompt": "Last week, my manager asked me whether I ___ time to help with the project that day.",
+    "options": [
+      "had",
+      "have",
+      "would have had",
+      "am having"
+    ],
+    "answer": "had",
+    "why": "A reported 'do you have' question moves back to simple past after 'asked'."
+  },
+  {
+    "topic": "reported",
+    "context": "Noa texted you: \"I'm leaving now.\"",
+    "prompt": "Noa told me she ___ leaving right then.",
+    "options": [
+      "was",
+      "is",
+      "has been",
+      "will be"
+    ],
+    "answer": "was",
+    "why": "When we report what someone said in the past, the present tense usually moves back one step: 'is' becomes 'was'."
+  },
+  {
+    "topic": "reported",
+    "context": "Tom said, \"I lost my keys.\" That's why he couldn't get in.",
+    "prompt": "Tom said he ___ his keys, so he couldn't get in.",
+    "options": [
+      "had lost",
+      "has lost",
+      "loses",
+      "was losing"
+    ],
+    "answer": "had lost",
+    "why": "Reporting a past action from earlier means going one step further back: 'lost' becomes 'had lost'."
+  },
+  {
+    "topic": "reported",
+    "context": "Mia said, \"I will call you tomorrow.\"",
+    "prompt": "Mia promised she ___ me the next day.",
+    "options": [
+      "would call",
+      "will call",
+      "is calling",
+      "called"
+    ],
+    "answer": "would call",
+    "why": "In reported speech, 'will' becomes 'would', and 'tomorrow' becomes 'the next day'."
+  },
+  {
+    "topic": "reported",
+    "context": "Sara asked, \"Where did you spend the weekend?\"",
+    "prompt": "Sara asked me where I ___ the weekend before.",
+    "options": [
+      "had spent",
+      "spend",
+      "have spent",
+      "would spend"
+    ],
+    "answer": "had spent",
+    "why": "In reported speech, 'did you spend' moves one step back to 'had spent'."
+  },
+  {
+    "topic": "reported",
+    "context": "Yesterday at work, your boss asked, \"Have you finished the report?\"",
+    "prompt": "My boss asked me ___ the report yet.",
+    "options": [
+      "if I had finished",
+      "did I finish",
+      "had I finished",
+      "if did I finish"
+    ],
+    "answer": "if I had finished",
+    "why": "Reported yes/no questions use 'if' and normal word order, with no question order and no 'did'."
+  },
+  {
+    "topic": "reported",
+    "context": "Last Friday, Ben said, \"I can't come, I'm sick.\"",
+    "prompt": "Ben said he ___ come to the party because he ___ sick.",
+    "options": [
+      "couldn't / was",
+      "can't / was",
+      "couldn't / is",
+      "won't / was"
+    ],
+    "answer": "couldn't / was",
+    "why": "Both verbs move back one step in reported speech: 'can't' becomes 'couldn't' and 'am' becomes 'was'."
+  },
+  {
+    "topic": "reported",
+    "context": "Your sister said, \"Don't touch my laptop!\"",
+    "prompt": "My sister told me ___ her laptop.",
+    "options": [
+      "not to touch",
+      "don't touch",
+      "to not touching",
+      "that I not touch"
+    ],
+    "answer": "not to touch",
+    "why": "Reported orders use 'told someone to do' and for 'don't' use 'not to do'."
+  },
+  {
+    "topic": "reported",
+    "context": "Your teacher announced the change to the whole class.",
+    "prompt": "The teacher ___ us that the exam was moved to Monday.",
+    "options": [
+      "told",
+      "said",
+      "spoke",
+      "talked"
+    ],
+    "answer": "told",
+    "why": "'Tell' needs a person right after it ('told us'). 'Said' would be 'said that' without 'us'."
+  },
+  {
+    "topic": "reported",
+    "context": "Last year Lena said, \"I've never been to Paris.\" She finally went there this summer.",
+    "prompt": "Lena admitted she ___ to Paris before.",
+    "options": [
+      "had never been",
+      "has never been",
+      "never was",
+      "would never be"
+    ],
+    "answer": "had never been",
+    "why": "In reported speech, 'have been' moves back to 'had been'. It is no longer true now, so 'has' is wrong."
+  },
+  {
+    "topic": "reported",
+    "context": "Yesterday, Omar said, \"I'm busy today.\"",
+    "prompt": "Yesterday Omar said he was busy ___.",
+    "options": [
+      "that day",
+      "today",
+      "this day",
+      "the day"
+    ],
+    "answer": "that day",
+    "why": "When we report it later, 'today' changes to 'that day' because the time has moved."
+  },
+  {
+    "topic": "past",
+    "context": "Dana came home and found her kitchen floor covered in water.",
+    "prompt": "When Dana got back from work, she realized that the pipe ___ all afternoon.",
+    "options": [
+      "had been leaking",
+      "is leaking",
+      "has been leaking",
+      "leaks"
+    ],
+    "answer": "had been leaking",
+    "why": "The leaking started before she got home and went on until then, so we use the past perfect continuous."
+  },
+  {
+    "topic": "past",
+    "context": "Tom is telling a friend why he missed an important call yesterday.",
+    "prompt": "I ___ a shower when you called, so I didn't hear the phone.",
+    "options": [
+      "was taking",
+      "had taken",
+      "have taken",
+      "took"
+    ],
+    "answer": "was taking",
+    "why": "The shower was in progress at the exact moment the phone rang, so we use the past continuous."
+  },
+  {
+    "topic": "past",
+    "context": "Noa arrived at the station last Friday and talked about her trip.",
+    "prompt": "By the time Noa got to the station, the train ___ and she had to wait an hour for the next one.",
+    "options": [
+      "had already left",
+      "was already leaving",
+      "already leaves",
+      "has already left"
+    ],
+    "answer": "had already left",
+    "why": "The train left before she arrived. The earlier action in the past needs the past perfect."
+  }
+]
