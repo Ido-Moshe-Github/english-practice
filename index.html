@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#6c5ce7" />
+    <title>English of Fun</title>
+    <!--
+      Critical, deliberately here and not in styles.css.
+
+      The fallback below must be hidden from the very first byte the browser
+      parses. Relying on the bundled stylesheet to hide it is too late: it is a
+      quarter of a megabyte further down the file, and until it is parsed the
+      fallback paints — which showed up as a flash of "browser too old" text on
+      every launch. This rule is a few hundred bytes and arrives before the
+      body exists.
+    -->
+    <style>
+      #root > .boot-fallback {
+        opacity: 0;
+        animation: boot-fallback-reveal 0.3s ease 3s forwards;
+      }
+      @keyframes boot-fallback-reveal {
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
+    <!-- Plain SVG shapes, fully percent-encoded: a raw emoji or unescaped < > makes Firefox reject the icon. -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%236c5ce7%22%2F%3E%3Cpath%20d%3D%22M14%2016h36a4%204%200%200%201%204%204v18a4%204%200%200%201-4%204H28l-10%208v-8h-4a4%204%200%200%201-4-4V20a4%204%200%200%201%204-4z%22%20fill%3D%22%23ffffff%22%2F%3E%3Cpath%20d%3D%22M22%2026h20M22%2033h12%22%20stroke%3D%22%23fdcb6e%22%20stroke-width%3D%224%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E" />
+  </head>
+  <body>
+    <!--
+      Visible only if the app never starts — an ancient browser that can't parse
+      the bundle, or JavaScript switched off. React clears this on mount, so a
+      working app never shows it. Without it, either failure is a blank page.
+    -->
+    <div id="root">
+      <div class="boot-fallback">
+        <h1>English of Fun</h1>
+        <p>This browser is too old to run the app, or JavaScript is switched off.</p>
+        <p>Try opening the file in an up-to-date Chrome, Edge, Safari or Firefox.</p>
+      </div>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
