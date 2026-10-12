@@ -7,7 +7,7 @@ import Summary from './components/Summary.jsx'
 import TopicPicker from './components/TopicPicker.jsx'
 import { addPlayer, forgetPlayer, readPlayers, setActivePlayer } from './lib/players.js'
 import { clearQueue, recordResult } from './lib/queue.js'
-import { advance, answer, buildRound, isFinished, scoreRound } from './lib/round.js'
+import { advance, answer, buildRound, isFinished, isRound, scoreRound } from './lib/round.js'
 import { clearState, readState, writeState } from './lib/session.js'
 
 /**
@@ -25,7 +25,11 @@ export default function App() {
   const playerId = player?.id ?? null
   const [choosingPlayer, setChoosingPlayer] = useState(false)
 
-  const [restored] = useState(() => readState(playerId))
+  const [restored] = useState(() => {
+    const saved = readState(playerId)
+    const needsRound = saved?.screen === 'round' || saved?.screen === 'summary'
+    return needsRound && !isRound(saved.round) ? null : saved
+  })
   const [screen, setScreen] = useState(() => restored?.screen ?? 'home')
   const [laneId, setLaneId] = useState(() => restored?.laneId ?? null)
   const [round, setRound] = useState(() => restored?.round ?? null)

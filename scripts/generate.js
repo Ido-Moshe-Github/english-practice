@@ -99,7 +99,7 @@ async function fillTopic(lane, topic, options) {
       continue
     }
 
-    const fresh = await loadBank(lane.id) // re-read: a parallel run may have written meanwhile
+    const fresh = await loadBank(lane.id) // re-read just before writing; run one generate per lane at a time
     const ids = idsOf(fresh)
     let added = 0
     for (const candidate of candidates) {

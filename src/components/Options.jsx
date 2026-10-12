@@ -10,6 +10,7 @@ export default function Options({ options, answer, picked, onPick }) {
   useEffect(() => {
     if (answered) return
     const onKey = (event) => {
+      if (event.repeat || event.metaKey || event.ctrlKey || event.altKey) return
       const index = Number(event.key) - 1
       if (Number.isInteger(index) && index >= 0 && index < options.length) onPick(options[index])
     }

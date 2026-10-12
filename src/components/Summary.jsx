@@ -36,7 +36,7 @@ export default function Summary({ laneId, score, onAgain, onHome }) {
       <p className="summary-message">{summaryMessage(ratio)}</p>
 
       <div className="summary-actions">
-        <button className="primary-button" onClick={onAgain} autoFocus>{t.again}</button>
+        <button className="primary-button" onClick={onAgain}>{t.again}</button>
         <button className="secondary-button" onClick={onHome}>{t.home}</button>
       </div>
 

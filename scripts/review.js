@@ -19,7 +19,8 @@ import { resolve } from 'node:path'
 import { laneById } from '../src/lib/topics.js'
 import { validateItem } from '../src/lib/validate.js'
 import { ROOT, runClaude, withRetry } from './claudeCli.js'
-import { loadBank, parseJsonArray, saveBank } from './bank.js'
+import { idsOf, loadBank, parseJsonArray, saveBank } from './bank.js'
+import { itemId } from '../src/lib/items.js'
 
 const DEFAULTS = { lane: '', from: 0, to: Infinity, chunk: 10, parallel: 4, model: 'opus', apply: false }
 
@@ -103,16 +104,20 @@ async function main() {
   const verdicts = (await inPool(chunks.map((chunk) => () => reviewChunk(options.lane, bank, chunk, options.model)), options.parallel)).flat()
 
   const report = []
-  const replaced = new Map()
-  const dropped = new Set()
+  const replaced = new Map() // original item id -> rewritten item
+  const dropped = new Set() // original item ids
+  const otherIds = idsOf(bank)
 
   for (const verdict of verdicts) {
     if (verdict.verdict === 'ok') continue
     const original = bank[verdict.index]
+    const id = itemId(original)
     if (verdict.verdict === 'fix') {
-      const result = validateItem(options.lane, { ...verdict.item, topic: original.topic })
+      const others = new Set([...otherIds].filter((other) => other !== id))
+      const result = validateItem(options.lane, { ...verdict.item, topic: original.topic }, others)
       if (result.ok) {
-        replaced.set(verdict.index, result.item)
+        replaced.set(id, result.item)
+        otherIds.add(itemId(result.item))
         report.push({ index: verdict.index, action: 'fixed', reason: verdict.reason, before: original, after: result.item })
         continue
       }
@@ -120,14 +125,19 @@ async function main() {
     } else {
       report.push({ index: verdict.index, action: 'dropped', reason: verdict.reason, before: original })
     }
-    dropped.add(verdict.index)
+    dropped.add(id)
   }
 
   await writeFile(resolve(ROOT, `review-report-${options.lane}.json`), `${JSON.stringify(report, null, 2)}\n`)
   console.log(`${options.lane}: ${verdicts.length} verdicts, ${replaced.size} fixed, ${dropped.size} dropped (see review-report-${options.lane}.json)`)
 
   if (!options.apply) return console.log('dry run — pass --apply to write the bank')
-  const next = bank.flatMap((item, index) => (dropped.has(index) ? [] : [replaced.get(index) ?? item]))
+  // Re-read and match by id, so items added by `generate` during the review are kept.
+  const current = await loadBank(options.lane)
+  const next = current.flatMap((item) => {
+    const id = itemId(item)
+    return dropped.has(id) ? [] : [replaced.get(id) ?? item]
+  })
   await saveBank(options.lane, next)
   console.log(`${options.lane}: bank now ${next.length} items`)
 }

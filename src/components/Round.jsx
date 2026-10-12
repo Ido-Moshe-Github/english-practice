@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useEffect, useMemo } from 'react'
 import Options from './Options.jsx'
 import RichText, { splitSpeaker } from './RichText.jsx'
 import { currentTurn } from '../lib/round.js'
@@ -37,6 +37,16 @@ function History({ item, upTo, picks }) {
 
 function Explanation({ correct, why, onNext }) {
   const message = useMemo(() => pick(correct ? PRAISE : ENCOURAGEMENT), [correct])
+
+  useEffect(() => {
+    const onKey = (event) => {
+      if (event.key !== 'Enter' || event.repeat) return
+      event.preventDefault()
+      onNext()
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [onNext])
   return (
     <div className={`feedback ${correct ? 'feedback--correct' : 'feedback--wrong'}`} role="status">
       <span className="feedback-text">
@@ -44,7 +54,7 @@ function Explanation({ correct, why, onNext }) {
         {message}
       </span>
       <span className="feedback-why">{why}</span>
-      <button className="primary-button" onClick={onNext} autoFocus>
+      <button className="primary-button" onClick={onNext}>
         {t.next} →
       </button>
     </div>

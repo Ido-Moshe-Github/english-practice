@@ -69,6 +69,18 @@ export function buildRound(playerId, laneId, topicId, { rng = Math.random, poolO
   return { laneId, topicId, items, at: { item: 0, turn: 0 }, picks: [] }
 }
 
+/** True for something shaped like a round, e.g. one restored from sessionStorage by an older version. */
+export function isRound(value) {
+  return (
+    Boolean(laneById(value?.laneId)) &&
+    Array.isArray(value.items) &&
+    value.items.every((item) => Array.isArray(item?.turns) && item.turns.length > 0) &&
+    Number.isInteger(value.at?.item) &&
+    Number.isInteger(value.at?.turn) &&
+    Array.isArray(value.picks)
+  )
+}
+
 export function isFinished(round) {
   return round.at.item >= round.items.length
 }

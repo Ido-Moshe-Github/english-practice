@@ -1,4 +1,4 @@
-import { readFile, writeFile } from 'node:fs/promises'
+import { readFile, rename, writeFile } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { ROOT } from './claudeCli.js'
@@ -13,8 +13,11 @@ export async function loadBank(laneId) {
   return Array.isArray(parsed) ? parsed : []
 }
 
+/** Write to a temp file and rename it into place, so Vite never reads a half-written bank. */
 export async function saveBank(laneId, items) {
-  await writeFile(bankPath(laneId), `${JSON.stringify(items, null, 2)}\n`, 'utf8')
+  const temp = `${bankPath(laneId)}.${process.pid}.tmp`
+  await writeFile(temp, `${JSON.stringify(items, null, 2)}\n`, 'utf8')
+  await rename(temp, bankPath(laneId))
 }
 
 export const idsOf = (items) => new Set(items.map(itemId))

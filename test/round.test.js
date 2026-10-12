@@ -137,3 +137,19 @@ describe('playing a round', () => {
     expect(topicProgress('p1', 'everyday', 'directions', pools.directions).done).toBe(0)
   })
 })
+
+describe('isRound', async () => {
+  const { isRound } = await import('../src/lib/round.js')
+  const pools = bank(single, ['conditionals'], 3)
+
+  it('accepts a real round, also after a JSON round trip', () => {
+    const round = buildRound('p1', 'tenses', 'conditionals', { poolOf: (t) => pools[t] })
+    expect(isRound(JSON.parse(JSON.stringify(round)))).toBe(true)
+  })
+
+  it('rejects junk and rounds from an unknown lane', () => {
+    expect(isRound(null)).toBe(false)
+    expect(isRound({ laneId: 'tenses', items: 'x', at: { item: 0, turn: 0 }, picks: [] })).toBe(false)
+    expect(isRound({ laneId: 'nope', items: [], at: { item: 0, turn: 0 }, picks: [] })).toBe(false)
+  })
+})
