@@ -24,7 +24,7 @@ English. Explanations are one or two short, plain lines.
 | Lane | id | Topics (id → label) |
 | --- | --- | --- |
 | Everyday English | `everyday` | `directions` Directions & transport · `food` Ordering food · `shopping` Shopping & returns · `travel` Hotel & travel · `smalltalk` Small talk · `appointments` Phone & appointments · `workschool` Work & school chat · `help` Asking for help & complaining politely |
-| Phrasal verbs | `phrasal` | `get` · `look` · `take` · `put` · `turn` · `come` · `go` · `give-make-break` |
+| Phrasal verbs | `phrasal` | `get` · `look` · `take` · `put` · `turn` · `come` · `go` · `give-make-break` · `run` · `bring` · `set` · `pick` · `call` · `work` · `keep` · `hold` · `cut` · `fall` · `carry` · `check` · `hang` · `show` · `sort-figure` (40 items each) |
 | Tenses | `tenses` | `present` Present simple vs. continuous · `perfect` Past simple vs. present perfect · `past` Past continuous & past perfect · `future` Future forms · `conditionals` Conditionals 1-2-3 · `mixed-wish` Mixed conditionals & wish / if only · `passive` Passive · `reported` Reported speech |
 
 Each topic targets ~30 items, ~720 in all.

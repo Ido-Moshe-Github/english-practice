@@ -21,8 +21,8 @@ player starts from scratch. Replacing it in place with a newer version is fine.
   for help. Each conversation mixes two kinds of turn: pick the reply that fits what
   they said (every option is fluent English — only one makes sense), or fill the gap
   in your own reply with the right word.
-- **Phrasal verbs** — *get, look, take, put, turn, come, go, give/make/break*: fill the
-  gap, or pick what a phrasal verb means.
+- **Phrasal verbs** — 23 verbs, from *get, look, take, put* to *hang, carry, sort out,
+  figure out*: fill the gap, or pick what a phrasal verb means.
 - **Tenses** — from present simple vs. continuous up to mixed conditionals and
   *wish / if only*.
 

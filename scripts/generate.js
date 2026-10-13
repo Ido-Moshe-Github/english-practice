@@ -17,7 +17,7 @@ import { itemId } from '../src/lib/items.js'
 import { runClaude, withRetry } from './claudeCli.js'
 import { loadBank, parseJsonArray, saveBank, idsOf } from './bank.js'
 
-const DEFAULTS = { lane: '', topic: '', count: 30, batch: 10, model: 'sonnet', maxBatches: 40 }
+const DEFAULTS = { lane: '', topic: '', count: 30, batch: 10, model: 'sonnet', maxBatches: 40, parallel: 1 }
 
 const SHARED_RULES = `Audience: Hebrew-speaking teens and adults who already get by in English.
 Language rules:
@@ -60,8 +60,8 @@ Example of the style:
 Return ONLY a JSON array, no prose and no code fences. Each element:
 {"topic":"${topic.id}","situation":"...","turns":[{"kind":"reply","line":"...","options":["...","...","...","..."],"answer":"<exact copy of the right option>","why":"..."},{"kind":"gap","line":"...","reply":"... ___ ...","options":["...","...","...","..."],"answer":"<exact copy>","why":"..."}]}`,
 
-  phrasal: (topic, size) => `Write ${size} multiple-choice questions practising PHRASAL VERBS with "${topic.label}".
-
+  phrasal: (topic, size, existing) => `Write ${size} multiple-choice questions practising PHRASAL VERBS with "${topic.label}".
+${existing.length ? `\nThe bank already has questions whose right answers are: ${existing.join('; ')}.\nPrefer phrasal verbs and meanings NOT on that list — other particles, other common meanings — so the bank covers as many everyday combinations as possible.\n` : ''}
 ${SHARED_RULES}
 - Use phrasal verbs people really use in daily life (e.g. for "get": get up, get along with, get over, get by, get back, get away with). Spread them out — don't repeat the same phrasal verb more than twice in a batch.
 - Mix two kinds of question:
@@ -96,6 +96,17 @@ function parseArgs(argv) {
   return options
 }
 
+/**
+ * Topics of one lane can be generated in parallel (--parallel), but they share
+ * one bank file, so each read-validate-write step holds this lock.
+ */
+let bankLock = Promise.resolve()
+function withBankLock(fn) {
+  const run = bankLock.then(fn)
+  bankLock = run.catch(() => {})
+  return run
+}
+
 async function fillTopic(lane, topic, options) {
   for (let batch = 0; batch < options.maxBatches; batch++) {
     const bank = await loadBank(lane.id)
@@ -108,7 +119,10 @@ async function fillTopic(lane, topic, options) {
     let candidates
     try {
       candidates = await withRetry(
-        async () => parseJsonArray(await runClaude(LANE_PROMPTS[lane.id](topic, size), { model: options.model })),
+        async () => {
+          const existing = bank.filter((item) => item.topic === topic.id).map((item) => item.answer)
+          return parseJsonArray(await runClaude(LANE_PROMPTS[lane.id](topic, size, existing), { model: options.model }))
+        },
         (err) => process.stdout.write(`retrying (${err.message.slice(0, 60)})... `)
       )
     } catch (err) {
@@ -116,21 +130,25 @@ async function fillTopic(lane, topic, options) {
       continue
     }
 
-    const fresh = await loadBank(lane.id) // re-read just before writing; run one generate per lane at a time
-    const ids = idsOf(fresh)
-    let added = 0
-    for (const candidate of candidates) {
-      const result = validateItem(lane.id, { ...candidate, topic: topic.id }, ids)
-      if (!result.ok) {
-        console.log(`\n  rejected: ${result.reason}`)
-        continue
+    // Re-read just before writing. Don't run two generate processes on one lane at once.
+    const added = await withBankLock(async () => {
+      const fresh = await loadBank(lane.id)
+      const ids = idsOf(fresh)
+      let count = 0
+      for (const candidate of candidates) {
+        const result = validateItem(lane.id, { ...candidate, topic: topic.id }, ids)
+        if (!result.ok) {
+          console.log(`\n  rejected: ${result.reason}`)
+          continue
+        }
+        fresh.push(result.item)
+        ids.add(itemId(result.item))
+        count++
       }
-      fresh.push(result.item)
-      ids.add(itemId(result.item))
-      added++
-    }
-    await saveBank(lane.id, fresh)
-    console.log(`+${added}`)
+      await saveBank(lane.id, fresh)
+      return count
+    })
+    console.log(`${lane.id}/${topic.id}: +${added}`)
   }
 }
 
@@ -142,7 +160,11 @@ async function main() {
   for (const lane of lanes) {
     const topics = options.topic ? lane.topics.filter((t) => t.id === options.topic) : lane.topics
     if (!topics.length) throw new Error(`no topic "${options.topic}" in ${lane.id}`)
-    for (const topic of topics) await fillTopic(lane, topic, options)
+    const queue = [...topics]
+    const worker = async () => {
+      while (queue.length) await fillTopic(lane, queue.shift(), options)
+    }
+    await Promise.all(Array.from({ length: Math.max(1, options.parallel) }, worker))
   }
 }
 
