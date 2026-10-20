@@ -4,7 +4,7 @@ import { laneById } from './topics.js'
 import { toTurns } from './items.js'
 
 /**
- * A round is 3 items played turn by turn. A single question is one turn; a
+ * A round is 2 items played turn by turn. A single question is one turn; a
  * conversation is 2-3. Everything here is plain data in, plain data out, so a
  * round can be saved to sessionStorage and resumed exactly as it was —
  * including the shuffled order of the options.
@@ -12,7 +12,7 @@ import { toTurns } from './items.js'
  *   round = { laneId, topicId, items: [{ id, topic, intro, turns }], at: { item, turn }, picks: [] }
  *   pick  = { item, turn, choice, correct }
  */
-export const ROUND_SIZE = 3
+export const ROUND_SIZE = 2
 export const MIXED = 'mixed'
 
 function shuffled(list, rng) {

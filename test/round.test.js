@@ -52,9 +52,9 @@ describe('buildRound', () => {
   })
 
   it('uses what a short topic has, without repeats', () => {
-    const pools = bank(single, ['conditionals'], 2)
+    const pools = bank(single, ['conditionals'], 1)
     const round = buildRound('p1', 'tenses', 'conditionals', { poolOf: (t) => pools[t] })
-    expect(round.items).toHaveLength(2)
+    expect(round.items).toHaveLength(1)
   })
 
   it('shuffles options but keeps the answer among them', () => {
@@ -119,7 +119,7 @@ describe('playing a round', () => {
   it('scores perfect conversations and right picks', () => {
     const round = play(build(), (item, turn) => item === 0 && turn === 1)
     const score = scoreRound(round)
-    expect(score).toMatchObject({ total: 3, perfect: 2, picks: 6, rightPicks: 5 })
+    expect(score).toMatchObject({ total: 2, perfect: 1, picks: 4, rightPicks: 3 })
     expect(score.mistakes).toEqual([
       { intro: 'situation 0', line: 'line 2', choice: expect.stringMatching(/^w/), answer: 'right', why: 'because' },
     ])

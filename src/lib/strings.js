@@ -11,6 +11,13 @@ export const t = {
   mixed: 'Mixed',
   mixedHint: 'A bit of everything',
   mastered: (done, total) => `${done} / ${total} mastered`,
+
+  daily: 'Daily practice',
+  dailyHint: (rounds) => `${rounds} short rounds from every section`,
+  dailyStep: (step, total, lane) => `Daily ${step}/${total} · ${lane}`,
+  nextRound: 'Next round →',
+  finish: 'Finish',
+  dailyDone: 'Daily practice done!',
   noItemsYet: 'No questions yet',
 
   questionCounter: (current, total) => `Question ${current} of ${total}`,

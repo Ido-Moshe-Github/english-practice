@@ -30,9 +30,12 @@ player starts from scratch. Replacing it in place with a newer version is fine.
   adjectives, verbs and nouns (*good at, depend on, reason for*).
 
 Every question has four options, and after each answer a one-line explanation.
-Rounds are 3 questions (or 3 conversations). Inside each topic you work through the
+Rounds are 2 questions (or 2 conversations). Inside each topic you work through the
 questions in order; anything you get wrong comes back later, and a counter shows how
 many you've mastered. **Mixed** draws from every topic in the lane.
+
+**Daily practice** runs 2 rounds of each section in a row (8 rounds), always Mixed, so
+every day brings questions you haven't seen yet.
 
 **Several people** can share one copy, each with their own progress.
 

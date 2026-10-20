@@ -2,8 +2,9 @@ import { LANES } from '../lib/topics.js'
 import { laneProgress } from '../lib/queue.js'
 import ProgressBar from './ProgressBar.jsx'
 import { t } from '../lib/strings.js'
+import { DAILY_PLAN } from '../lib/daily.js'
 
-export default function Home({ player, onPick, onSwitchPlayer, onSettings }) {
+export default function Home({ player, onPick, onDaily, onSwitchPlayer, onSettings }) {
   return (
     <div className="screen home">
       <header className="home-header">
@@ -18,6 +19,12 @@ export default function Home({ player, onPick, onSwitchPlayer, onSettings }) {
       </header>
 
       <div className="mode-cards">
+        <button className="mode-card mode-card--daily" onClick={onDaily}>
+          <span className="mode-icon" aria-hidden="true">☀️</span>
+          <span className="mode-title">{t.daily}</span>
+          <span className="mode-hint">{t.dailyHint(DAILY_PLAN.length)}</span>
+        </button>
+
         {LANES.map((lane) => {
           const progress = laneProgress(player.id, lane.id)
           return (

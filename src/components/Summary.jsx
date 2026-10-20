@@ -12,7 +12,11 @@ function starsFor(ratio) {
   return 0
 }
 
-export default function Summary({ laneId, score, onAgain, onHome }) {
+/**
+ * `next` replaces "Play again" during daily practice: { label, onClick }.
+ * `heading` names where in the daily practice this round was.
+ */
+export default function Summary({ laneId, score, title = t.summaryTitle, heading, next, onAgain, onHome }) {
   const lane = laneById(laneId)
   const ratio = score.total ? score.perfect / score.total : 0
   const stars = starsFor(ratio)
@@ -20,7 +24,8 @@ export default function Summary({ laneId, score, onAgain, onHome }) {
   return (
     <div className="screen summary">
       <div className="summary-emoji" aria-hidden="true">{stars === 3 ? '🎉' : stars >= 1 ? '👏' : '💪'}</div>
-      <h2>{t.summaryTitle}</h2>
+      {heading && <p className="summary-heading">{heading}</p>}
+      <h2>{title}</h2>
 
       <div className="stars" aria-hidden="true">
         {Array.from({ length: STAR_COUNT }, (_, i) => (
@@ -37,8 +42,14 @@ export default function Summary({ laneId, score, onAgain, onHome }) {
       <p className="summary-message">{summaryMessage(ratio)}</p>
 
       <div className="summary-actions">
-        <button className="primary-button" onClick={onAgain}>{t.again}</button>
-        <button className="secondary-button" onClick={onHome}>{t.home}</button>
+        {next ? (
+          <button className="primary-button" onClick={next.onClick}>{next.label}</button>
+        ) : (
+          <>
+            <button className="primary-button" onClick={onAgain}>{t.again}</button>
+            <button className="secondary-button" onClick={onHome}>{t.home}</button>
+          </>
+        )}
       </div>
 
       {score.mistakes.length > 0 && (

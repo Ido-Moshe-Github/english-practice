@@ -236,6 +236,13 @@ button:disabled {
   line-height: 1;
 }
 
+.summary-heading {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--muted);
+}
+
 .summary h2 {
   margin: 0;
   font-size: 32px;
@@ -689,6 +696,15 @@ button:disabled {
 }
 
 /* ---------- Lanes ---------- */
+
+.mode-card--daily {
+  background: var(--purple);
+  color: #fff;
+}
+
+.mode-card--daily .mode-hint {
+  color: rgba(255, 255, 255, 0.85);
+}
 
 .mode-card--everyday {
   border-bottom: 8px solid var(--purple);

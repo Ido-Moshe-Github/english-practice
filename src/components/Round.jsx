@@ -67,7 +67,7 @@ function Explanation({ correct, why, onNext }) {
   )
 }
 
-export default function Round({ round, onAnswer, onNext, onBack }) {
+export default function Round({ round, heading, onAnswer, onNext, onBack }) {
   const lane = laneById(round.laneId)
   const current = currentTurn(round)
 
@@ -92,7 +92,7 @@ export default function Round({ round, onAnswer, onNext, onBack }) {
     <div className="screen quiz">
       <div className="quiz-top">
         <button className="back-button" onClick={onBack}>← {t.back}</button>
-        <span className="quiz-heading">{lane.title}</span>
+        <span className="quiz-heading">{heading ?? lane.title}</span>
       </div>
 
       <div className="progress">
