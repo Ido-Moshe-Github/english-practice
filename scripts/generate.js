@@ -83,6 +83,19 @@ ${SHARED_RULES}
 
 Return ONLY a JSON array, no prose and no code fences. Each element:
 {"topic":"${topic.id}","context":"...","prompt":"...","options":["...","...","...","..."],"answer":"<exact copy of the right option>","why":"..."}`,
+
+  prepositions: (topic, size, existing) => `Write ${size} multiple-choice questions practising English PREPOSITIONS.
+Focus: ${topic.label}.
+${existing.length ? `\nThe bank already has questions whose right answers are: ${existing.join('; ')}.\nVary the sentences and the expressions tested, so the bank covers as many everyday uses as possible.\n` : ''}
+${SHARED_RULES}
+- "prompt" is one natural sentence with exactly one gap written ___ where a preposition goes.
+- All four options are single prepositions (in, on, at, to, for, of, with, about, by, from, into, since, during, until…). Only ONE fits the sentence.
+- Wrong options are the prepositions Hebrew speakers really pick by mistake — often a word-for-word translation ("married with" for "married to", "depends in" for "depends on", "in the weekend" for "at/on the weekend").
+- If British and American English differ (e.g. "at/on the weekend"), avoid that case or make sure none of the wrong options is right in either variety.
+- "context" is an optional short line setting the scene (may be omitted).
+
+Return ONLY a JSON array, no prose and no code fences. Each element:
+{"topic":"${topic.id}","context":"...","prompt":"...","options":["...","...","...","..."],"answer":"<exact copy of the right option>","why":"..."}`,
 }
 
 function parseArgs(argv) {

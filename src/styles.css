@@ -702,6 +702,10 @@ button:disabled {
   border-bottom: 8px solid var(--green);
 }
 
+.mode-card--prepositions {
+  border-bottom: 8px solid var(--yellow);
+}
+
 /* ---------- Topic picker ---------- */
 
 .topic-list {

@@ -25,6 +25,9 @@ player starts from scratch. Replacing it in place with a newer version is fine.
   figure out*: fill the gap, or pick what a phrasal verb means.
 - **Tenses** — from present simple vs. continuous up to mixed conditionals and
   *wish / if only*.
+- **Prepositions** — pick the preposition that fits the sentence: *in / on / at* for
+  time and place, movement, *for / since / during*, and the ones that go with
+  adjectives, verbs and nouns (*good at, depend on, reason for*).
 
 Every question has four options, and after each answer a one-line explanation.
 Rounds are 3 questions (or 3 conversations). Inside each topic you work through the

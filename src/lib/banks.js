@@ -1,6 +1,7 @@
 import everyday from '../data/everyday.json'
 import phrasal from '../data/phrasal.json'
 import tenses from '../data/tenses.json'
+import prepositions from '../data/prepositions.json'
 import { itemId } from './items.js'
 
 /**
@@ -9,7 +10,7 @@ import { itemId } from './items.js'
  */
 const withIds = (items) => items.map((item) => ({ ...item, id: itemId(item) }))
 
-const BANKS = { everyday: withIds(everyday), phrasal: withIds(phrasal), tenses: withIds(tenses) }
+const BANKS = { everyday: withIds(everyday), phrasal: withIds(phrasal), tenses: withIds(tenses), prepositions: withIds(prepositions) }
 
 /** Items of one topic, in bank order. */
 export function topicItems(laneId, topicId) {

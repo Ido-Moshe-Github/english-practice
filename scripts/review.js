@@ -98,7 +98,7 @@ async function reviewChunk(laneId, bank, indexes, model) {
 
 async function main() {
   const options = parseArgs(process.argv.slice(2))
-  if (!laneById(options.lane)) throw new Error('pass --lane everyday|phrasal|tenses')
+  if (!laneById(options.lane)) throw new Error('pass --lane everyday|phrasal|tenses|prepositions')
 
   const bank = await loadBank(options.lane)
   const indexes = bank.map((_, i) => i).filter((i) => i >= options.from && i < options.to)

@@ -1,0 +1,3200 @@
+[
+  {
+    "topic": "verbs",
+    "context": "Two friends are talking about a trip.",
+    "prompt": "Dana is really looking forward ___ her trip to Spain next month.",
+    "options": [
+      "to",
+      "for",
+      "at",
+      "on"
+    ],
+    "answer": "to",
+    "why": "\"Look forward to\" is the fixed phrase. Hebrew speakers often say \"look forward for\" by mistake."
+  },
+  {
+    "topic": "verbs",
+    "context": "Planning a weekend away.",
+    "prompt": "Whether we go hiking or not depends ___ the weather.",
+    "options": [
+      "on",
+      "in",
+      "of",
+      "from"
+    ],
+    "answer": "on",
+    "why": "We say \"depend on\". \"Depends in\" comes from translating the Hebrew word for word."
+  },
+  {
+    "topic": "verbs",
+    "context": "Talking about a new neighbor.",
+    "prompt": "Tom is married ___ a girl he met at university.",
+    "options": [
+      "to",
+      "with",
+      "for",
+      "by"
+    ],
+    "answer": "to",
+    "why": "We say \"married to\" someone. Hebrew \"התחתן עם\" makes people say \"married with\", but that's wrong here."
+  },
+  {
+    "topic": "verbs",
+    "context": "At the office.",
+    "prompt": "Can you listen ___ me for a second? I need to explain something.",
+    "options": [
+      "to",
+      "at",
+      "for",
+      "on"
+    ],
+    "answer": "to",
+    "why": "\"Listen\" always takes \"to\" before the person or thing you hear."
+  },
+  {
+    "topic": "verbs",
+    "context": "Chatting about a movie night.",
+    "prompt": "Maya laughed ___ the joke, even though she'd heard it before.",
+    "options": [
+      "at",
+      "on",
+      "with",
+      "to"
+    ],
+    "answer": "at",
+    "why": "We \"laugh at\" a joke or a person. \"Laugh on\" or \"laugh to\" are not used."
+  },
+  {
+    "topic": "verbs",
+    "context": "Talking about money.",
+    "prompt": "I'm saving up ___ a new laptop, so I'm not going out much.",
+    "options": [
+      "for",
+      "to",
+      "of",
+      "on"
+    ],
+    "answer": "for",
+    "why": "We \"save up for\" the thing we want to buy."
+  },
+  {
+    "topic": "verbs",
+    "context": "At work.",
+    "prompt": "Liam apologized ___ being late to the meeting.",
+    "options": [
+      "for",
+      "of",
+      "on",
+      "to"
+    ],
+    "answer": "for",
+    "why": "We \"apologize for\" something we did, and \"apologize to\" a person."
+  },
+  {
+    "topic": "verbs",
+    "context": "Two coworkers are talking about a shared project.",
+    "prompt": "I completely agree ___ you, so let's go with your plan.",
+    "options": [
+      "with",
+      "to",
+      "on",
+      "for"
+    ],
+    "answer": "with",
+    "why": "We \"agree with\" a person. \"Agree to\" is for accepting a plan, not for sharing someone's opinion."
+  },
+  {
+    "topic": "duration",
+    "context": "Talking about a friend's trip.",
+    "prompt": "Noa has been living in Berlin ___ three years.",
+    "options": [
+      "for",
+      "since",
+      "during",
+      "by"
+    ],
+    "answer": "for",
+    "why": "Use \"for\" with a length of time, like three years."
+  },
+  {
+    "topic": "duration",
+    "context": "Chatting about a new job.",
+    "prompt": "Daniel has worked at that company ___ 2019.",
+    "options": [
+      "for",
+      "since",
+      "during",
+      "until"
+    ],
+    "answer": "since",
+    "why": "Use \"since\" with a starting point in time, like a year, with the present perfect."
+  },
+  {
+    "topic": "duration",
+    "context": "At the cinema.",
+    "prompt": "Please don't talk ___ the movie.",
+    "options": [
+      "for",
+      "since",
+      "during",
+      "until"
+    ],
+    "answer": "during",
+    "why": "Use \"during\" for something happening inside an event, like a movie."
+  },
+  {
+    "topic": "duration",
+    "context": "A manager talking to the team.",
+    "prompt": "I need the report on my desk ___ Friday at noon.",
+    "options": [
+      "until",
+      "by",
+      "during",
+      "since"
+    ],
+    "answer": "by",
+    "why": "\"By\" means no later than a deadline."
+  },
+  {
+    "topic": "duration",
+    "context": "Making plans with a friend.",
+    "prompt": "Let's wait here ___ the rain stops.",
+    "options": [
+      "by",
+      "since",
+      "until",
+      "for"
+    ],
+    "answer": "until",
+    "why": "\"Until\" shows something continues up to a certain moment."
+  },
+  {
+    "topic": "duration",
+    "context": "Texting about a trip.",
+    "prompt": "We stayed at my aunt's place ___ two weeks last summer.",
+    "options": [
+      "since",
+      "by",
+      "until",
+      "for"
+    ],
+    "answer": "for",
+    "why": "Use \"for\" to say how long something lasted."
+  },
+  {
+    "topic": "duration",
+    "context": "Talking about the weather.",
+    "prompt": "It has been raining ___ this morning.",
+    "options": [
+      "for",
+      "since",
+      "during",
+      "by"
+    ],
+    "answer": "since",
+    "why": "Use \"since\" with the starting moment, \"this morning\", and the present perfect."
+  },
+  {
+    "topic": "duration",
+    "context": "Talking about a trip abroad.",
+    "prompt": "Maya lost her phone ___ the flight to London.",
+    "options": [
+      "for",
+      "since",
+      "until",
+      "during"
+    ],
+    "answer": "during",
+    "why": "Use \"during\" for something that happened while an event was going on."
+  },
+  {
+    "topic": "duration",
+    "context": "Planning a party.",
+    "prompt": "Can you send me the guest list ___ tomorrow evening?",
+    "options": [
+      "during",
+      "by",
+      "since",
+      "until"
+    ],
+    "answer": "by",
+    "why": "\"By\" means at or before a deadline."
+  },
+  {
+    "topic": "duration",
+    "context": "Talking about a lazy weekend.",
+    "prompt": "Tom slept ___ noon on Sunday.",
+    "options": [
+      "by",
+      "for",
+      "since",
+      "until"
+    ],
+    "answer": "until",
+    "why": "\"Until\" shows the sleeping continued up to noon, then stopped."
+  },
+  {
+    "topic": "movement",
+    "context": "Tom is talking about his trip to Spain.",
+    "prompt": "Last summer we flew ___ Madrid and stayed for a week.",
+    "options": [
+      "to",
+      "in",
+      "at",
+      "on"
+    ],
+    "answer": "to",
+    "why": "Use \"to\" for the destination of a trip or flight."
+  },
+  {
+    "topic": "movement",
+    "context": "Two friends are on a train.",
+    "prompt": "The train went ___ a long tunnel, and my phone lost signal.",
+    "options": [
+      "through",
+      "across",
+      "over",
+      "along"
+    ],
+    "answer": "through",
+    "why": "\"Through\" means moving inside something and coming out the other side, like a tunnel."
+  },
+  {
+    "topic": "movement",
+    "context": "Ben is describing a quick trip to the shop.",
+    "prompt": "I'm going ___ the supermarket. Do you need anything?",
+    "options": [
+      "to",
+      "in",
+      "at",
+      "on"
+    ],
+    "answer": "to",
+    "why": "Use \"to\" after \"go\" when talking about the place you're heading for."
+  },
+  {
+    "topic": "movement",
+    "context": "Lee is on a city tour.",
+    "prompt": "Our bus drove ___ the bridge and then turned left.",
+    "options": [
+      "over",
+      "into",
+      "at",
+      "from"
+    ],
+    "answer": "over",
+    "why": "\"Over\" describes going up and across something like a bridge."
+  },
+  {
+    "topic": "movement",
+    "context": "Sara is describing a hiking trip.",
+    "prompt": "We hiked ___ the top of the hill and had lunch there.",
+    "options": [
+      "to",
+      "at",
+      "in",
+      "on"
+    ],
+    "answer": "to",
+    "why": "Use \"to\" for the point you reach when you move toward a place."
+  },
+  {
+    "topic": "movement",
+    "context": "Omer is telling a story about his cat.",
+    "prompt": "The cat jumped ___ the window and ran into the garden.",
+    "options": [
+      "out of",
+      "into",
+      "onto",
+      "at"
+    ],
+    "answer": "out of",
+    "why": "\"Out of\" means leaving the inside of something, like a room through a window."
+  },
+  {
+    "topic": "movement",
+    "context": "Jenny is giving directions.",
+    "prompt": "Walk ___ the street, and the bakery is right there.",
+    "options": [
+      "across",
+      "through",
+      "into",
+      "at"
+    ],
+    "answer": "across",
+    "why": "\"Across\" means going from one side of a flat thing, like a street, to the other."
+  },
+  {
+    "topic": "time",
+    "context": "Planning a trip with a friend",
+    "prompt": "Our flight leaves ___ 6:45 tomorrow morning.",
+    "options": [
+      "at",
+      "in",
+      "on",
+      "by"
+    ],
+    "answer": "at",
+    "why": "Use \"at\" for exact clock times."
+  },
+  {
+    "topic": "time",
+    "context": "Talking about a birthday",
+    "prompt": "My sister was born ___ March, just before spring.",
+    "options": [
+      "on",
+      "at",
+      "in",
+      "of"
+    ],
+    "answer": "in",
+    "why": "Use \"in\" for months, years and seasons."
+  },
+  {
+    "topic": "time",
+    "context": "Making plans for the week",
+    "prompt": "Let's meet ___ Thursday after work.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "to"
+    ],
+    "answer": "on",
+    "why": "Use \"on\" for days of the week."
+  },
+  {
+    "topic": "time",
+    "context": "Chatting about someone's routine",
+    "prompt": "Dana usually goes for a run ___ the morning, before work.",
+    "options": [
+      "on",
+      "at",
+      "by",
+      "in"
+    ],
+    "answer": "in",
+    "why": "We say \"in the morning\", \"in the afternoon\" and \"in the evening\"."
+  },
+  {
+    "topic": "time",
+    "context": "Complaining about a sleepless night",
+    "prompt": "I woke up three times ___ night and couldn't sleep.",
+    "options": [
+      "at",
+      "in",
+      "on the",
+      "by"
+    ],
+    "answer": "at",
+    "why": "We say \"at night\" as a fixed phrase."
+  },
+  {
+    "topic": "time",
+    "context": "Talking about a holiday",
+    "prompt": "We always have a big family dinner ___ New Year's Eve.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "to"
+    ],
+    "answer": "on",
+    "why": "Use \"on\" for a specific day, including holidays like New Year's Eve."
+  },
+  {
+    "topic": "time",
+    "context": "Talking about future plans",
+    "prompt": "Tom is moving to Canada ___ 2027.",
+    "options": [
+      "on",
+      "at",
+      "in",
+      "to"
+    ],
+    "answer": "in",
+    "why": "Use \"in\" for years."
+  },
+  {
+    "topic": "time",
+    "context": "Planning a party",
+    "prompt": "The party starts ___ 8 p.m. on Saturday, so don't be late.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "to"
+    ],
+    "answer": "at",
+    "why": "Use \"at\" for exact clock times like 8 p.m."
+  },
+  {
+    "topic": "time",
+    "context": "Talking about a school schedule",
+    "prompt": "My exam is ___ June 12, so I'm studying a lot.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "of"
+    ],
+    "answer": "on",
+    "why": "Use \"on\" for full dates, like June 12."
+  },
+  {
+    "topic": "time",
+    "context": "Talking about a cold place",
+    "prompt": "It gets really cold here ___ winter, so bring a warm coat.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "to"
+    ],
+    "answer": "in",
+    "why": "Use \"in\" for seasons."
+  },
+  {
+    "topic": "place",
+    "context": "Talking about where someone works.",
+    "prompt": "Dana works ___ a small design studio near the beach.",
+    "options": [
+      "at",
+      "on",
+      "to",
+      "of"
+    ],
+    "answer": "at",
+    "why": "Use 'at' for a workplace or a specific place where you do something, like a studio, office or school."
+  },
+  {
+    "topic": "place",
+    "context": "Asking where a friend lives.",
+    "prompt": "My cousin lives ___ Chicago, but he grew up in Texas.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "to"
+    ],
+    "answer": "in",
+    "why": "Use 'in' for cities, countries and other large areas."
+  },
+  {
+    "topic": "place",
+    "context": "Giving directions to an apartment.",
+    "prompt": "Our apartment is ___ the third floor, right next to the elevator.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "to"
+    ],
+    "answer": "on",
+    "why": "Use 'on' for floors of a building: on the first floor, on the third floor."
+  },
+  {
+    "topic": "place",
+    "context": "Waiting for a friend.",
+    "prompt": "I'll meet you ___ the bus stop in ten minutes.",
+    "options": [
+      "at",
+      "in",
+      "on",
+      "to"
+    ],
+    "answer": "at",
+    "why": "Use 'at' for a specific point or meeting place, like a bus stop, corner or door."
+  },
+  {
+    "topic": "place",
+    "context": "Looking for keys.",
+    "prompt": "Your keys are ___ the kitchen table, next to the fruit bowl.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "to"
+    ],
+    "answer": "on",
+    "why": "Use 'on' when something sits on top of a surface, like a table or shelf."
+  },
+  {
+    "topic": "place",
+    "context": "Talking about a photo.",
+    "prompt": "Look at Noa! She's the girl standing ___ the back of the group.",
+    "options": [
+      "at",
+      "on",
+      "to",
+      "from"
+    ],
+    "answer": "at",
+    "why": "The fixed phrase is 'at the back' of a group or room."
+  },
+  {
+    "topic": "place",
+    "context": "Chatting about a trip.",
+    "prompt": "We stayed ___ a really nice hotel in Lisbon last summer.",
+    "options": [
+      "in",
+      "on",
+      "to",
+      "of"
+    ],
+    "answer": "in",
+    "why": "Use 'in' for being inside a building or enclosed place, like a hotel, house or room."
+  },
+  {
+    "topic": "place",
+    "context": "Talking about a cafe.",
+    "prompt": "The cafe is ___ Main Street, just across from the bank.",
+    "options": [
+      "on",
+      "at",
+      "to",
+      "of"
+    ],
+    "answer": "on",
+    "why": "Use 'on' for streets and roads: on Main Street, on Park Road."
+  },
+  {
+    "topic": "place",
+    "context": "Describing a classroom.",
+    "prompt": "There's a big map hanging ___ the wall behind the teacher.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "to"
+    ],
+    "answer": "on",
+    "why": "Use 'on' for things attached to a wall, ceiling or door."
+  },
+  {
+    "topic": "place",
+    "context": "Talking about a quick stop.",
+    "prompt": "I'm ___ the supermarket now. Do you need anything?",
+    "options": [
+      "at",
+      "to",
+      "on",
+      "from"
+    ],
+    "answer": "at",
+    "why": "Use 'at' for a place you visit for its purpose, like a shop, bank, airport or gym."
+  },
+  {
+    "topic": "duration",
+    "context": "Talking about a friend who moved abroad.",
+    "prompt": "Dana has been living in Berlin ___ three years now.",
+    "options": [
+      "for",
+      "since",
+      "during",
+      "until"
+    ],
+    "answer": "for",
+    "why": "Use 'for' with a length of time, like three years. 'Since' needs a starting point, like 2022."
+  },
+  {
+    "topic": "duration",
+    "context": "Chatting about a new job.",
+    "prompt": "I haven't had a proper day off ___ March.",
+    "options": [
+      "for",
+      "since",
+      "until",
+      "by"
+    ],
+    "answer": "since",
+    "why": "Use 'since' with a starting point in time, like March, together with the present perfect."
+  },
+  {
+    "topic": "duration",
+    "context": "At the movies.",
+    "prompt": "Please don't talk ___ the movie. Some of us are trying to watch it.",
+    "options": [
+      "during",
+      "for",
+      "since",
+      "until"
+    ],
+    "answer": "during",
+    "why": "Use 'during' for something happening inside an event, like a movie, a meeting or a class."
+  },
+  {
+    "topic": "duration",
+    "context": "A manager talking to a team member.",
+    "prompt": "Can you send me the report ___ Friday at the latest?",
+    "options": [
+      "by",
+      "until",
+      "for",
+      "during"
+    ],
+    "answer": "by",
+    "why": "Use 'by' for a deadline: it means 'on or before' that time."
+  },
+  {
+    "topic": "duration",
+    "context": "Waiting for a friend.",
+    "prompt": "Let's wait here ___ the rain stops, then we'll go.",
+    "options": [
+      "until",
+      "by",
+      "since",
+      "during"
+    ],
+    "answer": "until",
+    "why": "Use 'until' for something that continues up to a certain moment, here when the rain stops."
+  },
+  {
+    "topic": "duration",
+    "context": "Talking about studying.",
+    "prompt": "Noa studied for two hours and then took a break ___ twenty minutes.",
+    "options": [
+      "for",
+      "during",
+      "since",
+      "until"
+    ],
+    "answer": "for",
+    "why": "Use 'for' to say how long something lasted: twenty minutes."
+  },
+  {
+    "topic": "duration",
+    "context": "Meeting an old friend.",
+    "prompt": "We've been best friends ___ we were in high school.",
+    "options": [
+      "since",
+      "for",
+      "during",
+      "by"
+    ],
+    "answer": "since",
+    "why": "Use 'since' before a starting point, here the time when you were in high school."
+  },
+  {
+    "topic": "duration",
+    "context": "Talking about a holiday trip.",
+    "prompt": "Tom got a bad sunburn ___ his week at the beach.",
+    "options": [
+      "during",
+      "for",
+      "since",
+      "until"
+    ],
+    "answer": "during",
+    "why": "Use 'during' with a named period or event, like his week at the beach, to say when something happened."
+  },
+  {
+    "topic": "duration",
+    "context": "Planning a party.",
+    "prompt": "The pizza should be here ___ seven o'clock, so don't worry.",
+    "options": [
+      "by",
+      "until",
+      "since",
+      "for"
+    ],
+    "answer": "by",
+    "why": "Use 'by' to say something will happen at or before a time, not later."
+  },
+  {
+    "topic": "duration",
+    "context": "A shop that closes late.",
+    "prompt": "The supermarket is open ___ midnight, so we can go after work.",
+    "options": [
+      "until",
+      "by",
+      "since",
+      "during"
+    ],
+    "answer": "until",
+    "why": "Use 'until' to say how long a state continues, up to a given time: it closes at midnight."
+  },
+  {
+    "topic": "time",
+    "context": "Planning a trip with a friend.",
+    "prompt": "Our flight leaves ___ 6:45 tomorrow morning.",
+    "options": [
+      "at",
+      "in",
+      "on",
+      "for"
+    ],
+    "answer": "at",
+    "why": "Use \"at\" with exact clock times."
+  },
+  {
+    "topic": "time",
+    "context": "Talking about birthdays.",
+    "prompt": "My sister was born ___ March, just before spring.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "from"
+    ],
+    "answer": "in",
+    "why": "Use \"in\" with months."
+  },
+  {
+    "topic": "time",
+    "context": "Making plans with a coworker.",
+    "prompt": "Let's have lunch ___ Thursday, if you're free.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "to"
+    ],
+    "answer": "on",
+    "why": "Use \"on\" with days of the week."
+  },
+  {
+    "topic": "time",
+    "context": "Chatting about a trip.",
+    "prompt": "We're going to visit my grandparents ___ the summer.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "to"
+    ],
+    "answer": "in",
+    "why": "Use \"in\" with seasons."
+  },
+  {
+    "topic": "time",
+    "context": "A friend is asking about your night.",
+    "prompt": "I usually can't sleep well ___ night when I drink coffee late.",
+    "options": [
+      "at",
+      "in",
+      "on",
+      "for"
+    ],
+    "answer": "at",
+    "why": "We say \"at night\" as a fixed expression."
+  },
+  {
+    "topic": "time",
+    "context": "Planning a party.",
+    "prompt": "The party is ___ December 24th, so don't make other plans.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "of"
+    ],
+    "answer": "on",
+    "why": "Use \"on\" with specific dates."
+  },
+  {
+    "topic": "time",
+    "context": "Talking about your daily routine.",
+    "prompt": "I like to go for a run ___ the morning before work.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "answer": "in",
+    "why": "Use \"in\" with parts of the day like morning, afternoon and evening."
+  },
+  {
+    "topic": "time",
+    "context": "Telling a friend about your plans.",
+    "prompt": "Let's meet ___ noon outside the train station.",
+    "options": [
+      "at",
+      "in",
+      "on",
+      "for"
+    ],
+    "answer": "at",
+    "why": "Use \"at\" with noon, midnight and exact times."
+  },
+  {
+    "topic": "time",
+    "context": "Planning a weekend away.",
+    "prompt": "We're leaving ___ Friday evening, right after work.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "from"
+    ],
+    "answer": "on",
+    "why": "Use \"on\" with a day, including a day plus part of the day."
+  },
+  {
+    "topic": "time",
+    "context": "Talking about a famous movie.",
+    "prompt": "That movie came out ___ 2019, and I still love it.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "of"
+    ],
+    "answer": "in",
+    "why": "Use \"in\" with years."
+  },
+  {
+    "topic": "movement",
+    "context": "Maya is at the train station.",
+    "prompt": "The train ___ Manchester leaves from platform 4.",
+    "options": [
+      "to",
+      "at",
+      "of",
+      "on"
+    ],
+    "answer": "to",
+    "why": "We use \"to\" for the destination of a train, bus or flight."
+  },
+  {
+    "topic": "movement",
+    "context": "Rita is talking about her weekend plans.",
+    "prompt": "We're driving ___ the mountains this Saturday for a picnic.",
+    "options": [
+      "to",
+      "at",
+      "of",
+      "on"
+    ],
+    "answer": "to",
+    "why": "\"To\" shows the place we are travelling towards."
+  },
+  {
+    "topic": "movement",
+    "context": "Omar is on a school trip and the teacher is giving directions.",
+    "prompt": "Please walk ___ the bridge and wait for us on the other side.",
+    "options": [
+      "over",
+      "in",
+      "at",
+      "on to"
+    ],
+    "answer": "over",
+    "why": "\"Over\" means going across something from one side to the other, like a bridge."
+  },
+  {
+    "topic": "place",
+    "context": "Maya is telling a friend where her brother is.",
+    "prompt": "My brother is a student ___ Boston University.",
+    "options": [
+      "at",
+      "in",
+      "on",
+      "to"
+    ],
+    "answer": "at",
+    "why": "We use \"at\" for a place seen as an institution where you study, like a school or university."
+  },
+  {
+    "topic": "place",
+    "context": "Dan is looking for his keys.",
+    "prompt": "I left my keys ___ the kitchen table.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "to"
+    ],
+    "answer": "on",
+    "why": "Use \"on\" when something rests on top of a surface, like a table."
+  },
+  {
+    "topic": "place",
+    "context": "Two coworkers are talking about a colleague.",
+    "prompt": "Noa lives ___ a small town near Haifa.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "to"
+    ],
+    "answer": "in",
+    "why": "Use \"in\" for towns, cities and countries."
+  },
+  {
+    "topic": "place",
+    "context": "Tom is giving directions to his house.",
+    "prompt": "Turn left and you'll see my building ___ the corner.",
+    "options": [
+      "in",
+      "to",
+      "by",
+      "on"
+    ],
+    "answer": "on",
+    "why": "We say \"on the corner\" of a street when a building stands there."
+  },
+  {
+    "topic": "place",
+    "context": "Lisa is explaining where she works.",
+    "prompt": "I work ___ the third floor, next to the elevator.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "to"
+    ],
+    "answer": "on",
+    "why": "Floors of a building take \"on\": on the first floor, on the third floor."
+  },
+  {
+    "topic": "place",
+    "context": "Sam is waiting for a friend before a show.",
+    "prompt": "I'll wait for you ___ the bus stop next to the theater.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "to"
+    ],
+    "answer": "at",
+    "why": "Use \"at\" for a specific point, like a bus stop, a door or an entrance."
+  },
+  {
+    "topic": "place",
+    "context": "Eli is chatting about his weekend plans.",
+    "prompt": "We're having dinner ___ my parents' house tonight.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "to"
+    ],
+    "answer": "at",
+    "why": "Use \"at\" with someone's house or place: at my parents' house, at Ben's."
+  },
+  {
+    "topic": "place",
+    "context": "Rachel is looking at a family photo.",
+    "prompt": "Look at this picture! That's my grandma ___ the middle.",
+    "options": [
+      "at",
+      "on",
+      "to",
+      "in"
+    ],
+    "answer": "in",
+    "why": "Use \"in\" for being inside an area, like \"in the middle\" or \"in the photo\"."
+  },
+  {
+    "topic": "place",
+    "context": "Omer is telling a friend about his hotel.",
+    "prompt": "The best view is ___ the roof of our hotel.",
+    "options": [
+      "at",
+      "on",
+      "in",
+      "to"
+    ],
+    "answer": "on",
+    "why": "Use \"on\" for a surface like a roof, wall or floor."
+  },
+  {
+    "topic": "place",
+    "context": "Jake is calling his friend from a busy place.",
+    "prompt": "Sorry, I can't talk now. I'm ___ the airport and my flight is boarding.",
+    "options": [
+      "by",
+      "on",
+      "at",
+      "to"
+    ],
+    "answer": "at",
+    "why": "Use \"at\" for a place where you do something specific, like an airport, station or office."
+  },
+  {
+    "topic": "place",
+    "context": "Making plans with a friend",
+    "prompt": "I'll wait for you ___ the bus stop outside the library.",
+    "options": [
+      "at",
+      "in",
+      "on",
+      "to"
+    ],
+    "answer": "at",
+    "why": "We use \"at\" for a specific point or spot, like a bus stop."
+  },
+  {
+    "topic": "place",
+    "context": "Talking about a lost item",
+    "prompt": "I think I left my phone ___ the bus this morning.",
+    "options": [
+      "on",
+      "into",
+      "at",
+      "to"
+    ],
+    "answer": "on",
+    "why": "We use \"on\" for public transport like buses, trains and planes."
+  },
+  {
+    "topic": "place",
+    "context": "Chatting about where you live",
+    "prompt": "My cousin Dana lives ___ a small town near Haifa.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "to"
+    ],
+    "answer": "in",
+    "why": "We use \"in\" for towns, cities and countries."
+  },
+  {
+    "topic": "place",
+    "context": "A phone call after work",
+    "prompt": "I'm ___ home right now, so call me whenever you want.",
+    "options": [
+      "at",
+      "in",
+      "on",
+      "to"
+    ],
+    "answer": "at",
+    "why": "\"At home\" is a fixed phrase. We don't say \"in home\" for this meaning."
+  },
+  {
+    "topic": "place",
+    "context": "Describing a bedroom",
+    "prompt": "Leo has a huge football poster ___ the wall above his bed.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "to"
+    ],
+    "answer": "on",
+    "why": "We use \"on\" when something is attached to a surface, like a wall."
+  },
+  {
+    "topic": "place",
+    "context": "Talking about studies",
+    "prompt": "My sister Noa is studying design ___ Tel Aviv University.",
+    "options": [
+      "at",
+      "in",
+      "on",
+      "to"
+    ],
+    "answer": "at",
+    "why": "We use \"at\" with a school, college or university name."
+  },
+  {
+    "topic": "place",
+    "context": "Cooking dinner",
+    "prompt": "Is there any milk left ___ the fridge?",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "to"
+    ],
+    "answer": "in",
+    "why": "We use \"in\" for things inside a closed space or container."
+  },
+  {
+    "topic": "place",
+    "context": "Giving directions in an office",
+    "prompt": "Our team sits ___ the third floor, next to the kitchen.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "to"
+    ],
+    "answer": "on",
+    "why": "We say \"on\" with floors of a building: on the second floor, on the third floor."
+  },
+  {
+    "topic": "place",
+    "context": "In a classroom",
+    "prompt": "Please read the first paragraph ___ page 12.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "to"
+    ],
+    "answer": "on",
+    "why": "We say \"on page 12\" for something printed on a page."
+  },
+  {
+    "topic": "place",
+    "context": "Explaining why you're late",
+    "prompt": "Sorry I'm late, we were stuck ___ traffic for almost an hour.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "to"
+    ],
+    "answer": "in",
+    "why": "\"Stuck in traffic\" is the natural fixed phrase."
+  },
+  {
+    "topic": "time",
+    "context": "A shop's opening hours",
+    "prompt": "The store closes ___ midnight on Sundays.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "to"
+    ],
+    "answer": "at",
+    "why": "Use \"at\" for exact clock times like midnight, noon or 6:30."
+  },
+  {
+    "topic": "time",
+    "context": "Talking about a family member",
+    "prompt": "My cousin Lena was born ___ 2004.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "from"
+    ],
+    "answer": "in",
+    "why": "Use \"in\" for years, months and seasons."
+  },
+  {
+    "topic": "time",
+    "context": "Weekend plans",
+    "prompt": "We're driving to my aunt's ___ Saturday afternoon.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "of"
+    ],
+    "answer": "on",
+    "why": "Use \"on\" for days, including parts of a specific day, like Saturday afternoon."
+  },
+  {
+    "topic": "time",
+    "context": "Talking about the weather",
+    "prompt": "It gets really hot here ___ July.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "of"
+    ],
+    "answer": "in",
+    "why": "Use \"in\" for months: in July, in March, in December."
+  },
+  {
+    "topic": "time",
+    "context": "Making a plan with a friend",
+    "prompt": "Let's meet outside the café ___ noon.",
+    "options": [
+      "in",
+      "on",
+      "to",
+      "at"
+    ],
+    "answer": "at",
+    "why": "Use \"at\" for exact times of day, and noon is one of them."
+  },
+  {
+    "topic": "time",
+    "context": "Chatting about feelings",
+    "prompt": "I always feel a little sad ___ my birthday.",
+    "options": [
+      "at",
+      "in",
+      "on",
+      "to"
+    ],
+    "answer": "on",
+    "why": "Use \"on\" for special days: on my birthday, on New Year's Day."
+  },
+  {
+    "topic": "time",
+    "context": "At home, trying to get a friend moving",
+    "prompt": "The movie starts ___ ten minutes, so hurry up!",
+    "options": [
+      "on",
+      "at",
+      "of",
+      "in"
+    ],
+    "answer": "in",
+    "why": "\"In\" plus a length of time means that much time from now."
+  },
+  {
+    "topic": "time",
+    "context": "Living in a noisy neighborhood",
+    "prompt": "I can't sleep well ___ night when the street is loud.",
+    "options": [
+      "at",
+      "in",
+      "on",
+      "to"
+    ],
+    "answer": "at",
+    "why": "We say \"at night\" as a fixed phrase, unlike \"in the morning\" or \"in the evening\"."
+  },
+  {
+    "topic": "time",
+    "context": "Planning a trip",
+    "prompt": "Our flight lands ___ the morning of the 5th.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "of"
+    ],
+    "answer": "on",
+    "why": "When the morning belongs to a specific date, use \"on\": on the morning of the 5th."
+  },
+  {
+    "topic": "time",
+    "context": "Talking about work",
+    "prompt": "Everyone on our team gets a small bonus ___ the end of the year.",
+    "options": [
+      "in",
+      "on",
+      "to",
+      "at"
+    ],
+    "answer": "at",
+    "why": "\"At the end of\" is the normal phrase for the final point of a period."
+  },
+  {
+    "topic": "duration",
+    "context": "At the airport",
+    "prompt": "We've been waiting ___ almost an hour, and there's still no news.",
+    "options": [
+      "for",
+      "since",
+      "during",
+      "from"
+    ],
+    "answer": "for",
+    "why": "Use 'for' with a length of time, like an hour or two days."
+  },
+  {
+    "topic": "duration",
+    "context": "Talking about a friend",
+    "prompt": "Dana hasn't called me ___ last Friday.",
+    "options": [
+      "for",
+      "from",
+      "since",
+      "by"
+    ],
+    "answer": "since",
+    "why": "Use 'since' with a starting point in the past, with the present perfect."
+  },
+  {
+    "topic": "duration",
+    "context": "At the cinema",
+    "prompt": "My phone rang three times ___ the movie.",
+    "options": [
+      "for",
+      "since",
+      "by",
+      "during"
+    ],
+    "answer": "during",
+    "why": "Use 'during' for something that happens inside an event, from start to end."
+  },
+  {
+    "topic": "duration",
+    "context": "At work",
+    "prompt": "I have to finish this ___ 5 p.m., or my boss will be upset.",
+    "options": [
+      "since",
+      "by",
+      "during",
+      "until"
+    ],
+    "answer": "by",
+    "why": "Use 'by' for a deadline: the latest time something must be done."
+  },
+  {
+    "topic": "duration",
+    "context": "Planning a night out",
+    "prompt": "The shop stays open ___ midnight on Saturdays.",
+    "options": [
+      "by",
+      "since",
+      "until",
+      "for"
+    ],
+    "answer": "until",
+    "why": "Use 'until' when a situation continues up to a certain time and then stops."
+  },
+  {
+    "topic": "duration",
+    "context": "Travel plans",
+    "prompt": "We're going to Spain ___ two weeks in August.",
+    "options": [
+      "during",
+      "for",
+      "since",
+      "until"
+    ],
+    "answer": "for",
+    "why": "Use 'for' to say how long something lasts: two weeks, three days."
+  },
+  {
+    "topic": "duration",
+    "context": "Bad weather",
+    "prompt": "It's been raining ___ I got up this morning.",
+    "options": [
+      "for",
+      "from",
+      "by",
+      "since"
+    ],
+    "answer": "since",
+    "why": "Use 'since' with a starting point in the past when something is still going on now."
+  },
+  {
+    "topic": "duration",
+    "context": "University",
+    "prompt": "I fell asleep ___ the lecture yesterday.",
+    "options": [
+      "for",
+      "during",
+      "since",
+      "by"
+    ],
+    "answer": "during",
+    "why": "Use 'during' for something that happens while an event is going on."
+  },
+  {
+    "topic": "duration",
+    "context": "Dinner plans",
+    "prompt": "I'll be home ___ nine, so please don't start dinner without me.",
+    "options": [
+      "since",
+      "during",
+      "by",
+      "from"
+    ],
+    "answer": "by",
+    "why": "'By nine' means at or before nine o'clock, not later."
+  },
+  {
+    "topic": "duration",
+    "context": "On the phone",
+    "prompt": "Stay on the line ___ someone answers.",
+    "options": [
+      "by",
+      "until",
+      "for",
+      "since"
+    ],
+    "answer": "until",
+    "why": "Use 'until' for an action that continues up to the moment something else happens."
+  },
+  {
+    "topic": "nouns",
+    "context": "Talking about a school exam.",
+    "prompt": "Dana is worried because she has an exam ___ chemistry tomorrow.",
+    "options": [
+      "in",
+      "of",
+      "at",
+      "about"
+    ],
+    "answer": "in",
+    "why": "We say \"an exam in\" a school subject, or just \"a chemistry exam\"."
+  },
+  {
+    "topic": "nouns",
+    "context": "Two coworkers chatting at the office.",
+    "prompt": "Tom has a good reason ___ being late today.",
+    "options": [
+      "for",
+      "of",
+      "to",
+      "about"
+    ],
+    "answer": "for",
+    "why": "We say \"a reason for\" something. Hebrew speakers often say \"reason of\" by mistake."
+  },
+  {
+    "topic": "nouns",
+    "context": "A friend is asking about a new phone.",
+    "prompt": "The main problem ___ this phone is the battery.",
+    "options": [
+      "with",
+      "of",
+      "in",
+      "for"
+    ],
+    "answer": "with",
+    "why": "We say \"the problem with\" something or someone, to say what is wrong with it."
+  },
+  {
+    "topic": "nouns",
+    "context": "Discussing the news.",
+    "prompt": "There has been a big increase ___ the price of coffee.",
+    "options": [
+      "in",
+      "of",
+      "on",
+      "at"
+    ],
+    "answer": "in",
+    "why": "We say \"an increase in\" prices, numbers or amounts that go up."
+  },
+  {
+    "topic": "nouns",
+    "context": "Chatting about a driving test.",
+    "prompt": "Noa finally got her license, so she has no need ___ rides from her parents anymore.",
+    "options": [
+      "for",
+      "of",
+      "to",
+      "about"
+    ],
+    "answer": "for",
+    "why": "\"Need for\" something is the right pattern. \"Need of\" sounds old and wrong here."
+  },
+  {
+    "topic": "nouns",
+    "context": "Talking about sports.",
+    "prompt": "Leo has no interest ___ football, so he never watches the games.",
+    "options": [
+      "in",
+      "on",
+      "for",
+      "at"
+    ],
+    "answer": "in",
+    "why": "We say \"interest in\" something. Hebrew speakers often say \"interest for\" by mistake."
+  },
+  {
+    "topic": "nouns",
+    "context": "Planning a trip abroad.",
+    "prompt": "Before you fly, check the rules ___ luggage on the airline's website.",
+    "options": [
+      "on",
+      "at",
+      "of",
+      "by"
+    ],
+    "answer": "on",
+    "why": "\"Rules on\" something means the official rules about it. \"On\" is the normal choice here."
+  },
+  {
+    "topic": "adjectives",
+    "context": "Talking about a friend who is nervous before a trip.",
+    "prompt": "Dana is really afraid ___ flying, so she takes the train everywhere.",
+    "options": [
+      "of",
+      "from",
+      "at",
+      "with"
+    ],
+    "answer": "of",
+    "why": "We say \"afraid of\" something. Hebrew speakers often translate it word for word and use \"from\"."
+  },
+  {
+    "topic": "adjectives",
+    "context": "Chatting about a coworker's new project.",
+    "prompt": "Tom is very good ___ fixing computer problems, so everyone asks him for help.",
+    "options": [
+      "in",
+      "at",
+      "for",
+      "on"
+    ],
+    "answer": "at",
+    "why": "We say \"good at\" when talking about a skill or something you do well."
+  },
+  {
+    "topic": "adjectives",
+    "context": "Two friends talking about weekend plans.",
+    "prompt": "I'm so excited ___ the concert on Saturday!",
+    "options": [
+      "on",
+      "with",
+      "about",
+      "of"
+    ],
+    "answer": "about",
+    "why": "We say \"excited about\" an event or plan."
+  },
+  {
+    "topic": "adjectives",
+    "context": "A parent talking about their kid's school.",
+    "prompt": "Maya is very proud ___ her daughter, who just won the science prize.",
+    "options": [
+      "of",
+      "from",
+      "about",
+      "in"
+    ],
+    "answer": "of",
+    "why": "We say \"proud of\" someone or something. Other prepositions sound wrong here."
+  },
+  {
+    "topic": "adjectives",
+    "context": "Someone is complaining at the office.",
+    "prompt": "I'm tired ___ waiting for this slow printer every morning.",
+    "options": [
+      "on",
+      "of",
+      "with",
+      "at"
+    ],
+    "answer": "of",
+    "why": "\"Tired of\" something means you are fed up with it and don't want it anymore."
+  },
+  {
+    "topic": "adjectives",
+    "context": "Friends talking about a new neighbor.",
+    "prompt": "Ben is really similar ___ his older brother, both in looks and in personality.",
+    "options": [
+      "with",
+      "as",
+      "to",
+      "than"
+    ],
+    "answer": "to",
+    "why": "We say \"similar to\" someone or something. \"Similar with\" and \"similar as\" are mistakes."
+  },
+  {
+    "topic": "adjectives",
+    "context": "Talking about a teacher.",
+    "prompt": "Our teacher was very angry ___ us because we forgot the homework again.",
+    "options": [
+      "on",
+      "with",
+      "from",
+      "for"
+    ],
+    "answer": "with",
+    "why": "We say \"angry with\" (or \"angry at\") a person. \"Angry on\" is a word-for-word translation from Hebrew."
+  },
+  {
+    "topic": "adjectives",
+    "context": "Asking a colleague about tomorrow's meeting.",
+    "prompt": "Are you ready ___ the meeting with the new client tomorrow?",
+    "options": [
+      "to",
+      "for",
+      "at",
+      "in"
+    ],
+    "answer": "for",
+    "why": "We say \"ready for\" an event or situation. \"Ready to\" needs a verb after it."
+  },
+  {
+    "topic": "adjectives",
+    "context": "Two friends talking about a movie.",
+    "prompt": "I was really surprised ___ the ending of the film. I didn't see it coming!",
+    "options": [
+      "at",
+      "on",
+      "from",
+      "in"
+    ],
+    "answer": "at",
+    "why": "We say \"surprised at\" something unexpected. The other options are not used with this adjective."
+  },
+  {
+    "topic": "adjectives",
+    "context": "Chatting about a family dinner.",
+    "prompt": "My sister is allergic ___ nuts, so we always check the food labels.",
+    "options": [
+      "from",
+      "to",
+      "with",
+      "of"
+    ],
+    "answer": "to",
+    "why": "We say \"allergic to\" something. The other prepositions are not used with \"allergic\"."
+  },
+  {
+    "topic": "movement",
+    "context": "A walk with a friend",
+    "prompt": "We walked ___ the beach until the sun went down.",
+    "options": [
+      "along",
+      "between",
+      "among",
+      "against"
+    ],
+    "answer": "along",
+    "why": "\"Along\" means moving next to a long line, like a beach, road or river."
+  },
+  {
+    "topic": "movement",
+    "context": "Talking about your daily routine",
+    "prompt": "My room is on the top floor, so I walk ___ three flights of stairs every day.",
+    "options": [
+      "up",
+      "in",
+      "on",
+      "at"
+    ],
+    "answer": "up",
+    "why": "\"Up\" is movement to a higher place, like stairs or a hill."
+  },
+  {
+    "topic": "movement",
+    "context": "Telling a friend about your commute",
+    "prompt": "I drive ___ that bakery every morning, but I never stop there.",
+    "options": [
+      "past",
+      "at",
+      "in",
+      "for"
+    ],
+    "answer": "past",
+    "why": "\"Past\" means going by something without stopping."
+  },
+  {
+    "topic": "movement",
+    "context": "Weekend plans",
+    "prompt": "We walked ___ the lake in about an hour.",
+    "options": [
+      "around",
+      "among",
+      "at",
+      "between"
+    ],
+    "answer": "around",
+    "why": "\"Around\" means moving in a circle along the edge of something."
+  },
+  {
+    "topic": "movement",
+    "context": "At home with a pet",
+    "prompt": "The cat jumped ___ the kitchen table and stole my sandwich.",
+    "options": [
+      "onto",
+      "into",
+      "through",
+      "from"
+    ],
+    "answer": "onto",
+    "why": "\"Onto\" means moving up and landing on a surface."
+  },
+  {
+    "topic": "movement",
+    "context": "On a train in London",
+    "prompt": "Please get ___ the train at the next stop.",
+    "options": [
+      "off",
+      "out",
+      "from",
+      "down"
+    ],
+    "answer": "off",
+    "why": "We get \"off\" a bus, train or plane. We get \"into\" a car."
+  },
+  {
+    "topic": "movement",
+    "context": "A kid loses a toy",
+    "prompt": "The ball rolled ___ the sofa, and now I can't reach it.",
+    "options": [
+      "under",
+      "through",
+      "between",
+      "from"
+    ],
+    "answer": "under",
+    "why": "\"Under\" means moving to a place below something."
+  },
+  {
+    "topic": "movement",
+    "context": "In the kitchen",
+    "prompt": "Please keep the kids away ___ the stove while I cook.",
+    "options": [
+      "from",
+      "of",
+      "off",
+      "to"
+    ],
+    "answer": "from",
+    "why": "We say \"away from\" for staying at a distance from something."
+  },
+  {
+    "topic": "nouns",
+    "context": "Two friends are talking about a school trip.",
+    "prompt": "I have a lot of respect ___ my teacher because she is always fair.",
+    "options": [
+      "for",
+      "to",
+      "at",
+      "in"
+    ],
+    "answer": "for",
+    "why": "We say \"respect for\" someone. \"Respect to\" is not used this way."
+  },
+  {
+    "topic": "nouns",
+    "context": "A student is asking about class.",
+    "prompt": "What is the reason ___ the delay?",
+    "options": [
+      "of",
+      "for",
+      "to",
+      "with"
+    ],
+    "answer": "for",
+    "why": "The correct phrase is \"the reason for\" something."
+  },
+  {
+    "topic": "nouns",
+    "context": "Two coworkers are chatting at lunch.",
+    "prompt": "I have no interest ___ watching football.",
+    "options": [
+      "for",
+      "on",
+      "in",
+      "to"
+    ],
+    "answer": "in",
+    "why": "We say \"interest in\" something."
+  },
+  {
+    "topic": "nouns",
+    "context": "Two neighbors are talking about a new shop.",
+    "prompt": "There is a great need ___ more parking in this area.",
+    "options": [
+      "of",
+      "for",
+      "to",
+      "in"
+    ],
+    "answer": "for",
+    "why": "We say \"a need for\" something."
+  },
+  {
+    "topic": "nouns",
+    "context": "A student is talking about a test.",
+    "prompt": "The answer ___ question five is wrong.",
+    "options": [
+      "with",
+      "to",
+      "of",
+      "at"
+    ],
+    "answer": "to",
+    "why": "We say \"the answer to\" a question."
+  },
+  {
+    "topic": "adjectives",
+    "context": "Talking about a friend's hobby",
+    "prompt": "My brother is really good ___ drawing cartoons.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "for"
+    ],
+    "answer": "at",
+    "why": "We say \"good at\" when we talk about a skill or something we can do well."
+  },
+  {
+    "topic": "adjectives",
+    "context": "Talking about a holiday",
+    "prompt": "I'm so excited ___ our trip to Italy next week.",
+    "options": [
+      "about",
+      "on",
+      "with",
+      "from"
+    ],
+    "answer": "about",
+    "why": "We say \"excited about\" something we are looking forward to."
+  },
+  {
+    "topic": "adjectives",
+    "context": "Talking about a colleague",
+    "prompt": "Dana is very different ___ her sister, who is quiet and shy.",
+    "options": [
+      "at",
+      "with",
+      "from",
+      "of"
+    ],
+    "answer": "from",
+    "why": "We say \"different from\" when we compare two people or things."
+  },
+  {
+    "topic": "adjectives",
+    "context": "After a long day",
+    "prompt": "I'm tired ___ cooking the same dinner every night.",
+    "options": [
+      "on",
+      "of",
+      "in",
+      "at"
+    ],
+    "answer": "of",
+    "why": "\"Tired of\" means you're bored or fed up with something that keeps happening."
+  },
+  {
+    "topic": "adjectives",
+    "context": "Asking about a friend's problem",
+    "prompt": "Are you angry ___ me for forgetting your birthday?",
+    "options": [
+      "on",
+      "at",
+      "to",
+      "in"
+    ],
+    "answer": "at",
+    "why": "We say \"angry at\" (or \"angry with\") a person. \"On\", \"to\" and \"in\" don't work here."
+  },
+  {
+    "topic": "adjectives",
+    "context": "Talking about school",
+    "prompt": "Tom is interested ___ learning how to play the guitar.",
+    "options": [
+      "on",
+      "for",
+      "in",
+      "at"
+    ],
+    "answer": "in",
+    "why": "We say \"interested in\" something that we want to know more about."
+  },
+  {
+    "topic": "adjectives",
+    "context": "Talking about family",
+    "prompt": "My parents are very proud ___ my sister for getting into university.",
+    "options": [
+      "of",
+      "for",
+      "about",
+      "with"
+    ],
+    "answer": "of",
+    "why": "We say \"proud of\" someone when we feel happy about what they did."
+  },
+  {
+    "topic": "adjectives",
+    "context": "Planning a weekend",
+    "prompt": "We're not ready ___ the exam, so we need to study tonight.",
+    "options": [
+      "to",
+      "for",
+      "at",
+      "with"
+    ],
+    "answer": "for",
+    "why": "We say \"ready for\" an event, test or situation that is coming."
+  },
+  {
+    "topic": "adjectives",
+    "context": "At a restaurant",
+    "prompt": "Sorry, I'm allergic ___ nuts, so I can't eat that.",
+    "options": [
+      "to",
+      "from",
+      "with",
+      "of"
+    ],
+    "answer": "to",
+    "why": "We say \"allergic to\" the thing that makes us sick."
+  },
+  {
+    "topic": "adjectives",
+    "context": "Talking about a neighbor",
+    "prompt": "Lisa is very similar ___ her mom, both in looks and in personality.",
+    "options": [
+      "with",
+      "to",
+      "as",
+      "from"
+    ],
+    "answer": "to",
+    "why": "We say \"similar to\" when two things or people are almost the same."
+  },
+  {
+    "topic": "movement",
+    "context": "Dana is getting home after a long day.",
+    "prompt": "I took off my shoes as soon as I walked ___ the apartment.",
+    "options": [
+      "into",
+      "to",
+      "at",
+      "onto"
+    ],
+    "answer": "into",
+    "why": "\"Into\" shows movement from outside to the inside of a place."
+  },
+  {
+    "topic": "movement",
+    "context": "Two friends are talking about a weekend trip.",
+    "prompt": "We drove ___ the tunnel and came out right by the beach.",
+    "options": [
+      "through",
+      "across",
+      "over",
+      "above"
+    ],
+    "answer": "through",
+    "why": "\"Through\" means going in one end of something enclosed and out the other end."
+  },
+  {
+    "topic": "movement",
+    "context": "Tom is chatting with a coworker about his commute.",
+    "prompt": "Every morning I get ___ the train at the station near my house and ride it to work.",
+    "options": [
+      "on",
+      "to",
+      "at",
+      "by"
+    ],
+    "answer": "on",
+    "why": "We get \"on\" a train, bus or plane, and \"in\" a car or taxi."
+  },
+  {
+    "topic": "movement",
+    "context": "Ben is giving directions to a tourist.",
+    "prompt": "Walk straight until you get ___ the bridge, then turn left.",
+    "options": [
+      "to",
+      "at",
+      "into",
+      "in"
+    ],
+    "answer": "to",
+    "why": "\"Get to\" means reach a place or point."
+  },
+  {
+    "topic": "movement",
+    "context": "A mom is talking to her son at the pool.",
+    "prompt": "Be careful, don't run ___ the edge of the pool!",
+    "options": [
+      "along",
+      "between",
+      "under",
+      "among"
+    ],
+    "answer": "along",
+    "why": "\"Along\" means moving next to the length of something, like an edge or a road."
+  },
+  {
+    "topic": "movement",
+    "context": "Maya is telling a friend about a funny moment on the street.",
+    "prompt": "I was so busy texting that I almost walked ___ a lamp post.",
+    "options": [
+      "into",
+      "onto",
+      "through",
+      "across"
+    ],
+    "answer": "into",
+    "why": "\"Walk into\" something means to hit it by accident."
+  },
+  {
+    "topic": "movement",
+    "context": "Eli is talking about his cat.",
+    "prompt": "The cat jumped ___ the sofa and fell asleep right away.",
+    "options": [
+      "onto",
+      "into",
+      "through",
+      "along"
+    ],
+    "answer": "onto",
+    "why": "\"Onto\" shows movement to the top surface of something, like a sofa or table."
+  },
+  {
+    "topic": "movement",
+    "context": "Sam is describing a hike with friends.",
+    "prompt": "We walked ___ the hill for an hour, and the view was amazing.",
+    "options": [
+      "up",
+      "through",
+      "into",
+      "at"
+    ],
+    "answer": "up",
+    "why": "\"Up\" shows movement toward a higher place, like going up a hill."
+  },
+  {
+    "topic": "adjectives",
+    "context": "A parent talking about their daughter's school results.",
+    "prompt": "Dana's mom is very proud ___ her for getting into college.",
+    "options": [
+      "with",
+      "for",
+      "of",
+      "about"
+    ],
+    "answer": "of",
+    "why": "We say \"proud of\" someone when we like what they did."
+  },
+  {
+    "topic": "adjectives",
+    "context": "At the office, talking about a coworker.",
+    "prompt": "Tom is really good ___ explaining things to new people.",
+    "options": [
+      "at",
+      "in",
+      "on",
+      "for"
+    ],
+    "answer": "at",
+    "why": "We say \"good at\" when talking about a skill or something you do well."
+  },
+  {
+    "topic": "adjectives",
+    "context": "Someone talking about a noisy neighbor.",
+    "prompt": "I'm sick ___ hearing that loud music every single night.",
+    "options": [
+      "from",
+      "with",
+      "of",
+      "about"
+    ],
+    "answer": "of",
+    "why": "\"Sick of\" something means you're fed up with it and want it to stop."
+  },
+  {
+    "topic": "adjectives",
+    "context": "A teenager talking about a friend at a party.",
+    "prompt": "Noa is really different ___ her sister, who is quiet and shy.",
+    "options": [
+      "at",
+      "with",
+      "for",
+      "from"
+    ],
+    "answer": "from",
+    "why": "We say \"different from\" when comparing two people or things."
+  },
+  {
+    "topic": "adjectives",
+    "context": "Someone talking about their new job.",
+    "prompt": "I'm not used ___ waking up this early yet.",
+    "options": [
+      "with",
+      "to",
+      "for",
+      "at"
+    ],
+    "answer": "to",
+    "why": "\"Used to\" plus a verb-ing form means you're familiar with something, so it feels normal."
+  },
+  {
+    "topic": "adjectives",
+    "context": "A friend talking about their family.",
+    "prompt": "My brother is scared ___ spiders, even small ones.",
+    "options": [
+      "from",
+      "about",
+      "of",
+      "with"
+    ],
+    "answer": "of",
+    "why": "We say \"scared of\" the thing that makes us afraid."
+  },
+  {
+    "topic": "adjectives",
+    "context": "A guy talking about a coworker who is always late.",
+    "prompt": "Our boss is angry ___ Ben for missing the meeting again.",
+    "options": [
+      "at",
+      "on",
+      "about",
+      "of"
+    ],
+    "answer": "at",
+    "why": "We say \"angry at\" a person. With a thing, we usually say \"angry about\"."
+  },
+  {
+    "topic": "adjectives",
+    "context": "A woman talking to a friend about the new apartment.",
+    "prompt": "We're so happy ___ the new apartment, it's much brighter.",
+    "options": [
+      "from",
+      "with",
+      "of",
+      "for"
+    ],
+    "answer": "with",
+    "why": "We say \"happy with\" something when we're satisfied with how it is."
+  },
+  {
+    "topic": "phrases",
+    "context": "Anna is talking about her work meetings.",
+    "prompt": "Our meetings always start ___ time, never even a minute late.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "by"
+    ],
+    "answer": "on",
+    "why": "\"On time\" is the fixed phrase for exactly when planned, not late."
+  },
+  {
+    "topic": "phrases",
+    "context": "Dan is telling a friend how he gets to work.",
+    "prompt": "I usually go to work ___ car because the train is so crowded.",
+    "options": [
+      "by",
+      "with",
+      "at",
+      "on"
+    ],
+    "answer": "by",
+    "why": "We use \"by\" with a type of transport: by car, by bus, by train."
+  },
+  {
+    "topic": "phrases",
+    "context": "Maya is talking about her phone call with a friend.",
+    "prompt": "I can't talk right now, but I'll call you back ___ a few minutes.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "for"
+    ],
+    "answer": "in",
+    "why": "\"In a few minutes\" means after a few minutes from now."
+  },
+  {
+    "topic": "phrases",
+    "context": "Tom is looking at a restaurant bill.",
+    "prompt": "I think there's a mistake ___ the bill, they charged us for two desserts.",
+    "options": [
+      "in",
+      "at",
+      "to",
+      "of"
+    ],
+    "answer": "in",
+    "why": "We say \"a mistake in\" something written, like a bill, a text or a list."
+  },
+  {
+    "topic": "phrases",
+    "context": "Lisa is explaining why she missed the party.",
+    "prompt": "Sorry I missed your birthday dinner, I was stuck ___ traffic for two hours.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "answer": "in",
+    "why": "\"Stuck in traffic\" is the fixed phrase for being unable to move on the road."
+  },
+  {
+    "topic": "phrases",
+    "context": "Sam can't meet his friend today.",
+    "prompt": "I can't come over today, but we can talk ___ the phone if you want.",
+    "options": [
+      "on",
+      "by",
+      "with",
+      "in"
+    ],
+    "answer": "on",
+    "why": "We say \"on the phone\" for talking during a call."
+  },
+  {
+    "topic": "phrases",
+    "context": "Noa is telling her boss about a document.",
+    "prompt": "I wrote the report ___ hand because my laptop broke.",
+    "options": [
+      "by",
+      "with",
+      "in",
+      "on"
+    ],
+    "answer": "by",
+    "why": "\"By hand\" is the fixed phrase for doing something without a machine."
+  },
+  {
+    "topic": "phrases",
+    "context": "Ben is saying sorry to his sister.",
+    "prompt": "I'm sorry I broke your mug, I didn't do it ___ purpose.",
+    "options": [
+      "on",
+      "by",
+      "with",
+      "in"
+    ],
+    "answer": "on",
+    "why": "\"On purpose\" is the fixed phrase meaning you did it deliberately."
+  },
+  {
+    "topic": "phrases",
+    "context": "Emma is describing a movie she saw.",
+    "prompt": "I didn't know the ending, so the twist was a big surprise ___ me.",
+    "options": [
+      "to",
+      "at",
+      "on",
+      "in"
+    ],
+    "answer": "to",
+    "why": "We say \"a surprise to\" someone when something is unexpected for them."
+  },
+  {
+    "topic": "phrases",
+    "context": "Leo is on a trip and talking about his hotel.",
+    "prompt": "We were lucky, the hotel was right ___ the beach, so we walked on the sand every morning.",
+    "options": [
+      "on",
+      "in",
+      "of",
+      "to"
+    ],
+    "answer": "on",
+    "why": "\"On the beach\" means right at the sand, by the sea."
+  },
+  {
+    "topic": "nouns",
+    "context": "Showing a friend your phone.",
+    "prompt": "Here's a picture ___ my dog Bruno at the beach.",
+    "options": [
+      "of",
+      "for",
+      "from",
+      "about"
+    ],
+    "answer": "of",
+    "why": "We say 'a picture of' someone or something to show who or what is in it."
+  },
+  {
+    "topic": "nouns",
+    "context": "Talking about a new apartment.",
+    "prompt": "Hey Dana, do you have the key ___ the back door?",
+    "options": [
+      "of",
+      "to",
+      "on",
+      "at"
+    ],
+    "answer": "to",
+    "why": "A key opens something, and we say 'the key to' a door, a car or a room."
+  },
+  {
+    "topic": "nouns",
+    "context": "Apologizing to a coworker.",
+    "prompt": "Sorry, Tom, I sent you the wrong file ___ mistake.",
+    "options": [
+      "in",
+      "with",
+      "by",
+      "at"
+    ],
+    "answer": "by",
+    "why": "'By mistake' means you did it without meaning to. It's a fixed phrase."
+  },
+  {
+    "topic": "nouns",
+    "context": "Talking about coffee and sleep.",
+    "prompt": "Too much coffee at night can have a bad effect ___ your sleep.",
+    "options": [
+      "on",
+      "to",
+      "at",
+      "for"
+    ],
+    "answer": "on",
+    "why": "We say 'an effect on' something when it changes that thing."
+  },
+  {
+    "topic": "nouns",
+    "context": "Talking about city life.",
+    "prompt": "The biggest advantage ___ living downtown is that everything is close.",
+    "options": [
+      "for",
+      "at",
+      "of",
+      "on"
+    ],
+    "answer": "of",
+    "why": "'The advantage of' doing something is the good side of it."
+  },
+  {
+    "topic": "nouns",
+    "context": "A group project at school.",
+    "prompt": "Does anyone have an answer ___ question number five?",
+    "options": [
+      "at",
+      "of",
+      "to",
+      "on"
+    ],
+    "answer": "to",
+    "why": "We say 'the answer to' a question, and also 'the solution to' a problem."
+  },
+  {
+    "topic": "nouns",
+    "context": "Talking about a new manager.",
+    "prompt": "Her attitude ___ work is great, and she's always on time.",
+    "options": [
+      "to",
+      "for",
+      "from",
+      "of"
+    ],
+    "answer": "to",
+    "why": "'Attitude to' work (or 'towards' work) is how someone feels about it."
+  },
+  {
+    "topic": "adjectives",
+    "context": "Anna is talking about her little brother.",
+    "prompt": "My brother is really good ___ drawing cartoons.",
+    "options": [
+      "at",
+      "in",
+      "on",
+      "for"
+    ],
+    "answer": "at",
+    "why": "We say \"good at\" when we talk about a skill or something someone does well."
+  },
+  {
+    "topic": "adjectives",
+    "context": "Dan is chatting with a coworker about the new schedule.",
+    "prompt": "Honestly, I'm not very interested ___ working on Fridays.",
+    "options": [
+      "on",
+      "in",
+      "for",
+      "about"
+    ],
+    "answer": "in",
+    "why": "The fixed phrase is \"interested in\" something."
+  },
+  {
+    "topic": "adjectives",
+    "context": "Maya is explaining why she is not ordering pizza tonight.",
+    "prompt": "I'm so tired ___ eating the same food every day.",
+    "options": [
+      "from",
+      "of",
+      "on",
+      "for"
+    ],
+    "answer": "of",
+    "why": "\"Tired of\" means you are bored or fed up with something that keeps happening."
+  },
+  {
+    "topic": "verbs",
+    "context": "Someone is cooking in the kitchen.",
+    "prompt": "Wow, this kitchen smells ___ garlic!",
+    "options": [
+      "of",
+      "from",
+      "with",
+      "on"
+    ],
+    "answer": "of",
+    "why": "\"Smell of\" tells us what kind of smell something has."
+  },
+  {
+    "topic": "verbs",
+    "context": "Leaving the city centre.",
+    "prompt": "Tell me when we get to your stop, and we'll get ___ the bus together.",
+    "options": [
+      "off",
+      "from",
+      "of",
+      "to"
+    ],
+    "answer": "off",
+    "why": "We \"get off\" a bus, a train or a plane."
+  },
+  {
+    "topic": "verbs",
+    "context": "Talking about family.",
+    "prompt": "Noa has red hair and a big laugh, just like her mum. She really takes ___ her.",
+    "options": [
+      "after",
+      "from",
+      "like",
+      "to"
+    ],
+    "answer": "after",
+    "why": "\"Take after\" means to look or behave like an older family member."
+  },
+  {
+    "topic": "verbs",
+    "context": "Talking about a driving test.",
+    "prompt": "After three tries, Omar finally succeeded ___ passing his driving test.",
+    "options": [
+      "in",
+      "for",
+      "on",
+      "with"
+    ],
+    "answer": "in",
+    "why": "We say \"succeed in\" doing something."
+  },
+  {
+    "topic": "verbs",
+    "context": "Asking a friend for a favour.",
+    "prompt": "Don't worry about the move. You can count ___ me to help.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "of"
+    ],
+    "answer": "on",
+    "why": "\"Count on\" someone means to trust them to help."
+  },
+  {
+    "topic": "verbs",
+    "context": "Listening to the radio.",
+    "prompt": "This song always reminds me ___ our trip to Greece.",
+    "options": [
+      "of",
+      "for",
+      "with",
+      "to"
+    ],
+    "answer": "of",
+    "why": "\"Remind someone of\" something means it makes them remember it."
+  },
+  {
+    "topic": "phrases",
+    "context": "Two friends are talking about getting to the airport.",
+    "prompt": "We're going to the airport ___ taxi, so we don't have to park.",
+    "options": [
+      "with",
+      "by",
+      "in",
+      "on"
+    ],
+    "answer": "by",
+    "why": "We say \"by taxi\", \"by bus\", \"by car\" for the type of transport. \"In a taxi\" also needs \"a\"."
+  },
+  {
+    "topic": "phrases",
+    "context": "A coworker is asking about a project.",
+    "prompt": "Don't worry, Dana is ___ charge of the schedule this week.",
+    "options": [
+      "on",
+      "at",
+      "in",
+      "for"
+    ],
+    "answer": "in",
+    "why": "\"In charge of\" is the fixed phrase for being the person responsible for something."
+  },
+  {
+    "topic": "phrases",
+    "context": "Two classmates are talking after a test.",
+    "prompt": "I didn't study much, so I guessed some answers ___ random.",
+    "options": [
+      "in",
+      "by",
+      "on",
+      "at"
+    ],
+    "answer": "at",
+    "why": "\"At random\" is the fixed phrase for choosing without any plan."
+  },
+  {
+    "topic": "phrases",
+    "context": "A friend is explaining why they missed your call.",
+    "prompt": "Sorry, my phone was ___ silent, so I didn't hear it ring.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "with"
+    ],
+    "answer": "on",
+    "why": "We say a phone is \"on silent\" or \"on vibrate\". It is a fixed phrase."
+  },
+  {
+    "topic": "phrases",
+    "context": "Two roommates are planning dinner.",
+    "prompt": "Let's order pizza tonight. It's ___ me this time.",
+    "options": [
+      "on",
+      "to",
+      "for",
+      "at"
+    ],
+    "answer": "on",
+    "why": "\"It's on me\" means I will pay. It is a common everyday phrase."
+  },
+  {
+    "topic": "phrases",
+    "context": "Two friends are saying goodbye after a trip.",
+    "prompt": "Let's stay ___ touch. Text me anytime!",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "with"
+    ],
+    "answer": "in",
+    "why": "\"Stay in touch\" is the fixed phrase for keeping contact with someone."
+  },
+  {
+    "topic": "phrases",
+    "context": "A student is talking about a mistake in an email.",
+    "prompt": "Sorry about the wrong date. I sent it ___ mistake.",
+    "options": [
+      "by",
+      "in",
+      "with",
+      "at"
+    ],
+    "answer": "by",
+    "why": "\"By mistake\" means you did it without meaning to. It is a fixed phrase."
+  },
+  {
+    "topic": "phrases",
+    "context": "Two coworkers are talking about a busy day.",
+    "prompt": "I can't talk now. I'm ___ a hurry to catch my train.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "with"
+    ],
+    "answer": "in",
+    "why": "We say \"in a hurry\" for needing to move fast. It is a fixed phrase."
+  },
+  {
+    "topic": "phrases",
+    "context": "A friend is talking about a movie they saw.",
+    "prompt": "The story was boring, but the music was good, ___ least.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "answer": "at",
+    "why": "\"At least\" is the fixed phrase for pointing out one good thing."
+  },
+  {
+    "topic": "nouns",
+    "context": "Talking about school.",
+    "prompt": "Dana has a real talent ___ drawing cartoons.",
+    "options": [
+      "for",
+      "on",
+      "of",
+      "to"
+    ],
+    "answer": "for",
+    "why": "We say \"a talent for\" something."
+  },
+  {
+    "topic": "nouns",
+    "context": "Chatting about phone problems.",
+    "prompt": "I think the main reason ___ the delay is the bad Wi-Fi.",
+    "options": [
+      "of",
+      "for",
+      "from",
+      "to"
+    ],
+    "answer": "for",
+    "why": "We say \"the reason for\" something."
+  },
+  {
+    "topic": "nouns",
+    "context": "Talking about a group chat.",
+    "prompt": "Tom's answer ___ my question was really short.",
+    "options": [
+      "for",
+      "to",
+      "of",
+      "on"
+    ],
+    "answer": "to",
+    "why": "We say \"an answer to\" a question."
+  },
+  {
+    "topic": "nouns",
+    "context": "Planning a group project.",
+    "prompt": "We need a solution ___ this problem before Friday.",
+    "options": [
+      "for",
+      "of",
+      "with",
+      "about"
+    ],
+    "answer": "for",
+    "why": "\"A solution for\" (or \"to\") a problem is correct; \"of\", \"with\" and \"about\" don't work."
+  },
+  {
+    "topic": "nouns",
+    "context": "Talking about a friend's habits.",
+    "prompt": "Maya has a lot of respect ___ her teachers.",
+    "options": [
+      "for",
+      "to",
+      "of",
+      "at"
+    ],
+    "answer": "for",
+    "why": "We say \"respect for\" someone."
+  },
+  {
+    "topic": "nouns",
+    "context": "Two friends talk about cooking.",
+    "prompt": "My brother has no interest ___ learning to cook.",
+    "options": [
+      "in",
+      "on",
+      "for",
+      "at"
+    ],
+    "answer": "in",
+    "why": "We say \"interest in\" something."
+  },
+  {
+    "topic": "nouns",
+    "context": "Sharing news at the office.",
+    "prompt": "Lior got an increase ___ salary after the review.",
+    "options": [
+      "in",
+      "of",
+      "on",
+      "at"
+    ],
+    "answer": "in",
+    "why": "We say \"an increase in\" salary, prices or numbers."
+  },
+  {
+    "topic": "nouns",
+    "context": "A parent talks to a teenager.",
+    "prompt": "I have a lot of trust ___ you, so go ahead and plan the trip.",
+    "options": [
+      "in",
+      "on",
+      "to",
+      "at"
+    ],
+    "answer": "in",
+    "why": "We say \"trust in\" someone."
+  },
+  {
+    "topic": "nouns",
+    "context": "Two friends talk about a classmate.",
+    "prompt": "Lena has a real talent ___ drawing, so she's going to art school.",
+    "options": [
+      "for",
+      "on",
+      "of",
+      "to"
+    ],
+    "answer": "for",
+    "why": "We say \"a talent for\" something."
+  },
+  {
+    "topic": "nouns",
+    "context": "A friend arrives late to dinner.",
+    "prompt": "Sorry I'm late! The reason ___ the delay was the traffic.",
+    "options": [
+      "for",
+      "of",
+      "to",
+      "with"
+    ],
+    "answer": "for",
+    "why": "We say \"the reason for\" something."
+  },
+  {
+    "topic": "nouns",
+    "context": "A student asks about a new math class",
+    "prompt": "I think the answer ___ your question is on page twelve.",
+    "options": [
+      "to",
+      "for",
+      "of",
+      "at"
+    ],
+    "answer": "to",
+    "why": "We say \"the answer to\" a question."
+  },
+  {
+    "topic": "nouns",
+    "context": "Two coworkers chat in the office kitchen.",
+    "prompt": "There's been a big increase ___ the price of coffee lately.",
+    "options": [
+      "in",
+      "of",
+      "on",
+      "at"
+    ],
+    "answer": "in",
+    "why": "We say \"an increase in\" prices, numbers or amounts."
+  },
+  {
+    "topic": "nouns",
+    "context": "Two neighbors chat in the hallway",
+    "prompt": "Tom and his brother have a really good relationship ___ each other.",
+    "options": [
+      "with",
+      "to",
+      "for",
+      "between"
+    ],
+    "answer": "with",
+    "why": "We say \"a relationship with\" someone."
+  },
+  {
+    "topic": "verbs",
+    "context": "Two friends are talking about a podcast.",
+    "prompt": "Have you listened ___ the new episode of that podcast yet?",
+    "options": [
+      "to",
+      "at",
+      "for",
+      "on"
+    ],
+    "answer": "to",
+    "why": "We say \"listen to\" something. Hebrew speakers often skip the preposition or use another one."
+  },
+  {
+    "topic": "verbs",
+    "context": "A coworker is asking about your weekend plans.",
+    "prompt": "I'm really looking forward ___ the long weekend.",
+    "options": [
+      "to",
+      "for",
+      "at",
+      "on"
+    ],
+    "answer": "to",
+    "why": "\"Look forward to\" is a fixed expression. It is followed by the thing you are excited about."
+  },
+  {
+    "topic": "verbs",
+    "context": "Two friends are choosing a restaurant.",
+    "prompt": "It all depends ___ how much money we want to spend.",
+    "options": [
+      "on",
+      "in",
+      "of",
+      "from"
+    ],
+    "answer": "on",
+    "why": "We say \"depend on\". The Hebrew-style \"depend in\" is not correct in English."
+  },
+  {
+    "topic": "verbs",
+    "context": "Maya is talking about her sister's job.",
+    "prompt": "My sister works ___ a big company downtown.",
+    "options": [
+      "for",
+      "to",
+      "of",
+      "from"
+    ],
+    "answer": "for",
+    "why": "\"Work for\" a company means you are employed by it."
+  },
+  {
+    "topic": "verbs",
+    "context": "A teacher is talking to a student after class.",
+    "prompt": "Thanks for waiting. I'm sorry ___ being late again.",
+    "options": [
+      "for",
+      "to",
+      "of",
+      "on"
+    ],
+    "answer": "for",
+    "why": "We say \"sorry for\" followed by an -ing word when we apologize for something we did."
+  },
+  {
+    "topic": "verbs",
+    "context": "Dan is telling a friend about his new apartment.",
+    "prompt": "I'm still getting used ___ the noise from the street.",
+    "options": [
+      "to",
+      "with",
+      "at",
+      "for"
+    ],
+    "answer": "to",
+    "why": "\"Get used to\" something means it slowly becomes normal for you."
+  },
+  {
+    "topic": "verbs",
+    "context": "Two coworkers are chatting at lunch.",
+    "prompt": "Can you believe it? Tom just laughed ___ my idea in the meeting.",
+    "options": [
+      "at",
+      "on",
+      "with",
+      "to"
+    ],
+    "answer": "at",
+    "why": "We \"laugh at\" something or someone when we find it funny or silly."
+  },
+  {
+    "topic": "verbs",
+    "context": "Lena is at the bus stop when a friend calls.",
+    "prompt": "Sorry, I can't talk now. I'm waiting ___ the bus and it's almost here.",
+    "options": [
+      "for",
+      "to",
+      "at",
+      "from"
+    ],
+    "answer": "for",
+    "why": "\"Wait for\" is the correct form. Hebrew speakers sometimes say \"wait to\" by mistake."
+  },
+  {
+    "topic": "phrases",
+    "context": "Free tickets",
+    "prompt": "My cousin got us concert tickets ___ free.",
+    "options": [
+      "for",
+      "by",
+      "at",
+      "with"
+    ],
+    "answer": "for",
+    "why": "\"For free\" is a fixed phrase meaning without paying."
+  },
+  {
+    "topic": "phrases",
+    "context": "Talking about a friend",
+    "prompt": "Dan is really good ___ cooking.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "with"
+    ],
+    "answer": "at",
+    "why": "We say \"good at\" when talking about a skill."
+  },
+  {
+    "topic": "phrases",
+    "context": "Talking about fears",
+    "prompt": "My little sister is afraid ___ spiders.",
+    "options": [
+      "from",
+      "of",
+      "with",
+      "about"
+    ],
+    "answer": "of",
+    "why": "\"Afraid of\" is the fixed phrase for a fear."
+  },
+  {
+    "topic": "phrases",
+    "context": "At the cinema",
+    "prompt": "Please don't talk ___ the movie.",
+    "options": [
+      "since",
+      "by",
+      "to",
+      "during"
+    ],
+    "answer": "during",
+    "why": "\"During\" means while something is happening, like a movie."
+  },
+  {
+    "topic": "phrases",
+    "context": "At a restaurant",
+    "prompt": "Please don't put nuts in it. I'm allergic ___ them.",
+    "options": [
+      "for",
+      "with",
+      "from",
+      "to"
+    ],
+    "answer": "to",
+    "why": "\"Allergic to\" is the fixed phrase for an allergy."
+  },
+  {
+    "topic": "phrases",
+    "context": "Hobbies",
+    "prompt": "Maya is really interested ___ learning the guitar.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "for"
+    ],
+    "answer": "in",
+    "why": "We say \"interested in\" something."
+  },
+  {
+    "topic": "phrases",
+    "context": "Maya is explaining why she was late to the meeting.",
+    "prompt": "Sorry I'm late, I was stuck ___ traffic for an hour.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "with"
+    ],
+    "answer": "in",
+    "why": "We say \"stuck in traffic\". \"In\" is the fixed preposition for being caught inside a line of cars."
+  },
+  {
+    "topic": "phrases",
+    "context": "Two friends are talking about a new phone.",
+    "prompt": "I got it ___ sale last week, so it was much cheaper.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "by"
+    ],
+    "answer": "on",
+    "why": "\"On sale\" means sold at a lower price. It is a fixed phrase."
+  },
+  {
+    "topic": "phrases",
+    "context": "Dan is texting his sister about her headphones.",
+    "prompt": "Sorry I broke your headphones. I didn't do it ___ purpose.",
+    "options": [
+      "on",
+      "in",
+      "with",
+      "by"
+    ],
+    "answer": "on",
+    "why": "\"On purpose\" means done deliberately. The opposite is \"by accident\"."
+  },
+  {
+    "topic": "phrases",
+    "context": "Noa is chatting with a coworker about her trip.",
+    "prompt": "I booked the whole holiday ___ the internet, and it was really easy.",
+    "options": [
+      "on",
+      "in",
+      "by",
+      "at"
+    ],
+    "answer": "on",
+    "why": "We say \"on the internet\" and \"on the phone\". Hebrew speakers often say \"in the internet\"."
+  },
+  {
+    "topic": "phrases",
+    "context": "Tom is rushing out the door when his roommate calls.",
+    "prompt": "Sorry, I can't talk now. I'm ___ a hurry.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "with"
+    ],
+    "answer": "in",
+    "why": "\"In a hurry\" is the fixed phrase for rushing."
+  },
+  {
+    "topic": "phrases",
+    "context": "Lena is asking a friend about a restaurant.",
+    "prompt": "Is this restaurant good? I've never been here ___ my life.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "from"
+    ],
+    "answer": "in",
+    "why": "We say \"never in my life\" to stress something has not happened at any time."
+  },
+  {
+    "topic": "phrases",
+    "context": "Sam is describing his favorite show to a colleague.",
+    "prompt": "You have to watch it! It's ___ TV every night at nine.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "by"
+    ],
+    "answer": "on",
+    "why": "Programs are \"on TV\". Hebrew speakers sometimes say \"in the TV\"."
+  },
+  {
+    "topic": "verbs",
+    "context": "Dana is talking about her neighbors.",
+    "prompt": "Dana complained ___ the noise all night.",
+    "options": [
+      "about",
+      "on",
+      "from",
+      "at"
+    ],
+    "answer": "about",
+    "why": "We say \"complain about\" something that annoys us."
+  },
+  {
+    "topic": "verbs",
+    "context": "Two friends are catching up.",
+    "prompt": "Tom is finally recovering ___ the flu.",
+    "options": [
+      "of",
+      "from",
+      "off",
+      "by"
+    ],
+    "answer": "from",
+    "why": "We say \"recover from\" an illness."
+  },
+  {
+    "topic": "verbs",
+    "context": "A student is talking to a teacher.",
+    "prompt": "Please don't accuse me ___ something I didn't do.",
+    "options": [
+      "of",
+      "for",
+      "with",
+      "by"
+    ],
+    "answer": "of",
+    "why": "We say \"accuse someone of\" doing something wrong."
+  },
+  {
+    "topic": "verbs",
+    "context": "Sam is happy about his test.",
+    "prompt": "After three tries, Sam finally succeeded ___ passing the driving test.",
+    "options": [
+      "of",
+      "on",
+      "to",
+      "in"
+    ],
+    "answer": "in",
+    "why": "We say \"succeed in\" doing something."
+  },
+  {
+    "topic": "verbs",
+    "context": "Lena is talking to a friend about work.",
+    "prompt": "I'm dealing ___ a lot of stress at work right now.",
+    "options": [
+      "to",
+      "with",
+      "of",
+      "from"
+    ],
+    "answer": "with",
+    "why": "\"Deal with\" something means to handle a problem."
+  },
+  {
+    "topic": "verbs",
+    "context": "Maya is cleaning her room.",
+    "prompt": "I need to get rid ___ all these old boxes.",
+    "options": [
+      "from",
+      "off",
+      "of",
+      "with"
+    ],
+    "answer": "of",
+    "why": "\"Get rid of\" something means to throw it away."
+  },
+  {
+    "topic": "verbs",
+    "context": "Eli's parents have opinions about his looks.",
+    "prompt": "My parents don't approve ___ my new haircut.",
+    "options": [
+      "for",
+      "to",
+      "with",
+      "of"
+    ],
+    "answer": "of",
+    "why": "We say \"approve of\" something when we think it is good."
+  },
+  {
+    "topic": "verbs",
+    "context": "Vera is talking about her friend's job.",
+    "prompt": "My friend Omer specializes ___ travel photography.",
+    "options": [
+      "on",
+      "at",
+      "in",
+      "for"
+    ],
+    "answer": "in",
+    "why": "We say \"specialize in\" a type of work or subject."
+  },
+  {
+    "topic": "movement",
+    "context": "Maya is telling a friend about her trip.",
+    "prompt": "We drove ___ the tunnel and came out right by the beach.",
+    "options": [
+      "through",
+      "across",
+      "over",
+      "along"
+    ],
+    "answer": "through",
+    "why": "\"Through\" is for going in one side of an enclosed space, like a tunnel, and out the other."
+  },
+  {
+    "topic": "movement",
+    "context": "Dan is giving directions to a tourist.",
+    "prompt": "Walk ___ the bridge and the station is on your left.",
+    "options": [
+      "across",
+      "into",
+      "through",
+      "at"
+    ],
+    "answer": "across",
+    "why": "\"Across\" means from one side of something flat, like a bridge or river, to the other."
+  },
+  {
+    "topic": "movement",
+    "context": "Tom is talking about his morning routine.",
+    "prompt": "I usually jump ___ the shower as soon as I wake up.",
+    "options": [
+      "into",
+      "to",
+      "in to",
+      "at"
+    ],
+    "answer": "into",
+    "why": "\"Into\" shows movement from outside to the inside of something, like a shower or a car."
+  },
+  {
+    "topic": "movement",
+    "context": "Lena is watching her little brother at the playground.",
+    "prompt": "He climbed ___ the tree and wouldn't come down.",
+    "options": [
+      "up",
+      "at",
+      "to",
+      "off"
+    ],
+    "answer": "up",
+    "why": "\"Up\" is used for moving to a higher place, like climbing a tree."
+  },
+  {
+    "topic": "movement",
+    "context": "Rachel is telling her roommate about the neighbor's cat.",
+    "prompt": "The cat jumped ___ the fence and ran into our yard.",
+    "options": [
+      "over",
+      "to",
+      "at",
+      "into"
+    ],
+    "answer": "over",
+    "why": "\"Over\" is used for moving above something and reaching the other side, like a fence."
+  }
+]

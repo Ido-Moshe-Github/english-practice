@@ -1,5 +1,5 @@
 /**
- * The three lanes and their topics. Plain data with no imports, so the
+ * The lanes and their topics. Plain data with no imports, so the
  * content scripts (plain Node) can share it with the app.
  */
 export const LANES = [
@@ -67,6 +67,23 @@ export const LANES = [
       { id: 'mixed-wish', label: 'Mixed conditionals & wish' },
       { id: 'passive', label: 'Passive' },
       { id: 'reported', label: 'Reported speech' },
+    ],
+  },
+  {
+    id: 'prepositions',
+    title: 'Prepositions',
+    hint: 'In, on, at, for, since…',
+    icon: '📍',
+    conversation: false,
+    topics: [
+      { id: 'time', label: 'Time: in, on, at' },
+      { id: 'place', label: 'Place: in, on, at' },
+      { id: 'movement', label: 'Movement: to, into, through…' },
+      { id: 'duration', label: 'For, since, during, by, until' },
+      { id: 'adjectives', label: 'Adjective + preposition' },
+      { id: 'verbs', label: 'Verb + preposition' },
+      { id: 'nouns', label: 'Noun + preposition' },
+      { id: 'phrases', label: 'Fixed phrases: on time, by car…' },
     ],
   },
 ]

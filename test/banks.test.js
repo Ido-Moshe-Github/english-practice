@@ -5,9 +5,10 @@ import { itemId } from '../src/lib/items.js'
 import everyday from '../src/data/everyday.json'
 import phrasal from '../src/data/phrasal.json'
 import tenses from '../src/data/tenses.json'
+import prepositions from '../src/data/prepositions.json'
 
 /** The bundled banks must pass the same checks the generator applies, so a hand edit can't ship a broken item. */
-const BANKS = { everyday, phrasal, tenses }
+const BANKS = { everyday, phrasal, tenses, prepositions }
 
 describe.each(LANES.map((lane) => [lane.id]))('bank %s', (laneId) => {
   const bank = BANKS[laneId]
