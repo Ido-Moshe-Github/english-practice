@@ -45,16 +45,16 @@ function play(round, wrong = () => false) {
 }
 
 describe('buildRound', () => {
-  it('takes 10 items from one topic, in queue order', () => {
+  it('takes a round of items from one topic, in queue order', () => {
     const pools = bank(single, ['conditionals'], 30)
     const round = buildRound('p1', 'tenses', 'conditionals', { poolOf: (t) => pools[t] })
     expect(round.items.map((i) => i.id)).toEqual(pools.conditionals.slice(0, ROUND_SIZE).map((i) => i.id))
   })
 
   it('uses what a short topic has, without repeats', () => {
-    const pools = bank(single, ['conditionals'], 3)
+    const pools = bank(single, ['conditionals'], 2)
     const round = buildRound('p1', 'tenses', 'conditionals', { poolOf: (t) => pools[t] })
-    expect(round.items).toHaveLength(3)
+    expect(round.items).toHaveLength(2)
   })
 
   it('shuffles options but keeps the answer among them', () => {
@@ -74,12 +74,12 @@ describe('buildRound', () => {
     expect(item.turns[0].line).toBe('prompt 0')
   })
 
-  it('Mixed cycles through every topic', () => {
+  it('Mixed takes each item from a different topic', () => {
     const topics = ['present', 'perfect', 'past', 'future', 'conditionals', 'mixed-wish', 'passive', 'reported']
     const pools = bank(single, topics, 5)
     const round = buildRound('p1', 'tenses', MIXED, { poolOf: (t) => pools[t] ?? [] })
     expect(round.items).toHaveLength(ROUND_SIZE)
-    expect(new Set(round.items.map((i) => i.topic)).size).toBe(topics.length)
+    expect(new Set(round.items.map((i) => i.topic)).size).toBe(ROUND_SIZE)
   })
 
   it('Mixed fills up from the other topics when some are empty', () => {
@@ -97,7 +97,7 @@ describe('playing a round', () => {
   it('walks through every turn of every conversation', () => {
     const round = play(build())
     expect(isFinished(round)).toBe(true)
-    expect(round.picks).toHaveLength(20)
+    expect(round.picks).toHaveLength(ROUND_SIZE * 2)
   })
 
   it('reports an item as finished after its last turn, correct only if every turn was', () => {
@@ -119,7 +119,7 @@ describe('playing a round', () => {
   it('scores perfect conversations and right picks', () => {
     const round = play(build(), (item, turn) => item === 0 && turn === 1)
     const score = scoreRound(round)
-    expect(score).toMatchObject({ total: 10, perfect: 9, picks: 20, rightPicks: 19 })
+    expect(score).toMatchObject({ total: 3, perfect: 2, picks: 6, rightPicks: 5 })
     expect(score.mistakes).toEqual([
       { intro: 'situation 0', line: 'line 2', choice: expect.stringMatching(/^w/), answer: 'right', why: 'because' },
     ])

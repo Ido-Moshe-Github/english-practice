@@ -27,7 +27,7 @@ player starts from scratch. Replacing it in place with a newer version is fine.
   *wish / if only*.
 
 Every question has four options, and after each answer a one-line explanation.
-Rounds are 10 questions (or 10 conversations). Inside each topic you work through the
+Rounds are 3 questions (or 3 conversations). Inside each topic you work through the
 questions in order; anything you get wrong comes back later, and a counter shows how
 many you've mastered. **Mixed** draws from every topic in the lane.
 
