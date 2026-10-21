@@ -8,7 +8,7 @@ import TopicPicker from './components/TopicPicker.jsx'
 import { addPlayer, forgetPlayer, readPlayers, setActivePlayer } from './lib/players.js'
 import { clearQueue, recordResult } from './lib/queue.js'
 import { advance, answer, buildRound, isFinished, isRound, MIXED, scoreRound } from './lib/round.js'
-import { DAILY_PLAN, isLastDailyStep } from './lib/daily.js'
+import { clearDailyCount, DAILY_PLAN, isLastDailyStep, recordDailyDone } from './lib/daily.js'
 import { clearState, readState, writeState } from './lib/session.js'
 import { t } from './lib/strings.js'
 import { laneById } from './lib/topics.js'
@@ -115,7 +115,9 @@ export default function App() {
   const onNext = () => {
     const next = advance(round)
     setRound(next)
-    if (isFinished(next)) setScreen('summary')
+    if (!isFinished(next)) return
+    if (dailyStep !== null && isLastDailyStep(dailyStep)) recordDailyDone(playerId)
+    setScreen('summary')
   }
 
   return (
@@ -136,7 +138,10 @@ export default function App() {
       {screen === 'settings' && (
         <Settings
           players={players.players}
-          onReset={(id) => clearQueue(id)}
+          onReset={(id) => {
+            clearQueue(id)
+            clearDailyCount(id)
+          }}
           onRemove={(id) => {
             setPlayers(forgetPlayer(id))
             if (id === playerId) goHome()

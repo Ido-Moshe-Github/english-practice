@@ -1,6 +1,7 @@
 import { key, readJson, writeJson } from './storage.js'
 import { clearState } from './session.js'
 import { clearQueue } from './queue.js'
+import { clearDailyCount } from './daily.js'
 
 /**
  * Who is playing. Several people can share one copy of the app, each with
@@ -76,6 +77,7 @@ export function renamePlayer(id, name) {
  */
 export function forgetPlayer(id) {
   clearQueue(id)
+  clearDailyCount(id)
   clearState(id)
   return removePlayer(id)
 }

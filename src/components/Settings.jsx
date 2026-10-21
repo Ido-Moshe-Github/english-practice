@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { LANES } from '../lib/topics.js'
 import { laneProgress } from '../lib/queue.js'
+import { dailyCount } from '../lib/daily.js'
 import { t } from '../lib/strings.js'
 
 /**
@@ -41,6 +42,7 @@ export default function Settings({ players, onReset, onRemove, onBack }) {
                   <span aria-hidden="true">🙂</span> {player.name}
                 </span>
                 <span className="settings-summary">{summary}</span>
+                <span className="settings-summary">☀️ {t.dailyCount(dailyCount(player.id))}</span>
               </div>
 
               {active ? (
