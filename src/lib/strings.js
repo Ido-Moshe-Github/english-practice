@@ -19,6 +19,7 @@ export const t = {
   finish: 'Finish',
   dailyDone: 'Daily practice done!',
   doneToday: '✓ Done today',
+  notDoneToday: 'Not done yet today',
   dailyCount: (count) => `Daily practices: ${count}`,
   noItemsYet: 'No questions yet',
 

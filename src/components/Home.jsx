@@ -24,7 +24,11 @@ export default function Home({ player, onPick, onDaily, onSwitchPlayer, onSettin
           <span className="mode-icon" aria-hidden="true">☀️</span>
           <span className="mode-title">{t.daily}</span>
           <span className="mode-hint">{t.dailyHint(ROUND_SIZE)}</span>
-          {dailyDoneToday(player.id) && <span className="daily-done">{t.doneToday}</span>}
+          {dailyDoneToday(player.id) ? (
+            <span className="daily-status daily-status--done">{t.doneToday}</span>
+          ) : (
+            <span className="daily-status daily-status--todo">{t.notDoneToday}</span>
+          )}
         </button>
 
         {LANES.map((lane) => {

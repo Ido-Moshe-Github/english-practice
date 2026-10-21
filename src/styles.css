@@ -706,15 +706,23 @@ button:disabled {
   color: rgba(255, 255, 255, 0.85);
 }
 
-.daily-done {
+.daily-status {
   justify-self: center;
   margin-top: 6px;
   padding: 4px 14px;
   border-radius: 999px;
-  background: var(--green);
-  color: #fff;
   font-size: 15px;
   font-weight: 700;
+}
+
+.daily-status--done {
+  background: var(--green);
+  color: #fff;
+}
+
+.daily-status--todo {
+  background: var(--yellow);
+  color: var(--ink);
 }
 
 .mode-card--everyday {
