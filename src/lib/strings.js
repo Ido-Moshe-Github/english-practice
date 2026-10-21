@@ -13,7 +13,7 @@ export const t = {
   mastered: (done, total) => `${done} / ${total} mastered`,
 
   daily: 'Daily practice',
-  dailyHint: (rounds) => `${rounds} short rounds from every section`,
+  dailyHint: (questions) => `${questions} questions from every section`,
   dailyStep: (step, total, lane) => `Daily ${step}/${total} · ${lane}`,
   nextRound: 'Next round →',
   finish: 'Finish',

@@ -2,7 +2,7 @@ import { LANES } from '../lib/topics.js'
 import { laneProgress } from '../lib/queue.js'
 import ProgressBar from './ProgressBar.jsx'
 import { t } from '../lib/strings.js'
-import { DAILY_PLAN } from '../lib/daily.js'
+import { ROUND_SIZE } from '../lib/round.js'
 
 export default function Home({ player, onPick, onDaily, onSwitchPlayer, onSettings }) {
   return (
@@ -22,7 +22,7 @@ export default function Home({ player, onPick, onDaily, onSwitchPlayer, onSettin
         <button className="mode-card mode-card--daily" onClick={onDaily}>
           <span className="mode-icon" aria-hidden="true">☀️</span>
           <span className="mode-title">{t.daily}</span>
-          <span className="mode-hint">{t.dailyHint(DAILY_PLAN.length)}</span>
+          <span className="mode-hint">{t.dailyHint(ROUND_SIZE)}</span>
         </button>
 
         {LANES.map((lane) => {

@@ -34,7 +34,7 @@ Rounds are 2 questions (or 2 conversations). Inside each topic you work through 
 questions in order; anything you get wrong comes back later, and a counter shows how
 many you've mastered. **Mixed** draws from every topic in the lane.
 
-**Daily practice** runs 2 rounds of each section in a row (8 rounds), always Mixed, so
+**Daily practice** runs one round of each section in a row (4 rounds of 2), always Mixed, so
 every day brings questions you haven't seen yet.
 
 **Several people** can share one copy, each with their own progress.

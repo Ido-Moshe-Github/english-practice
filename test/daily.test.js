@@ -2,8 +2,8 @@ import { describe, expect, it } from 'vitest'
 import { DAILY_PLAN, isLastDailyStep } from '../src/lib/daily.js'
 
 describe('daily practice', () => {
-  it('plays two rounds of every lane, in lane order', () => {
-    expect(DAILY_PLAN).toEqual(['everyday', 'everyday', 'phrasal', 'phrasal', 'tenses', 'tenses', 'prepositions', 'prepositions'])
+  it('plays one round of every lane, in lane order', () => {
+    expect(DAILY_PLAN).toEqual(['everyday', 'phrasal', 'tenses', 'prepositions'])
   })
 
   it('knows its last step', () => {
