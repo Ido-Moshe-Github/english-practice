@@ -3,6 +3,7 @@ import { laneProgress } from '../lib/queue.js'
 import ProgressBar from './ProgressBar.jsx'
 import { t } from '../lib/strings.js'
 import { ROUND_SIZE } from '../lib/round.js'
+import { dailyDoneToday } from '../lib/daily.js'
 
 export default function Home({ player, onPick, onDaily, onSwitchPlayer, onSettings }) {
   return (
@@ -23,6 +24,7 @@ export default function Home({ player, onPick, onDaily, onSwitchPlayer, onSettin
           <span className="mode-icon" aria-hidden="true">☀️</span>
           <span className="mode-title">{t.daily}</span>
           <span className="mode-hint">{t.dailyHint(ROUND_SIZE)}</span>
+          {dailyDoneToday(player.id) && <span className="daily-done">{t.doneToday}</span>}
         </button>
 
         {LANES.map((lane) => {

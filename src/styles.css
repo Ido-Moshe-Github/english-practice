@@ -706,6 +706,17 @@ button:disabled {
   color: rgba(255, 255, 255, 0.85);
 }
 
+.daily-done {
+  justify-self: center;
+  margin-top: 6px;
+  padding: 4px 14px;
+  border-radius: 999px;
+  background: var(--green);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+}
+
 .mode-card--everyday {
   border-bottom: 8px solid var(--purple);
 }

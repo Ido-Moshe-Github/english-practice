@@ -1,5 +1,5 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
-import { clearDailyCount, DAILY_PLAN, dailyCount, isLastDailyStep, recordDailyDone } from '../src/lib/daily.js'
+import { clearDailyCount, DAILY_PLAN, dailyCount, dailyDoneToday, dayOf, isLastDailyStep, recordDailyDone } from '../src/lib/daily.js'
 
 function fakeStorage() {
   const map = new Map()
@@ -40,6 +40,19 @@ describe('daily count', () => {
     clearDailyCount('p1')
     expect(dailyCount('p1')).toBe(0)
     expect(dailyCount('p2')).toBe(1)
+  })
+
+  it('is done today only on the day it was finished', () => {
+    const evening = new Date(2026, 9, 21, 23, 30)
+    expect(dailyDoneToday('p1', evening)).toBe(false)
+    recordDailyDone('p1', evening)
+    expect(dailyDoneToday('p1', new Date(2026, 9, 21, 8, 0))).toBe(true)
+    expect(dailyDoneToday('p1', new Date(2026, 9, 22, 0, 5))).toBe(false)
+    expect(dailyDoneToday('p2', evening)).toBe(false)
+  })
+
+  it('names the local calendar day', () => {
+    expect(dayOf(new Date(2026, 0, 5, 23, 59))).toBe('2026-01-05')
   })
 
   it('treats a broken stored value as zero', () => {

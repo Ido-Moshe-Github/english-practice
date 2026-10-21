@@ -18,6 +18,7 @@ export const t = {
   nextRound: 'Next round →',
   finish: 'Finish',
   dailyDone: 'Daily practice done!',
+  doneToday: '✓ Done today',
   dailyCount: (count) => `Daily practices: ${count}`,
   noItemsYet: 'No questions yet',
 

@@ -35,7 +35,8 @@ questions in order; anything you get wrong comes back later, and a counter shows
 many you've mastered. **Mixed** draws from every topic in the lane.
 
 **Daily practice** runs one round of each section in a row (4 rounds of 2), always Mixed, so
-every day brings questions you haven't seen yet. Settings (⚙️) shows how many daily practices each
+every day brings questions you haven't seen yet. Once it's finished, the button shows **✓ Done today** until midnight.
+Settings (⚙️) shows how many daily practices each
 player has finished.
 
 **Several people** can share one copy, each with their own progress.
